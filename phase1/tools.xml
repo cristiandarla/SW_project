@@ -1,0 +1,1403 @@
+<?xml version="1.0" ?>
+<tools>
+   <tool>
+      <title>YouTube</title>
+      <position>1</position>
+      <href>https://www.toptools4learning.com/youtube/</href>
+      <change>SAME</change>
+      <category>web resource (videos)</category>
+   </tool>
+   <tool>
+      <title>Zoom</title>
+      <position>2</position>
+      <href>https://www.toptools4learning.com/zoom/</href>
+      <change>UP 8</change>
+      <category>video meeting platform</category>
+   </tool>
+   <tool>
+      <title>Google Search</title>
+      <position>3</position>
+      <href>https://www.toptools4learning.com/google-search/</href>
+      <change>DOWN 1</change>
+      <category>search engine</category>
+   </tool>
+   <tool>
+      <title>PowerPoint</title>
+      <position>4</position>
+      <href>https://www.toptools4learning.com/powerpoint/</href>
+      <change>DOWN 1</change>
+      <category>office tool / suite</category>
+   </tool>
+   <tool>
+      <title>Microsoft Teams</title>
+      <position>5</position>
+      <href>https://www.toptools4learning.com/microsoft-teams/</href>
+      <change>UP 6</change>
+      <category>collaboration platform</category>
+   </tool>
+   <tool>
+      <title>Word</title>
+      <position>6</position>
+      <href>https://www.toptools4learning.com/word/</href>
+      <change>UP 1</change>
+      <category>office tool / suite</category>
+   </tool>
+   <tool>
+      <title>Google Docs &amp; Drive</title>
+      <position>7</position>
+      <href>https://www.toptools4learning.com/google-docs-drive/</href>
+      <change>DOWN 1</change>
+      <category>office suite | file sharing platform</category>
+   </tool>
+   <tool>
+      <title>LinkedIn</title>
+      <position>8</position>
+      <href>https://www.toptools4learning.com/linkedin/</href>
+      <change>DOWN 3</change>
+      <category>social network / community</category>
+   </tool>
+   <tool>
+      <title>Twitter</title>
+      <position>9</position>
+      <href>https://www.toptools4learning.com/twitter/</href>
+      <change>DOWN 5</change>
+      <category>social network / community</category>
+   </tool>
+   <tool>
+      <title>WhatsApp</title>
+      <position>10</position>
+      <href>https://www.toptools4learning.com/whatsapp/</href>
+      <change>UP 4</change>
+      <category>chat tool</category>
+   </tool>
+   <tool>
+      <title>Wikipedia</title>
+      <position>11</position>
+      <href>https://www.toptools4learning.com/wikipedia/</href>
+      <change>DOWN 3</change>
+      <category>web resource</category>
+   </tool>
+   <tool>
+      <title>Facebook</title>
+      <position>12</position>
+      <href>https://www.toptools4learning.com/facebook/</href>
+      <change>UP 6</change>
+      <category>social network / community</category>
+   </tool>
+   <tool>
+      <title>Excel</title>
+      <position>13</position>
+      <href>https://www.toptools4learning.com/excel/</href>
+      <change>UP 3</change>
+      <category>office tool / suite</category>
+   </tool>
+   <tool>
+      <title>WordPress</title>
+      <position>14</position>
+      <href>https://www.toptools4learning.com/wordpress/</href>
+      <change>DOWN 5</change>
+      <category>blogging/website platform</category>
+   </tool>
+   <tool>
+      <title>Google Classroom</title>
+      <position>15</position>
+      <href>https://www.toptools4learning.com/google-classroom/</href>
+      <change>UP 121</change>
+      <category>learning platform / LMS</category>
+   </tool>
+   <tool>
+      <title>Google Meet</title>
+      <position>16</position>
+      <href>https://www.toptools4learning.com/google-hangouts/</href>
+      <change>UP 77</change>
+      <category>video meeting platform</category>
+   </tool>
+   <tool>
+      <title>Slack</title>
+      <position>17</position>
+      <href>https://www.toptools4learning.com/slack/</href>
+      <change>DOWN 5</change>
+      <category>collaboration platform</category>
+   </tool>
+   <tool>
+      <title>Canva</title>
+      <position>18</position>
+      <href>https://www.toptools4learning.com/canva/</href>
+      <change>UP 16</change>
+      <category>content dev tool (graphics)</category>
+   </tool>
+   <tool>
+      <title>Skype</title>
+      <position>19</position>
+      <href>https://www.toptools4learning.com/skype/</href>
+      <change>SAME</change>
+      <category>chat tool</category>
+   </tool>
+   <tool>
+      <title>Trello</title>
+      <position>20</position>
+      <href>https://www.toptools4learning.com/trello/</href>
+      <change>UP 8</change>
+      <category>collaboration platform</category>
+   </tool>
+   <tool>
+      <title>Feedly</title>
+      <position>21</position>
+      <href>https://www.toptools4learning.com/feedly/</href>
+      <change>DOWN 6</change>
+      <category>news reader &amp; alert tool</category>
+   </tool>
+   <tool>
+      <title>LinkedIn Learning</title>
+      <position>22</position>
+      <href>https://www.toptools4learning.com/lynda/</href>
+      <change>DOWN 9</change>
+      <category>online courses</category>
+   </tool>
+   <tool>
+      <title>Padlet</title>
+      <position>23</position>
+      <href>https://www.toptools4learning.com/padlet/</href>
+      <change>UP 7</change>
+      <category>collaboration platform</category>
+   </tool>
+   <tool>
+      <title>Kahoot</title>
+      <position>24</position>
+      <href>https://www.toptools4learning.com/kahoot/</href>
+      <change>DOWN 3</change>
+      <category>live engagement tool</category>
+   </tool>
+   <tool>
+      <title>Dropbox</title>
+      <position>25</position>
+      <href>https://www.toptools4learning.com/dropbox/</href>
+      <change>DOWN 8</change>
+      <category>file sharing platform</category>
+   </tool>
+   <tool>
+      <title>Mentimeter</title>
+      <position>26</position>
+      <href>https://www.toptools4learning.com/mentimeter/</href>
+      <change>UP 15</change>
+      <category>live engagement tool</category>
+   </tool>
+   <tool>
+      <title>Gmail</title>
+      <position>27</position>
+      <href>https://www.toptools4learning.com/gmail/</href>
+      <change>UP 19</change>
+      <category>email tool</category>
+   </tool>
+   <tool>
+      <title>Instagram</title>
+      <position>28</position>
+      <href>https://www.toptools4learning.com/instagram/</href>
+      <change>UP 20</change>
+      <category>social network / community</category>
+   </tool>
+   <tool>
+      <title>Google Forms</title>
+      <position>29</position>
+      <href>https://www.toptools4learning.com/google-forms/</href>
+      <change>DOWN 3</change>
+      <category>forms and survey tool</category>
+   </tool>
+   <tool>
+      <title>Articulate</title>
+      <position>30</position>
+      <href>https://www.toptools4learning.com/articulate/</href>
+      <change>DOWN 10</change>
+      <category>course authoring tool</category>
+   </tool>
+   <tool>
+      <title>OneNote</title>
+      <position>31</position>
+      <href>https://www.toptools4learning.com/onenote/</href>
+      <change>DOWN 9</change>
+      <category>digital notebook</category>
+   </tool>
+   <tool>
+      <title>Google Translate</title>
+      <position>32</position>
+      <href>https://www.toptools4learning.com/google-translate/</href>
+      <change>UP 13</change>
+      <category>translation tool</category>
+   </tool>
+   <tool>
+      <title>Outlook</title>
+      <position>33</position>
+      <href>https://www.toptools4learning.com/outlook/</href>
+      <change>UP 5</change>
+      <category>email tool</category>
+   </tool>
+   <tool>
+      <title>Vimeo</title>
+      <position>34</position>
+      <href>https://www.toptools4learning.com/vimeo/</href>
+      <change>UP 32</change>
+      <category>web resource (videos)</category>
+   </tool>
+   <tool>
+      <title>Google Chrome</title>
+      <position>35</position>
+      <href>https://www.toptools4learning.com/google-chrome/</href>
+      <change>SAME</change>
+      <category>web browser</category>
+   </tool>
+   <tool>
+      <title>Moodle</title>
+      <position>36</position>
+      <href>https://www.toptools4learning.com/moodle/</href>
+      <change>UP 14</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>Google Maps</title>
+      <position>37</position>
+      <href>https://www.toptools4learning.com/google-maps/</href>
+      <change>UP 40</change>
+      <category>productivity tool (mapping)</category>
+   </tool>
+   <tool>
+      <title>Flipgrid</title>
+      <position>38</position>
+      <href>https://www.toptools4learning.com/flipgrid/</href>
+      <change>UP 34</change>
+      <category>video meeting platform</category>
+   </tool>
+   <tool>
+      <title>Prezi</title>
+      <position>39</position>
+      <href>https://www.toptools4learning.com/prezi/</href>
+      <change>UP 8</change>
+      <category>office tool / suite</category>
+   </tool>
+   <tool>
+      <title>TED Talks</title>
+      <position>40</position>
+      <href>https://www.toptools4learning.com/ted-talks-ted-ed/</href>
+      <change>DOWN 16</change>
+      <category>web resource (videos)</category>
+   </tool>
+   <tool>
+      <title>OneDrive</title>
+      <position>41</position>
+      <href>https://www.toptools4learning.com/onedrive/</href>
+      <change>UP 14</change>
+      <category>file sharing platform</category>
+   </tool>
+   <tool>
+      <title>Easygenerator</title>
+      <position>42</position>
+      <href>https://www.toptools4learning.com/easygenerator/</href>
+      <change>SAME</change>
+      <category>course authoring tool</category>
+   </tool>
+   <tool>
+      <title>Camtasia</title>
+      <position>43</position>
+      <href>https://www.toptools4learning.com/camtasia/</href>
+      <change>DOWN 20</change>
+      <category>content dev tool (screencasts)</category>
+   </tool>
+   <tool>
+      <title>Snagit</title>
+      <position>44</position>
+      <href>https://www.toptools4learning.com/snagit/</href>
+      <change>DOWN 17</change>
+      <category>content dev tool (screen capture)</category>
+   </tool>
+   <tool>
+      <title>Whereby</title>
+      <position>45</position>
+      <href>https://www.toptools4learning.com/appear-in/</href>
+      <change>UP 79</change>
+      <category>video meeting platform</category>
+   </tool>
+   <tool>
+      <title>Evernote</title>
+      <position>46</position>
+      <href>https://www.toptools4learning.com/evernote/</href>
+      <change>DOWN 21</change>
+      <category>digital notebook</category>
+   </tool>
+   <tool>
+      <title>Canvas</title>
+      <position>47</position>
+      <href>https://www.toptools4learning.com/canvas/</href>
+      <change>UP 23</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>Pinterest</title>
+      <position>48</position>
+      <href>https://www.toptools4learning.com/pinterest/</href>
+      <change>DOWN 17</change>
+      <category>curation platform</category>
+   </tool>
+   <tool>
+      <title>Screencast-O-matic</title>
+      <position>49</position>
+      <href>https://www.toptools4learning.com/screencast-o-matic/</href>
+      <change>UP 43</change>
+      <category>content dev tool (screencasts)</category>
+   </tool>
+   <tool>
+      <title>Pocket</title>
+      <position>50</position>
+      <href>https://www.toptools4learning.com/pocket/</href>
+      <change>UP 6</change>
+      <category>curation tool</category>
+   </tool>
+   <tool>
+      <title>hihaho</title>
+      <position>51</position>
+      <href>https://www.toptools4learning.com/hihaho/</href>
+      <change>UP 8</change>
+      <category>content dev tool (interactive video)</category>
+   </tool>
+   <tool>
+      <title>Wakelet</title>
+      <position>52</position>
+      <href>https://www.toptools4learning.com/wakelet/</href>
+      <change>UP 27</change>
+      <category>curation tool</category>
+   </tool>
+   <tool>
+      <title>Vyond</title>
+      <position>53</position>
+      <href>https://www.toptools4learning.com/goanimate/</href>
+      <change>UP 22</change>
+      <category>content dev tool (animation)</category>
+   </tool>
+   <tool>
+      <title>Udemy</title>
+      <position>54</position>
+      <href>https://www.toptools4learning.com/udemy/</href>
+      <change>DOWN 25</change>
+      <category>online courses</category>
+   </tool>
+   <tool>
+      <title>Google Sites</title>
+      <position>55</position>
+      <href>https://www.toptools4learning.com/google-sites/</href>
+      <change>UP 76</change>
+      <category>blogging/website platform</category>
+   </tool>
+   <tool>
+      <title>Cisco Webex</title>
+      <position>56</position>
+      <href>https://www.toptools4learning.com/webex/</href>
+      <change>UP 8</change>
+      <category>video meeting platform</category>
+   </tool>
+   <tool>
+      <title>Coursera</title>
+      <position>57</position>
+      <href>https://www.toptools4learning.com/coursera/</href>
+      <change>DOWN 4</change>
+      <category>online courses</category>
+   </tool>
+   <tool>
+      <title>SharePoint</title>
+      <position>58</position>
+      <href>https://www.toptools4learning.com/sharepoint/</href>
+      <change>DOWN 25</change>
+      <category>collaboration platform</category>
+   </tool>
+   <tool>
+      <title>Quizlet</title>
+      <position>59</position>
+      <href>https://www.toptools4learning.com/quizlet/</href>
+      <change>UP 32</change>
+      <category>games &amp; testing tool</category>
+   </tool>
+   <tool>
+      <title>DeepL</title>
+      <position>60</position>
+      <href>https://www.toptools4learning.com/deepl-translator/</href>
+      <change>UP 63</change>
+      <category>translation tool</category>
+   </tool>
+   <tool>
+      <title>Kindle</title>
+      <position>61</position>
+      <href>https://www.toptools4learning.com/kindle-kindle-reader-app/</href>
+      <change>UP 10</change>
+      <category>web resource (e-books)</category>
+   </tool>
+   <tool>
+      <title>Quizizz</title>
+      <position>62</position>
+      <href>https://www.toptools4learning.com/quizizz/</href>
+      <change>UP 115</change>
+      <category>games &amp; testing tool</category>
+   </tool>
+   <tool>
+      <title>H5P</title>
+      <position>63</position>
+      <href>https://www.toptools4learning.com/h5p/</href>
+      <change>DOWN 6</change>
+      <category>content dev tool (HTML5 content)</category>
+   </tool>
+   <tool>
+      <title>aNewSpring</title>
+      <position>64</position>
+      <href>https://www.toptools4learning.com/anewspring/</href>
+      <change>UP 77</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>Google Scholar</title>
+      <position>65</position>
+      <href>https://www.toptools4learning.com/google-scholar/</href>
+      <change>DOWN 26</change>
+      <category>web search engine</category>
+   </tool>
+   <tool>
+      <title>Mural</title>
+      <position>66</position>
+      <href>https://www.toptools4learning.com/mural/</href>
+      <change>NEW</change>
+      <category>online whiteboard</category>
+   </tool>
+   <tool>
+      <title>Audible</title>
+      <position>67</position>
+      <href>https://www.toptools4learning.com/audible/</href>
+      <change>DOWN 6</change>
+      <category>web resource (audio books)</category>
+   </tool>
+   <tool>
+      <title>Poll Everywhere</title>
+      <position>68</position>
+      <href>https://www.toptools4learning.com/poll-everywhere/</href>
+      <change>DOWN 6</change>
+      <category>live engagement tool</category>
+   </tool>
+   <tool>
+      <title>Apple Podcasts</title>
+      <position>69</position>
+      <href>https://www.toptools4learning.com/apple-podcasts/</href>
+      <change>DOWN 15</change>
+      <category>web resource (podcasts)</category>
+   </tool>
+   <tool>
+      <title>Adobe Connect</title>
+      <position>70</position>
+      <href>https://www.toptools4learning.com/adobe-connect/</href>
+      <change>UP 11</change>
+      <category>video meeting platform</category>
+   </tool>
+   <tool>
+      <title>Netflix</title>
+      <position>71</position>
+      <href>https://www.toptools4learning.com/netflix/</href>
+      <change>NEW</change>
+      <category>web resource (documentaries)</category>
+   </tool>
+   <tool>
+      <title>Diigo</title>
+      <position>72</position>
+      <href>https://www.toptools4learning.com/diigo/</href>
+      <change>DOWN 40</change>
+      <category>content curation tool</category>
+   </tool>
+   <tool>
+      <title>Yammer</title>
+      <position>73</position>
+      <href>https://www.toptools4learning.com/yammer/</href>
+      <change>DOWN 37</change>
+      <category>collaboration platform</category>
+   </tool>
+   <tool>
+      <title>Degreed</title>
+      <position>74</position>
+      <href>https://www.toptools4learning.com/degreed/</href>
+      <change>DOWN 9</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>Miro</title>
+      <position>75</position>
+      <href>https://www.toptools4learning.com/miro/</href>
+      <change>NEW</change>
+      <category>online whiteboard</category>
+   </tool>
+   <tool>
+      <title>Adobe Spark</title>
+      <position>76</position>
+      <href>https://www.toptools4learning.com/adobe-spark/</href>
+      <change>UP 6</change>
+      <category>content development tool (graphics)</category>
+   </tool>
+   <tool>
+      <title>Blogger</title>
+      <position>77</position>
+      <href>https://www.toptools4learning.com/blogger/</href>
+      <change>DOWN 25</change>
+      <category>blogging/website platform</category>
+   </tool>
+   <tool>
+      <title>iSpring</title>
+      <position>78</position>
+      <href>https://www.toptools4learning.com/ispring/</href>
+      <change>DOWN 38</change>
+      <category>course authoring tool</category>
+   </tool>
+   <tool>
+      <title>Grammarly</title>
+      <position>79</position>
+      <href>https://www.toptools4learning.com/grammarly/</href>
+      <change>DOWN 1</change>
+      <category>productivity tool (grammar checker)</category>
+   </tool>
+   <tool>
+      <title>getAbstract</title>
+      <position>80</position>
+      <href>https://www.toptools4learning.com/getabstract/</href>
+      <change>UP 36</change>
+      <category>web resource (book summaries)</category>
+   </tool>
+   <tool>
+      <title>Apple Keynote</title>
+      <position>81</position>
+      <href>https://www.toptools4learning.com/apple-keynote/</href>
+      <change>DOWN 7</change>
+      <category>office tool / suite</category>
+   </tool>
+   <tool>
+      <title>Nearpod</title>
+      <position>82</position>
+      <href>https://www.toptools4learning.com/nearpod/</href>
+      <change>UP 68</change>
+      <category>lesson authoring tool</category>
+   </tool>
+   <tool>
+      <title>Spotify</title>
+      <position>83</position>
+      <href>https://www.toptools4learning.com/spotify/</href>
+      <change>NEW</change>
+      <category>web resource (podcasts &amp; music)</category>
+   </tool>
+   <tool>
+      <title>MS PowerBI</title>
+      <position>84</position>
+      <href>https://www.toptools4learning.com/power-bi/</href>
+      <change>BACK</change>
+      <category>data analytics &amp; visualisation tool</category>
+   </tool>
+   <tool>
+      <title>Google Workspace</title>
+      <position>85</position>
+      <href>https://www.toptools4learning.com/g-suite/</href>
+      <change>UP 13</change>
+      <category>collaboration platform</category>
+   </tool>
+   <tool>
+      <title>Snip &amp; Sketch</title>
+      <position>86</position>
+      <href>https://www.toptools4learning.com/snip-sketch/</href>
+      <change>NEW</change>
+      <category>content dev tool (screenshots)</category>
+   </tool>
+   <tool>
+      <title>Genially</title>
+      <position>87</position>
+      <href>https://www.toptools4learning.com/genially/</href>
+      <change>DOWN 14</change>
+      <category>content dev tool (graphics)</category>
+   </tool>
+   <tool>
+      <title>Socrative</title>
+      <position>88</position>
+      <href>https://www.toptools4learning.com/socrative/</href>
+      <change>UP 31</change>
+      <category>live engagement tool</category>
+   </tool>
+   <tool>
+      <title>Google Alerts</title>
+      <position>89</position>
+      <href>https://www.toptools4learning.com/google-alerts/</href>
+      <change>UP 50</change>
+      <category>news alert tool</category>
+   </tool>
+   <tool>
+      <title>Adobe Captivate</title>
+      <position>90</position>
+      <href>https://www.toptools4learning.com/adobe-captivate/</href>
+      <change>DOWN 53</change>
+      <category>course authoring tool</category>
+   </tool>
+   <tool>
+      <title>Duolingo</title>
+      <position>91</position>
+      <href>https://www.toptools4learning.com/duolingo/</href>
+      <change>DOWN 33</change>
+      <category>language learning app</category>
+   </tool>
+   <tool>
+      <title>Totara</title>
+      <position>92</position>
+      <href>https://www.toptools4learning.com/totara-learn/</href>
+      <change>UP 34</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>Loom</title>
+      <position>93</position>
+      <href>https://www.toptools4learning.com/loom/</href>
+      <change>UP 17</change>
+      <category>content dev tool (screen recording)</category>
+   </tool>
+   <tool>
+      <title>Tweetdeck</title>
+      <position>94</position>
+      <href>https://www.toptools4learning.com/tweetdeck/</href>
+      <change>DOWN 51</change>
+      <category>social network (Twitter dashboard)</category>
+   </tool>
+   <tool>
+      <title>Blackboard Learn</title>
+      <position>95</position>
+      <href>https://www.toptools4learning.com/blackboard/</href>
+      <change>UP 35</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>Adobe Acrobat Pro</title>
+      <position>96</position>
+      <href>https://www.toptools4learning.com/adobe-acrobat-pro/</href>
+      <change>DOWN 8</change>
+      <category>content development tool (PDFs)</category>
+   </tool>
+   <tool>
+      <title>Inoreader</title>
+      <position>97</position>
+      <href>https://www.toptools4learning.com/inoreader/</href>
+      <change>DOWN 21</change>
+      <category>news reader &amp; alert tool</category>
+   </tool>
+   <tool>
+      <title>Firefox</title>
+      <position>98</position>
+      <href>https://www.toptools4learning.com/firefox/</href>
+      <change>UP 27</change>
+      <category>web browser</category>
+   </tool>
+   <tool>
+      <title>Google Keep</title>
+      <position>99</position>
+      <href>https://www.toptools4learning.com/google-keep/</href>
+      <change>DOWN 16</change>
+      <category>digital notebook</category>
+   </tool>
+   <tool>
+      <title>Adobe Photoshop</title>
+      <position>100</position>
+      <href>https://www.toptools4learning.com/adobe-photoshop/</href>
+      <change>DOWN 56</change>
+      <category>content dev tool (photo editing)</category>
+   </tool>
+   <tool>
+      <title>Thinglink</title>
+      <position>101</position>
+      <href>https://www.toptools4learning.com/thinglink/</href>
+      <change>UP 21</change>
+      <category>content dev tool (interactive media)</category>
+   </tool>
+   <tool>
+      <title>Jamboard</title>
+      <position>102</position>
+      <href>https://www.toptools4learning.com/jamboard/</href>
+      <change>UP 11</change>
+      <category>online whiteboard</category>
+   </tool>
+   <tool>
+      <title>Workplace by Facebook</title>
+      <position>103</position>
+      <href>https://www.toptools4learning.com/workplace-by-facebook/</href>
+      <change>DOWN 43</change>
+      <category>collaboration platform</category>
+   </tool>
+   <tool>
+      <title>Adobe Premiere Pro</title>
+      <position>104</position>
+      <href>https://www.toptools4learning.com/adobe-premiere/</href>
+      <change>DOWN 18</change>
+      <category>content dev tool (video)</category>
+   </tool>
+   <tool>
+      <title>edX</title>
+      <position>105</position>
+      <href>https://www.toptools4learning.com/edx/</href>
+      <change>DOWN 4</change>
+      <category>online courses</category>
+   </tool>
+   <tool>
+      <title>Adobe Illustrator</title>
+      <position>106</position>
+      <href>https://www.toptools4learning.com/adobe-illustrator/</href>
+      <change>DOWN 11</change>
+      <category>content dev tool (graphics)</category>
+   </tool>
+   <tool>
+      <title>Screencastify</title>
+      <position>107</position>
+      <href>https://www.toptools4learning.com/screencastify/</href>
+      <change>UP 41</change>
+      <category>content dev tool (screencasts)</category>
+   </tool>
+   <tool>
+      <title>Adobe After Effects</title>
+      <position>108</position>
+      <href>https://www.toptools4learning.com/adobe-after-effects/</href>
+      <change>DOWN 9</change>
+      <category>content dev tool (video)</category>
+   </tool>
+   <tool>
+      <title>Jitsi Meet</title>
+      <position>109</position>
+      <href>https://www.toptools4learning.com/jitsi-meet/</href>
+      <change>NEW</change>
+      <category>video meeting platform</category>
+   </tool>
+   <tool>
+      <title>MS Stream</title>
+      <position>110</position>
+      <href>https://www.toptools4learning.com/microsoft-stream/</href>
+      <change>UP 19</change>
+      <category>content dev (video streaming)</category>
+   </tool>
+   <tool>
+      <title>Survey Monkey</title>
+      <position>111</position>
+      <href>https://www.toptools4learning.com/surveymonkey/</href>
+      <change>DOWN 14</change>
+      <category>forms &amp; survey tool</category>
+   </tool>
+   <tool>
+      <title>Audacity</title>
+      <position>112</position>
+      <href>https://www.toptools4learning.com/audacity/</href>
+      <change>DOWN 63</change>
+      <category>content dev tool (audio/podcasts)</category>
+   </tool>
+   <tool>
+      <title>Adobe Audition</title>
+      <position>113</position>
+      <href>https://www.toptools4learning.com/adobe-audition/</href>
+      <change>DOWN 9</change>
+      <category>content dev tool (audio/podcasts)</category>
+   </tool>
+   <tool>
+      <title>Coggle</title>
+      <position>114</position>
+      <href>https://www.toptools4learning.com/coggle/</href>
+      <change>NEW</change>
+      <category>mind mapping tool</category>
+   </tool>
+   <tool>
+      <title>Medium</title>
+      <position>115</position>
+      <href>https://www.toptools4learning.com/medium/</href>
+      <change>DOWN 64</change>
+      <category>blogging/website platform</category>
+   </tool>
+   <tool>
+      <title>Freemind</title>
+      <position>116</position>
+      <href>https://www.toptools4learning.com/freemind/</href>
+      <change>UP 54</change>
+      <category>mindmapping tool</category>
+   </tool>
+   <tool>
+      <title>Big Blue Button</title>
+      <position>117</position>
+      <href>https://www.toptools4learning.com/bigbluebutton/</href>
+      <change>UP 25</change>
+      <category>video meeting platform</category>
+   </tool>
+   <tool>
+      <title>Apple iMovie</title>
+      <position>118</position>
+      <href>https://www.toptools4learning.com/apple-imovie/</href>
+      <change>UP 35</change>
+      <category>content development tool (videos)</category>
+   </tool>
+   <tool>
+      <title>Quora</title>
+      <position>119</position>
+      <href>https://www.toptools4learning.com/quora/</href>
+      <change>DOWN 12</change>
+      <category>web resource (Q&amp;A site)</category>
+   </tool>
+   <tool>
+      <title>WebinarGeek</title>
+      <position>120</position>
+      <href>https://www.toptools4learning.com/webinargeek/</href>
+      <change>NEW</change>
+      <category>video meeting platform</category>
+   </tool>
+   <tool>
+      <title>Mindmeister</title>
+      <position>121</position>
+      <href>https://www.toptools4learning.com/mindmeister/</href>
+      <change>DOWN 58</change>
+      <category>mindmapping tool</category>
+   </tool>
+   <tool>
+      <title>MS Forms</title>
+      <position>122</position>
+      <href>https://www.toptools4learning.com/microsoft-forms/</href>
+      <change>DOWN 16</change>
+      <category>forms &amp; survey tool</category>
+   </tool>
+   <tool>
+      <title>Stack Overflow</title>
+      <position>123</position>
+      <href>https://www.toptools4learning.com/stack-overflow/</href>
+      <change>DOWN 39</change>
+      <category>social network / community</category>
+   </tool>
+   <tool>
+      <title>ClickUp</title>
+      <position>124</position>
+      <href>https://www.toptools4learning.com/clickup/</href>
+      <change>NEW</change>
+      <category>collaboration platform</category>
+   </tool>
+   <tool>
+      <title>EdPuzzle</title>
+      <position>125</position>
+      <href>https://www.toptools4learning.com/edpuzzle/</href>
+      <change>BACK</change>
+      <category>lesson authoring tool</category>
+   </tool>
+   <tool>
+      <title>Adobe InDesign</title>
+      <position>126</position>
+      <href>https://www.toptools4learning.com/adobe-indesign/</href>
+      <change>DOWN 48</change>
+      <category>content dev tool (interactive PDFs)</category>
+   </tool>
+   <tool>
+      <title>Blackboard Collaborate</title>
+      <position>127</position>
+      <href>https://www.toptools4learning.com/blackboard-collaborate/</href>
+      <change>BACK</change>
+      <category>video meeting platform</category>
+   </tool>
+   <tool>
+      <title>MS Whiteboard</title>
+      <position>128</position>
+      <href>https://www.toptools4learning.com/ms-whiteboard/</href>
+      <change>NEW</change>
+      <category>online whiteboard</category>
+   </tool>
+   <tool>
+      <title>Wooclap</title>
+      <position>129</position>
+      <href>https://www.toptools4learning.com/wooclap/</href>
+      <change>BACK</change>
+      <category>live engagement tool</category>
+   </tool>
+   <tool>
+      <title>Plickers</title>
+      <position>130</position>
+      <href>https://www.toptools4learning.com/plickers/</href>
+      <change>DOWN 28</change>
+      <category>live engagement tool</category>
+   </tool>
+   <tool>
+      <title>Google Calendar</title>
+      <position>131</position>
+      <href>https://www.toptools4learning.com/google-calendar/</href>
+      <change>DOWN 23</change>
+      <category>productivity tool (calendar)</category>
+   </tool>
+   <tool>
+      <title>Slideshare</title>
+      <position>132</position>
+      <href>https://www.toptools4learning.com/slideshare/</href>
+      <change>DOWN 43</change>
+      <category>web resource (slide sets)</category>
+   </tool>
+   <tool>
+      <title>Udacity</title>
+      <position>133</position>
+      <href>https://www.toptools4learning.com/udacity/</href>
+      <change>DOWN 18</change>
+      <category>online courses</category>
+   </tool>
+   <tool>
+      <title>Mailchimp</title>
+      <position>134</position>
+      <href>https://www.toptools4learning.com/mailchimp/</href>
+      <change>UP 9</change>
+      <category>email tool (newsletters etc)</category>
+   </tool>
+   <tool>
+      <title>FutureLearn</title>
+      <position>135</position>
+      <href>https://www.toptools4learning.com/futurelearn/</href>
+      <change>DOWN 32</change>
+      <category>online courses</category>
+   </tool>
+   <tool>
+      <title>Omnigraffle</title>
+      <position>136</position>
+      <href>https://www.toptools4learning.com/omnigraffle/</href>
+      <change>UP 29</change>
+      <category>content dev tool (diagrams)</category>
+   </tool>
+   <tool>
+      <title>DuckDuckGo</title>
+      <position>137</position>
+      <href>https://www.toptools4learning.com/duckduckgo/</href>
+      <change>UP 26</change>
+      <category>search engine</category>
+   </tool>
+   <tool>
+      <title>Asana</title>
+      <position>138</position>
+      <href>https://www.toptools4learning.com/asana/</href>
+      <change>BACK</change>
+      <category>collaboration platform</category>
+   </tool>
+   <tool>
+      <title>Lectora</title>
+      <position>139</position>
+      <href>https://www.toptools4learning.com/lectora/</href>
+      <change>DOWN 4</change>
+      <category>course authoring tool</category>
+   </tool>
+   <tool>
+      <title>Notability</title>
+      <position>140</position>
+      <href>https://www.toptools4learning.com/notability/</href>
+      <change>UP 43</change>
+      <category>digital notebook</category>
+   </tool>
+   <tool>
+      <title>Anders Pink</title>
+      <position>141</position>
+      <href>https://www.toptools4learning.com/anders-pink/</href>
+      <change>DOWN 72</change>
+      <category>curation platform</category>
+   </tool>
+   <tool>
+      <title>Sway</title>
+      <position>142</position>
+      <href>https://www.toptools4learning.com/sway/</href>
+      <change>DOWN 48</change>
+      <category>content dev tool (presentations)</category>
+   </tool>
+   <tool>
+      <title>Ayoa</title>
+      <position>143</position>
+      <href>https://www.toptools4learning.com/ayoa/</href>
+      <change>NEW</change>
+      <category>mindmapping tool</category>
+   </tool>
+   <tool>
+      <title>Apple Mail</title>
+      <position>144</position>
+      <href>https://www.toptools4learning.com/apple-mail/</href>
+      <change>NEW</change>
+      <category>email tool</category>
+   </tool>
+   <tool>
+      <title>Flipboard</title>
+      <position>145</position>
+      <href>https://www.toptools4learning.com/flipboard/</href>
+      <change>DOWN 55</change>
+      <category>curation tool</category>
+   </tool>
+   <tool>
+      <title>Powtoon</title>
+      <position>146</position>
+      <href>https://www.toptools4learning.com/powtoon/</href>
+      <change>DOWN 79</change>
+      <category>content dev tool (animation)</category>
+   </tool>
+   <tool>
+      <title>ilovepdf.com</title>
+      <position>147</position>
+      <href>https://www.toptools4learning.com/ilovepdf/</href>
+      <change>NEW</change>
+      <category>content dev tool (PDFs)</category>
+   </tool>
+   <tool>
+      <title>Apple Pages</title>
+      <position>148</position>
+      <href>https://www.toptools4learning.com/apple-pages/</href>
+      <change>UP 18</change>
+      <category>office tool / suite</category>
+   </tool>
+   <tool>
+      <title>Factile</title>
+      <position>149</position>
+      <href>https://www.toptools4learning.com/factile/</href>
+      <change>NEW</change>
+      <category>games &amp; testing tool</category>
+   </tool>
+   <tool>
+      <title>Unsplash</title>
+      <position>150</position>
+      <href>https://www.toptools4learning.com/unsplash/</href>
+      <change>DOWN 63</change>
+      <category>content dev tool (image library)</category>
+   </tool>
+   <tool>
+      <title>Biteable</title>
+      <position>151</position>
+      <href>https://www.toptools4learning.com/biteable/</href>
+      <change>DOWN 55</change>
+      <category>content dev tool (video)</category>
+   </tool>
+   <tool>
+      <title>isEazy</title>
+      <position>152</position>
+      <href>https://www.toptools4learning.com/iseazy/</href>
+      <change>DOWN 67</change>
+      <category>course authoring</category>
+   </tool>
+   <tool>
+      <title>Blinkist</title>
+      <position>153</position>
+      <href>https://www.toptools4learning.com/blinkist/</href>
+      <change>DOWN 15</change>
+      <category>web resource (book summaries</category>
+   </tool>
+   <tool>
+      <title>Handbrake</title>
+      <position>154</position>
+      <href>https://www.toptools4learning.com/handbrake/</href>
+      <change>NEW</change>
+      <category>content dev tool (video conversion)</category>
+   </tool>
+   <tool>
+      <title>Safari</title>
+      <position>155</position>
+      <href>https://www.toptools4learning.com/safari/</href>
+      <change>BACK</change>
+      <category>web browser</category>
+   </tool>
+   <tool>
+      <title>WeTransfer</title>
+      <position>156</position>
+      <href>https://www.toptools4learning.com/wetransfer/</href>
+      <change>DOWN 7</change>
+      <category>file sharing platform</category>
+   </tool>
+   <tool>
+      <title>Nuzzel</title>
+      <position>157</position>
+      <href>https://www.toptools4learning.com/nuzzel/</href>
+      <change>DOWN 20</change>
+      <category>news alert tool</category>
+   </tool>
+   <tool>
+      <title>Zotero</title>
+      <position>158</position>
+      <href>https://www.toptools4learning.com/zotero/</href>
+      <change>UP 20</change>
+      <category>research tool</category>
+   </tool>
+   <tool>
+      <title>Overcast</title>
+      <position>159</position>
+      <href>https://www.toptools4learning.com/overcast/</href>
+      <change>DOWN 13</change>
+      <category>web resource (podcast player)</category>
+   </tool>
+   <tool>
+      <title>Xing</title>
+      <position>160</position>
+      <href>https://www.toptools4learning.com/xing/</href>
+      <change>DOWN 42</change>
+      <category>social network / community</category>
+   </tool>
+   <tool>
+      <title>gomo Learning</title>
+      <position>161</position>
+      <href>https://www.toptools4learning.com/gomo-learning/</href>
+      <change>SAME</change>
+      <category>course authoring tool</category>
+   </tool>
+   <tool>
+      <title>Hot Potatoes</title>
+      <position>162</position>
+      <href>https://www.toptools4learning.com/162-hot-potatoes/</href>
+      <change>NEW</change>
+      <category>games &amp; testing tool</category>
+   </tool>
+   <tool>
+      <title>Podcast Addict</title>
+      <position>163</position>
+      <href>https://www.toptools4learning.com/podcast-addict/</href>
+      <change>DOWN 6</change>
+      <category>web resources (podcast player)</category>
+   </tool>
+   <tool>
+      <title>Highbrow</title>
+      <position>164</position>
+      <href>https://www.toptools4learning.com/highbrow/</href>
+      <change>DOWN 6</change>
+      <category>online courses</category>
+   </tool>
+   <tool>
+      <title>Google Lens</title>
+      <position>165</position>
+      <href>https://www.toptools4learning.com/google-lens/</href>
+      <change>NEW</change>
+      <category>productivity (image recognition)</category>
+   </tool>
+   <tool>
+      <title>Scoopit</title>
+      <position>166</position>
+      <href>https://www.toptools4learning.com/scoopit/</href>
+      <change>DOWN 39</change>
+      <category>curation tool</category>
+   </tool>
+   <tool>
+      <title>Piktochart</title>
+      <position>167</position>
+      <href>https://www.toptools4learning.com/piktochart/</href>
+      <change>DOWN 67</change>
+      <category>content dev tool (infographics)</category>
+   </tool>
+   <tool>
+      <title>Pluralsight</title>
+      <position>168</position>
+      <href>https://www.toptools4learning.com/pluralsight/</href>
+      <change>DOWN 12</change>
+      <category>online course platform</category>
+   </tool>
+   <tool>
+      <title>Apple Numbers</title>
+      <position>169</position>
+      <href>https://www.toptools4learning.com/apple-numbers/</href>
+      <change>NEW</change>
+      <category>office tool / suite</category>
+   </tool>
+   <tool>
+      <title>IFTTT</title>
+      <position>170</position>
+      <href>https://www.toptools4learning.com/ifttt/</href>
+      <change>DOWN 10</change>
+      <category>productivity (workflow automation)</category>
+   </tool>
+   <tool>
+      <title>MS Edge</title>
+      <position>171</position>
+      <href>https://www.toptools4learning.com/microsoft-edge/</href>
+      <change>DOWN 4</change>
+      <category>web browser</category>
+   </tool>
+   <tool>
+      <title>Zapier</title>
+      <position>172</position>
+      <href>https://www.toptools4learning.com/zapier/</href>
+      <change>DOWN 1</change>
+      <category>productivity (workflow automation)</category>
+   </tool>
+   <tool>
+      <title>Bing</title>
+      <position>173</position>
+      <href>https://www.toptools4learning.com/bing/</href>
+      <change>DOWN 1</change>
+      <category>search engine</category>
+   </tool>
+   <tool>
+      <title>Mind Tools</title>
+      <position>174</position>
+      <href>https://www.toptools4learning.com/mindtools/</href>
+      <change>DOWN 23</change>
+      <category>online course platform</category>
+   </tool>
+   <tool>
+      <title>Khan Academy</title>
+      <position>175</position>
+      <href>https://www.toptools4learning.com/khan-academy/</href>
+      <change>DOWN 2</change>
+      <category>online course platform</category>
+   </tool>
+   <tool>
+      <title>Google Arts &amp; Culture</title>
+      <position>176</position>
+      <href>https://www.toptools4learning.com/google-arts-culture/</href>
+      <change>NEW</change>
+      <category>web resource (virtual visits)</category>
+   </tool>
+   <tool>
+      <title>MS Learn</title>
+      <position>177</position>
+      <href>https://www.toptools4learning.com/ms-learn/</href>
+      <change>NEW</change>
+      <category>online courses</category>
+   </tool>
+   <tool>
+      <title>Evolve</title>
+      <position>178</position>
+      <href>https://www.toptools4learning.com/evolve-authoring/</href>
+      <change>DOWN 34</change>
+      <category>course authoring tool</category>
+   </tool>
+   <tool>
+      <title>Gimkit</title>
+      <position>179</position>
+      <href>https://www.toptools4learning.com/gimkit/</href>
+      <change>NEW</change>
+      <category>live engagement tool</category>
+   </tool>
+   <tool>
+      <title>Telegram</title>
+      <position>180</position>
+      <href>https://www.toptools4learning.com/telegram/</href>
+      <change>NEW</change>
+      <category>chat tool</category>
+   </tool>
+   <tool>
+      <title>Brave</title>
+      <position>181</position>
+      <href>https://www.toptools4learning.com/brave/</href>
+      <change>NEW</change>
+      <category>web browser</category>
+   </tool>
+   <tool>
+      <title>Pixabay</title>
+      <position>182</position>
+      <href>https://www.toptools4learning.com/pixabay/</href>
+      <change>DOWN 71</change>
+      <category>content dev tool (image library)</category>
+   </tool>
+   <tool>
+      <title>Axonify</title>
+      <position>183</position>
+      <href>https://www.toptools4learning.com/axonify/</href>
+      <change>DOWN 55</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>Google Analytics</title>
+      <position>184</position>
+      <href>https://www.toptools4learning.com/google-analytics/</href>
+      <change>UP 9</change>
+      <category>web traffic analysis</category>
+   </tool>
+   <tool>
+      <title>LearnDash</title>
+      <position>185</position>
+      <href>https://www.toptools4learning.com/learndash/</href>
+      <change>UP 10</change>
+      <category>WordPress LMS plugin</category>
+   </tool>
+   <tool>
+      <title>OpenLearn</title>
+      <position>186</position>
+      <href>https://www.toptools4learning.com/openlearn/</href>
+      <change>NEW</change>
+      <category>online courses</category>
+   </tool>
+   <tool>
+      <title>Otter.ai</title>
+      <position>187</position>
+      <href>https://www.toptools4learning.com/otter/</href>
+      <change>NEW</change>
+      <category>content dev tool (live transcription)</category>
+   </tool>
+   <tool>
+      <title>Google Currents</title>
+      <position>188</position>
+      <href>https://www.toptools4learning.com/google-currents/</href>
+      <change>NEW</change>
+      <category>collaboration platform</category>
+   </tool>
+   <tool>
+      <title>MasterClass</title>
+      <position>189</position>
+      <href>https://www.toptools4learning.com/masterclass/</href>
+      <change>NEW</change>
+      <category>online courses</category>
+   </tool>
+   <tool>
+      <title>MS Publisher</title>
+      <position>190</position>
+      <href>https://www.toptools4learning.com/publisher/</href>
+      <change>NEW</change>
+      <category>content development tool (DTP)</category>
+   </tool>
+   <tool>
+      <title>Thinkific</title>
+      <position>191</position>
+      <href>https://www.toptools4learning.com/thinkific/</href>
+      <change>UP 5</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>AskDelphi</title>
+      <position>192</position>
+      <href>https://www.toptools4learning.com/askdelphi/</href>
+      <change>NEW</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>Drillster</title>
+      <position>193</position>
+      <href>https://www.toptools4learning.com/drillster/</href>
+      <change>NEW</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>Docebo</title>
+      <position>194</position>
+      <href>https://www.toptools4learning.com/docebo/</href>
+      <change>DOWN 12</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>Adapt</title>
+      <position>195</position>
+      <href>https://www.toptools4learning.com/adapt/</href>
+      <change>DOWN 5</change>
+      <category>course authoring tool</category>
+   </tool>
+   <tool>
+      <title>Bluejeans</title>
+      <position>196</position>
+      <href>https://www.toptools4learning.com/bluejeans/</href>
+      <change>UP 4</change>
+      <category>video meeting platform</category>
+   </tool>
+   <tool>
+      <title>edCast</title>
+      <position>197</position>
+      <href>https://www.toptools4learning.com/edcast/</href>
+      <change>DOWN 18</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>AnswerGarden</title>
+      <position>198</position>
+      <href>https://www.toptools4learning.com/answergarden/</href>
+      <change>DOWN 13</change>
+      <category>live engagement tool</category>
+   </tool>
+   <tool>
+      <title>Open edX</title>
+      <position>199</position>
+      <href>https://www.toptools4learning.com/open-edx/</href>
+      <change>NEW</change>
+      <category>learning platform/LMS</category>
+   </tool>
+   <tool>
+      <title>GoBrunch</title>
+      <position>200</position>
+      <href>https://www.toptools4learning.com/gobrunch/</href>
+      <change>NEW</change>
+      <category>video meeting platform</category>
+   </tool>
+</tools>
