@@ -2,10 +2,12 @@ import requests
 from bs4 import BeautifulSoup
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
+import os 
 
-url = 'https://www.toptools4learning.com/'
+dir_path = os.path.dirname(os.path.realpath(__file__))
+URL = 'https://www.toptools4learning.com/'
 
-req = requests.get(url)
+req = requests.get(URL)
 soup = BeautifulSoup(req.text, 'html.parser')
 table = soup.find('table')
 
@@ -30,6 +32,15 @@ for data in tbody:
             tools_list[title]['position'] = tool[0].text.strip()
             tools_list[title]['change'] = tool[1].text.strip()
             tools_list[title]['category'] = tool[3].text.strip()
+            if tool[4].text.strip() != "" or tool[5].text.strip() != "":
+                tools_list[title]['learning'] = "True"
+            else:
+                tools_list[title]['learning'] = "False"
+            if tool[6].text.strip() != "":
+                tools_list[title]['teaching'] = "True"
+            else:
+                tools_list[title]['teaching'] = "False"
+
 
 root = Element('tools')
 for value in tools_list.keys():
@@ -44,8 +55,12 @@ for value in tools_list.keys():
     child_change.text = tools_list[value]['change']
     child_category = SubElement(child, 'category')
     child_category.text = tools_list[value]['category']
+    child_learning = SubElement(child, 'learning')
+    child_learning.text = tools_list[value]['learning']
+    child_teaching = SubElement(child, 'teaching')
+    child_teaching.text = tools_list[value]['teaching']
     
-xml_file = open("tools.xml", "w")
+xml_file = open(dir_path + "\\tools.xml", "w")
 xml_file.write(minidom.parseString(tostring(root)).toprettyxml(indent="   "))
 xml_file.close()
 

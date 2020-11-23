@@ -6,6 +6,8 @@
       <href>https://www.toptools4learning.com/youtube/</href>
       <change>SAME</change>
       <category>web resource (videos)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Zoom</title>
@@ -13,6 +15,8 @@
       <href>https://www.toptools4learning.com/zoom/</href>
       <change>UP 8</change>
       <category>video meeting platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Google Search</title>
@@ -20,6 +24,8 @@
       <href>https://www.toptools4learning.com/google-search/</href>
       <change>DOWN 1</change>
       <category>search engine</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>PowerPoint</title>
@@ -27,6 +33,8 @@
       <href>https://www.toptools4learning.com/powerpoint/</href>
       <change>DOWN 1</change>
       <category>office tool / suite</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Microsoft Teams</title>
@@ -34,6 +42,8 @@
       <href>https://www.toptools4learning.com/microsoft-teams/</href>
       <change>UP 6</change>
       <category>collaboration platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Word</title>
@@ -41,6 +51,8 @@
       <href>https://www.toptools4learning.com/word/</href>
       <change>UP 1</change>
       <category>office tool / suite</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Google Docs &amp; Drive</title>
@@ -48,6 +60,8 @@
       <href>https://www.toptools4learning.com/google-docs-drive/</href>
       <change>DOWN 1</change>
       <category>office suite | file sharing platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>LinkedIn</title>
@@ -55,6 +69,8 @@
       <href>https://www.toptools4learning.com/linkedin/</href>
       <change>DOWN 3</change>
       <category>social network / community</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Twitter</title>
@@ -62,6 +78,8 @@
       <href>https://www.toptools4learning.com/twitter/</href>
       <change>DOWN 5</change>
       <category>social network / community</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>WhatsApp</title>
@@ -69,6 +87,8 @@
       <href>https://www.toptools4learning.com/whatsapp/</href>
       <change>UP 4</change>
       <category>chat tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Wikipedia</title>
@@ -76,6 +96,8 @@
       <href>https://www.toptools4learning.com/wikipedia/</href>
       <change>DOWN 3</change>
       <category>web resource</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Facebook</title>
@@ -83,6 +105,8 @@
       <href>https://www.toptools4learning.com/facebook/</href>
       <change>UP 6</change>
       <category>social network / community</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Excel</title>
@@ -90,6 +114,8 @@
       <href>https://www.toptools4learning.com/excel/</href>
       <change>UP 3</change>
       <category>office tool / suite</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>WordPress</title>
@@ -97,6 +123,8 @@
       <href>https://www.toptools4learning.com/wordpress/</href>
       <change>DOWN 5</change>
       <category>blogging/website platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Google Classroom</title>
@@ -104,6 +132,8 @@
       <href>https://www.toptools4learning.com/google-classroom/</href>
       <change>UP 121</change>
       <category>learning platform / LMS</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Google Meet</title>
@@ -111,6 +141,8 @@
       <href>https://www.toptools4learning.com/google-hangouts/</href>
       <change>UP 77</change>
       <category>video meeting platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Slack</title>
@@ -118,6 +150,8 @@
       <href>https://www.toptools4learning.com/slack/</href>
       <change>DOWN 5</change>
       <category>collaboration platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Canva</title>
@@ -125,6 +159,8 @@
       <href>https://www.toptools4learning.com/canva/</href>
       <change>UP 16</change>
       <category>content dev tool (graphics)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Skype</title>
@@ -132,6 +168,8 @@
       <href>https://www.toptools4learning.com/skype/</href>
       <change>SAME</change>
       <category>chat tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Trello</title>
@@ -139,6 +177,8 @@
       <href>https://www.toptools4learning.com/trello/</href>
       <change>UP 8</change>
       <category>collaboration platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Feedly</title>
@@ -146,6 +186,8 @@
       <href>https://www.toptools4learning.com/feedly/</href>
       <change>DOWN 6</change>
       <category>news reader &amp; alert tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>LinkedIn Learning</title>
@@ -153,6 +195,8 @@
       <href>https://www.toptools4learning.com/lynda/</href>
       <change>DOWN 9</change>
       <category>online courses</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Padlet</title>
@@ -160,6 +204,8 @@
       <href>https://www.toptools4learning.com/padlet/</href>
       <change>UP 7</change>
       <category>collaboration platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Kahoot</title>
@@ -167,6 +213,8 @@
       <href>https://www.toptools4learning.com/kahoot/</href>
       <change>DOWN 3</change>
       <category>live engagement tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Dropbox</title>
@@ -174,6 +222,8 @@
       <href>https://www.toptools4learning.com/dropbox/</href>
       <change>DOWN 8</change>
       <category>file sharing platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Mentimeter</title>
@@ -181,6 +231,8 @@
       <href>https://www.toptools4learning.com/mentimeter/</href>
       <change>UP 15</change>
       <category>live engagement tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Gmail</title>
@@ -188,6 +240,8 @@
       <href>https://www.toptools4learning.com/gmail/</href>
       <change>UP 19</change>
       <category>email tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Instagram</title>
@@ -195,6 +249,8 @@
       <href>https://www.toptools4learning.com/instagram/</href>
       <change>UP 20</change>
       <category>social network / community</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Google Forms</title>
@@ -202,6 +258,8 @@
       <href>https://www.toptools4learning.com/google-forms/</href>
       <change>DOWN 3</change>
       <category>forms and survey tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Articulate</title>
@@ -209,6 +267,8 @@
       <href>https://www.toptools4learning.com/articulate/</href>
       <change>DOWN 10</change>
       <category>course authoring tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>OneNote</title>
@@ -216,6 +276,8 @@
       <href>https://www.toptools4learning.com/onenote/</href>
       <change>DOWN 9</change>
       <category>digital notebook</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Google Translate</title>
@@ -223,6 +285,8 @@
       <href>https://www.toptools4learning.com/google-translate/</href>
       <change>UP 13</change>
       <category>translation tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Outlook</title>
@@ -230,6 +294,8 @@
       <href>https://www.toptools4learning.com/outlook/</href>
       <change>UP 5</change>
       <category>email tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Vimeo</title>
@@ -237,6 +303,8 @@
       <href>https://www.toptools4learning.com/vimeo/</href>
       <change>UP 32</change>
       <category>web resource (videos)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Google Chrome</title>
@@ -244,6 +312,8 @@
       <href>https://www.toptools4learning.com/google-chrome/</href>
       <change>SAME</change>
       <category>web browser</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Moodle</title>
@@ -251,6 +321,8 @@
       <href>https://www.toptools4learning.com/moodle/</href>
       <change>UP 14</change>
       <category>learning platform/LMS</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Google Maps</title>
@@ -258,6 +330,8 @@
       <href>https://www.toptools4learning.com/google-maps/</href>
       <change>UP 40</change>
       <category>productivity tool (mapping)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Flipgrid</title>
@@ -265,6 +339,8 @@
       <href>https://www.toptools4learning.com/flipgrid/</href>
       <change>UP 34</change>
       <category>video meeting platform</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Prezi</title>
@@ -272,6 +348,8 @@
       <href>https://www.toptools4learning.com/prezi/</href>
       <change>UP 8</change>
       <category>office tool / suite</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>TED Talks</title>
@@ -279,6 +357,8 @@
       <href>https://www.toptools4learning.com/ted-talks-ted-ed/</href>
       <change>DOWN 16</change>
       <category>web resource (videos)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>OneDrive</title>
@@ -286,6 +366,8 @@
       <href>https://www.toptools4learning.com/onedrive/</href>
       <change>UP 14</change>
       <category>file sharing platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Easygenerator</title>
@@ -293,6 +375,8 @@
       <href>https://www.toptools4learning.com/easygenerator/</href>
       <change>SAME</change>
       <category>course authoring tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Camtasia</title>
@@ -300,6 +384,8 @@
       <href>https://www.toptools4learning.com/camtasia/</href>
       <change>DOWN 20</change>
       <category>content dev tool (screencasts)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Snagit</title>
@@ -307,6 +393,8 @@
       <href>https://www.toptools4learning.com/snagit/</href>
       <change>DOWN 17</change>
       <category>content dev tool (screen capture)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Whereby</title>
@@ -314,6 +402,8 @@
       <href>https://www.toptools4learning.com/appear-in/</href>
       <change>UP 79</change>
       <category>video meeting platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Evernote</title>
@@ -321,6 +411,8 @@
       <href>https://www.toptools4learning.com/evernote/</href>
       <change>DOWN 21</change>
       <category>digital notebook</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Canvas</title>
@@ -328,6 +420,8 @@
       <href>https://www.toptools4learning.com/canvas/</href>
       <change>UP 23</change>
       <category>learning platform/LMS</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Pinterest</title>
@@ -335,6 +429,8 @@
       <href>https://www.toptools4learning.com/pinterest/</href>
       <change>DOWN 17</change>
       <category>curation platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Screencast-O-matic</title>
@@ -342,6 +438,8 @@
       <href>https://www.toptools4learning.com/screencast-o-matic/</href>
       <change>UP 43</change>
       <category>content dev tool (screencasts)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Pocket</title>
@@ -349,6 +447,8 @@
       <href>https://www.toptools4learning.com/pocket/</href>
       <change>UP 6</change>
       <category>curation tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>hihaho</title>
@@ -356,6 +456,8 @@
       <href>https://www.toptools4learning.com/hihaho/</href>
       <change>UP 8</change>
       <category>content dev tool (interactive video)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Wakelet</title>
@@ -363,6 +465,8 @@
       <href>https://www.toptools4learning.com/wakelet/</href>
       <change>UP 27</change>
       <category>curation tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Vyond</title>
@@ -370,6 +474,8 @@
       <href>https://www.toptools4learning.com/goanimate/</href>
       <change>UP 22</change>
       <category>content dev tool (animation)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Udemy</title>
@@ -377,6 +483,8 @@
       <href>https://www.toptools4learning.com/udemy/</href>
       <change>DOWN 25</change>
       <category>online courses</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Google Sites</title>
@@ -384,6 +492,8 @@
       <href>https://www.toptools4learning.com/google-sites/</href>
       <change>UP 76</change>
       <category>blogging/website platform</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Cisco Webex</title>
@@ -391,6 +501,8 @@
       <href>https://www.toptools4learning.com/webex/</href>
       <change>UP 8</change>
       <category>video meeting platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Coursera</title>
@@ -398,6 +510,8 @@
       <href>https://www.toptools4learning.com/coursera/</href>
       <change>DOWN 4</change>
       <category>online courses</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>SharePoint</title>
@@ -405,6 +519,8 @@
       <href>https://www.toptools4learning.com/sharepoint/</href>
       <change>DOWN 25</change>
       <category>collaboration platform</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Quizlet</title>
@@ -412,6 +528,8 @@
       <href>https://www.toptools4learning.com/quizlet/</href>
       <change>UP 32</change>
       <category>games &amp; testing tool</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>DeepL</title>
@@ -419,6 +537,8 @@
       <href>https://www.toptools4learning.com/deepl-translator/</href>
       <change>UP 63</change>
       <category>translation tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Kindle</title>
@@ -426,6 +546,8 @@
       <href>https://www.toptools4learning.com/kindle-kindle-reader-app/</href>
       <change>UP 10</change>
       <category>web resource (e-books)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Quizizz</title>
@@ -433,6 +555,8 @@
       <href>https://www.toptools4learning.com/quizizz/</href>
       <change>UP 115</change>
       <category>games &amp; testing tool</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>H5P</title>
@@ -440,6 +564,8 @@
       <href>https://www.toptools4learning.com/h5p/</href>
       <change>DOWN 6</change>
       <category>content dev tool (HTML5 content)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>aNewSpring</title>
@@ -447,6 +573,8 @@
       <href>https://www.toptools4learning.com/anewspring/</href>
       <change>UP 77</change>
       <category>learning platform/LMS</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Google Scholar</title>
@@ -454,6 +582,8 @@
       <href>https://www.toptools4learning.com/google-scholar/</href>
       <change>DOWN 26</change>
       <category>web search engine</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Mural</title>
@@ -461,6 +591,8 @@
       <href>https://www.toptools4learning.com/mural/</href>
       <change>NEW</change>
       <category>online whiteboard</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Audible</title>
@@ -468,6 +600,8 @@
       <href>https://www.toptools4learning.com/audible/</href>
       <change>DOWN 6</change>
       <category>web resource (audio books)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Poll Everywhere</title>
@@ -475,6 +609,8 @@
       <href>https://www.toptools4learning.com/poll-everywhere/</href>
       <change>DOWN 6</change>
       <category>live engagement tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Apple Podcasts</title>
@@ -482,6 +618,8 @@
       <href>https://www.toptools4learning.com/apple-podcasts/</href>
       <change>DOWN 15</change>
       <category>web resource (podcasts)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Adobe Connect</title>
@@ -489,6 +627,8 @@
       <href>https://www.toptools4learning.com/adobe-connect/</href>
       <change>UP 11</change>
       <category>video meeting platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Netflix</title>
@@ -496,6 +636,8 @@
       <href>https://www.toptools4learning.com/netflix/</href>
       <change>NEW</change>
       <category>web resource (documentaries)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Diigo</title>
@@ -503,6 +645,8 @@
       <href>https://www.toptools4learning.com/diigo/</href>
       <change>DOWN 40</change>
       <category>content curation tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Yammer</title>
@@ -510,6 +654,8 @@
       <href>https://www.toptools4learning.com/yammer/</href>
       <change>DOWN 37</change>
       <category>collaboration platform</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Degreed</title>
@@ -517,6 +663,8 @@
       <href>https://www.toptools4learning.com/degreed/</href>
       <change>DOWN 9</change>
       <category>learning platform/LMS</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Miro</title>
@@ -524,6 +672,8 @@
       <href>https://www.toptools4learning.com/miro/</href>
       <change>NEW</change>
       <category>online whiteboard</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Adobe Spark</title>
@@ -531,6 +681,8 @@
       <href>https://www.toptools4learning.com/adobe-spark/</href>
       <change>UP 6</change>
       <category>content development tool (graphics)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Blogger</title>
@@ -538,6 +690,8 @@
       <href>https://www.toptools4learning.com/blogger/</href>
       <change>DOWN 25</change>
       <category>blogging/website platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>iSpring</title>
@@ -545,6 +699,8 @@
       <href>https://www.toptools4learning.com/ispring/</href>
       <change>DOWN 38</change>
       <category>course authoring tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Grammarly</title>
@@ -552,6 +708,8 @@
       <href>https://www.toptools4learning.com/grammarly/</href>
       <change>DOWN 1</change>
       <category>productivity tool (grammar checker)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>getAbstract</title>
@@ -559,6 +717,8 @@
       <href>https://www.toptools4learning.com/getabstract/</href>
       <change>UP 36</change>
       <category>web resource (book summaries)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Apple Keynote</title>
@@ -566,6 +726,8 @@
       <href>https://www.toptools4learning.com/apple-keynote/</href>
       <change>DOWN 7</change>
       <category>office tool / suite</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Nearpod</title>
@@ -573,6 +735,8 @@
       <href>https://www.toptools4learning.com/nearpod/</href>
       <change>UP 68</change>
       <category>lesson authoring tool</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Spotify</title>
@@ -580,6 +744,8 @@
       <href>https://www.toptools4learning.com/spotify/</href>
       <change>NEW</change>
       <category>web resource (podcasts &amp; music)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>MS PowerBI</title>
@@ -587,6 +753,8 @@
       <href>https://www.toptools4learning.com/power-bi/</href>
       <change>BACK</change>
       <category>data analytics &amp; visualisation tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Google Workspace</title>
@@ -594,6 +762,8 @@
       <href>https://www.toptools4learning.com/g-suite/</href>
       <change>UP 13</change>
       <category>collaboration platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Snip &amp; Sketch</title>
@@ -601,6 +771,8 @@
       <href>https://www.toptools4learning.com/snip-sketch/</href>
       <change>NEW</change>
       <category>content dev tool (screenshots)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Genially</title>
@@ -608,6 +780,8 @@
       <href>https://www.toptools4learning.com/genially/</href>
       <change>DOWN 14</change>
       <category>content dev tool (graphics)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Socrative</title>
@@ -615,6 +789,8 @@
       <href>https://www.toptools4learning.com/socrative/</href>
       <change>UP 31</change>
       <category>live engagement tool</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Google Alerts</title>
@@ -622,6 +798,8 @@
       <href>https://www.toptools4learning.com/google-alerts/</href>
       <change>UP 50</change>
       <category>news alert tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Adobe Captivate</title>
@@ -629,6 +807,8 @@
       <href>https://www.toptools4learning.com/adobe-captivate/</href>
       <change>DOWN 53</change>
       <category>course authoring tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Duolingo</title>
@@ -636,6 +816,8 @@
       <href>https://www.toptools4learning.com/duolingo/</href>
       <change>DOWN 33</change>
       <category>language learning app</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Totara</title>
@@ -643,6 +825,8 @@
       <href>https://www.toptools4learning.com/totara-learn/</href>
       <change>UP 34</change>
       <category>learning platform/LMS</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Loom</title>
@@ -650,6 +834,8 @@
       <href>https://www.toptools4learning.com/loom/</href>
       <change>UP 17</change>
       <category>content dev tool (screen recording)</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Tweetdeck</title>
@@ -657,6 +843,8 @@
       <href>https://www.toptools4learning.com/tweetdeck/</href>
       <change>DOWN 51</change>
       <category>social network (Twitter dashboard)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Blackboard Learn</title>
@@ -664,6 +852,8 @@
       <href>https://www.toptools4learning.com/blackboard/</href>
       <change>UP 35</change>
       <category>learning platform/LMS</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Adobe Acrobat Pro</title>
@@ -671,6 +861,8 @@
       <href>https://www.toptools4learning.com/adobe-acrobat-pro/</href>
       <change>DOWN 8</change>
       <category>content development tool (PDFs)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Inoreader</title>
@@ -678,6 +870,8 @@
       <href>https://www.toptools4learning.com/inoreader/</href>
       <change>DOWN 21</change>
       <category>news reader &amp; alert tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Firefox</title>
@@ -685,6 +879,8 @@
       <href>https://www.toptools4learning.com/firefox/</href>
       <change>UP 27</change>
       <category>web browser</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Google Keep</title>
@@ -692,6 +888,8 @@
       <href>https://www.toptools4learning.com/google-keep/</href>
       <change>DOWN 16</change>
       <category>digital notebook</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Adobe Photoshop</title>
@@ -699,6 +897,8 @@
       <href>https://www.toptools4learning.com/adobe-photoshop/</href>
       <change>DOWN 56</change>
       <category>content dev tool (photo editing)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Thinglink</title>
@@ -706,6 +906,8 @@
       <href>https://www.toptools4learning.com/thinglink/</href>
       <change>UP 21</change>
       <category>content dev tool (interactive media)</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Jamboard</title>
@@ -713,6 +915,8 @@
       <href>https://www.toptools4learning.com/jamboard/</href>
       <change>UP 11</change>
       <category>online whiteboard</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Workplace by Facebook</title>
@@ -720,6 +924,8 @@
       <href>https://www.toptools4learning.com/workplace-by-facebook/</href>
       <change>DOWN 43</change>
       <category>collaboration platform</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Adobe Premiere Pro</title>
@@ -727,6 +933,8 @@
       <href>https://www.toptools4learning.com/adobe-premiere/</href>
       <change>DOWN 18</change>
       <category>content dev tool (video)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>edX</title>
@@ -734,6 +942,8 @@
       <href>https://www.toptools4learning.com/edx/</href>
       <change>DOWN 4</change>
       <category>online courses</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Adobe Illustrator</title>
@@ -741,6 +951,8 @@
       <href>https://www.toptools4learning.com/adobe-illustrator/</href>
       <change>DOWN 11</change>
       <category>content dev tool (graphics)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Screencastify</title>
@@ -748,6 +960,8 @@
       <href>https://www.toptools4learning.com/screencastify/</href>
       <change>UP 41</change>
       <category>content dev tool (screencasts)</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Adobe After Effects</title>
@@ -755,6 +969,8 @@
       <href>https://www.toptools4learning.com/adobe-after-effects/</href>
       <change>DOWN 9</change>
       <category>content dev tool (video)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Jitsi Meet</title>
@@ -762,6 +978,8 @@
       <href>https://www.toptools4learning.com/jitsi-meet/</href>
       <change>NEW</change>
       <category>video meeting platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>MS Stream</title>
@@ -769,6 +987,8 @@
       <href>https://www.toptools4learning.com/microsoft-stream/</href>
       <change>UP 19</change>
       <category>content dev (video streaming)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Survey Monkey</title>
@@ -776,6 +996,8 @@
       <href>https://www.toptools4learning.com/surveymonkey/</href>
       <change>DOWN 14</change>
       <category>forms &amp; survey tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Audacity</title>
@@ -783,6 +1005,8 @@
       <href>https://www.toptools4learning.com/audacity/</href>
       <change>DOWN 63</change>
       <category>content dev tool (audio/podcasts)</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Adobe Audition</title>
@@ -790,6 +1014,8 @@
       <href>https://www.toptools4learning.com/adobe-audition/</href>
       <change>DOWN 9</change>
       <category>content dev tool (audio/podcasts)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Coggle</title>
@@ -797,6 +1023,8 @@
       <href>https://www.toptools4learning.com/coggle/</href>
       <change>NEW</change>
       <category>mind mapping tool</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Medium</title>
@@ -804,6 +1032,8 @@
       <href>https://www.toptools4learning.com/medium/</href>
       <change>DOWN 64</change>
       <category>blogging/website platform</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Freemind</title>
@@ -811,6 +1041,8 @@
       <href>https://www.toptools4learning.com/freemind/</href>
       <change>UP 54</change>
       <category>mindmapping tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Big Blue Button</title>
@@ -818,6 +1050,8 @@
       <href>https://www.toptools4learning.com/bigbluebutton/</href>
       <change>UP 25</change>
       <category>video meeting platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Apple iMovie</title>
@@ -825,6 +1059,8 @@
       <href>https://www.toptools4learning.com/apple-imovie/</href>
       <change>UP 35</change>
       <category>content development tool (videos)</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Quora</title>
@@ -832,6 +1068,8 @@
       <href>https://www.toptools4learning.com/quora/</href>
       <change>DOWN 12</change>
       <category>web resource (Q&amp;A site)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>WebinarGeek</title>
@@ -839,6 +1077,8 @@
       <href>https://www.toptools4learning.com/webinargeek/</href>
       <change>NEW</change>
       <category>video meeting platform</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Mindmeister</title>
@@ -846,6 +1086,8 @@
       <href>https://www.toptools4learning.com/mindmeister/</href>
       <change>DOWN 58</change>
       <category>mindmapping tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>MS Forms</title>
@@ -853,6 +1095,8 @@
       <href>https://www.toptools4learning.com/microsoft-forms/</href>
       <change>DOWN 16</change>
       <category>forms &amp; survey tool</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Stack Overflow</title>
@@ -860,6 +1104,8 @@
       <href>https://www.toptools4learning.com/stack-overflow/</href>
       <change>DOWN 39</change>
       <category>social network / community</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>ClickUp</title>
@@ -867,6 +1113,8 @@
       <href>https://www.toptools4learning.com/clickup/</href>
       <change>NEW</change>
       <category>collaboration platform</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>EdPuzzle</title>
@@ -874,6 +1122,8 @@
       <href>https://www.toptools4learning.com/edpuzzle/</href>
       <change>BACK</change>
       <category>lesson authoring tool</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Adobe InDesign</title>
@@ -881,6 +1131,8 @@
       <href>https://www.toptools4learning.com/adobe-indesign/</href>
       <change>DOWN 48</change>
       <category>content dev tool (interactive PDFs)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Blackboard Collaborate</title>
@@ -888,6 +1140,8 @@
       <href>https://www.toptools4learning.com/blackboard-collaborate/</href>
       <change>BACK</change>
       <category>video meeting platform</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>MS Whiteboard</title>
@@ -895,6 +1149,8 @@
       <href>https://www.toptools4learning.com/ms-whiteboard/</href>
       <change>NEW</change>
       <category>online whiteboard</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Wooclap</title>
@@ -902,6 +1158,8 @@
       <href>https://www.toptools4learning.com/wooclap/</href>
       <change>BACK</change>
       <category>live engagement tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Plickers</title>
@@ -909,6 +1167,8 @@
       <href>https://www.toptools4learning.com/plickers/</href>
       <change>DOWN 28</change>
       <category>live engagement tool</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Google Calendar</title>
@@ -916,6 +1176,8 @@
       <href>https://www.toptools4learning.com/google-calendar/</href>
       <change>DOWN 23</change>
       <category>productivity tool (calendar)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Slideshare</title>
@@ -923,6 +1185,8 @@
       <href>https://www.toptools4learning.com/slideshare/</href>
       <change>DOWN 43</change>
       <category>web resource (slide sets)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Udacity</title>
@@ -930,6 +1194,8 @@
       <href>https://www.toptools4learning.com/udacity/</href>
       <change>DOWN 18</change>
       <category>online courses</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Mailchimp</title>
@@ -937,6 +1203,8 @@
       <href>https://www.toptools4learning.com/mailchimp/</href>
       <change>UP 9</change>
       <category>email tool (newsletters etc)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>FutureLearn</title>
@@ -944,6 +1212,8 @@
       <href>https://www.toptools4learning.com/futurelearn/</href>
       <change>DOWN 32</change>
       <category>online courses</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Omnigraffle</title>
@@ -951,6 +1221,8 @@
       <href>https://www.toptools4learning.com/omnigraffle/</href>
       <change>UP 29</change>
       <category>content dev tool (diagrams)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>DuckDuckGo</title>
@@ -958,6 +1230,8 @@
       <href>https://www.toptools4learning.com/duckduckgo/</href>
       <change>UP 26</change>
       <category>search engine</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Asana</title>
@@ -965,6 +1239,8 @@
       <href>https://www.toptools4learning.com/asana/</href>
       <change>BACK</change>
       <category>collaboration platform</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Lectora</title>
@@ -972,6 +1248,8 @@
       <href>https://www.toptools4learning.com/lectora/</href>
       <change>DOWN 4</change>
       <category>course authoring tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Notability</title>
@@ -979,6 +1257,8 @@
       <href>https://www.toptools4learning.com/notability/</href>
       <change>UP 43</change>
       <category>digital notebook</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Anders Pink</title>
@@ -986,6 +1266,8 @@
       <href>https://www.toptools4learning.com/anders-pink/</href>
       <change>DOWN 72</change>
       <category>curation platform</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Sway</title>
@@ -993,6 +1275,8 @@
       <href>https://www.toptools4learning.com/sway/</href>
       <change>DOWN 48</change>
       <category>content dev tool (presentations)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Ayoa</title>
@@ -1000,6 +1284,8 @@
       <href>https://www.toptools4learning.com/ayoa/</href>
       <change>NEW</change>
       <category>mindmapping tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Apple Mail</title>
@@ -1007,6 +1293,8 @@
       <href>https://www.toptools4learning.com/apple-mail/</href>
       <change>NEW</change>
       <category>email tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Flipboard</title>
@@ -1014,6 +1302,8 @@
       <href>https://www.toptools4learning.com/flipboard/</href>
       <change>DOWN 55</change>
       <category>curation tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Powtoon</title>
@@ -1021,6 +1311,8 @@
       <href>https://www.toptools4learning.com/powtoon/</href>
       <change>DOWN 79</change>
       <category>content dev tool (animation)</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>ilovepdf.com</title>
@@ -1028,6 +1320,8 @@
       <href>https://www.toptools4learning.com/ilovepdf/</href>
       <change>NEW</change>
       <category>content dev tool (PDFs)</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Apple Pages</title>
@@ -1035,6 +1329,8 @@
       <href>https://www.toptools4learning.com/apple-pages/</href>
       <change>UP 18</change>
       <category>office tool / suite</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Factile</title>
@@ -1042,6 +1338,8 @@
       <href>https://www.toptools4learning.com/factile/</href>
       <change>NEW</change>
       <category>games &amp; testing tool</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Unsplash</title>
@@ -1049,6 +1347,8 @@
       <href>https://www.toptools4learning.com/unsplash/</href>
       <change>DOWN 63</change>
       <category>content dev tool (image library)</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Biteable</title>
@@ -1056,6 +1356,8 @@
       <href>https://www.toptools4learning.com/biteable/</href>
       <change>DOWN 55</change>
       <category>content dev tool (video)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>isEazy</title>
@@ -1063,6 +1365,8 @@
       <href>https://www.toptools4learning.com/iseazy/</href>
       <change>DOWN 67</change>
       <category>course authoring</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Blinkist</title>
@@ -1070,6 +1374,8 @@
       <href>https://www.toptools4learning.com/blinkist/</href>
       <change>DOWN 15</change>
       <category>web resource (book summaries</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Handbrake</title>
@@ -1077,6 +1383,8 @@
       <href>https://www.toptools4learning.com/handbrake/</href>
       <change>NEW</change>
       <category>content dev tool (video conversion)</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Safari</title>
@@ -1084,6 +1392,8 @@
       <href>https://www.toptools4learning.com/safari/</href>
       <change>BACK</change>
       <category>web browser</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>WeTransfer</title>
@@ -1091,6 +1401,8 @@
       <href>https://www.toptools4learning.com/wetransfer/</href>
       <change>DOWN 7</change>
       <category>file sharing platform</category>
+      <learning>True</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Nuzzel</title>
@@ -1098,6 +1410,8 @@
       <href>https://www.toptools4learning.com/nuzzel/</href>
       <change>DOWN 20</change>
       <category>news alert tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Zotero</title>
@@ -1105,6 +1419,8 @@
       <href>https://www.toptools4learning.com/zotero/</href>
       <change>UP 20</change>
       <category>research tool</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Overcast</title>
@@ -1112,6 +1428,8 @@
       <href>https://www.toptools4learning.com/overcast/</href>
       <change>DOWN 13</change>
       <category>web resource (podcast player)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Xing</title>
@@ -1119,6 +1437,8 @@
       <href>https://www.toptools4learning.com/xing/</href>
       <change>DOWN 42</change>
       <category>social network / community</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>gomo Learning</title>
@@ -1126,6 +1446,8 @@
       <href>https://www.toptools4learning.com/gomo-learning/</href>
       <change>SAME</change>
       <category>course authoring tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Hot Potatoes</title>
@@ -1133,6 +1455,8 @@
       <href>https://www.toptools4learning.com/162-hot-potatoes/</href>
       <change>NEW</change>
       <category>games &amp; testing tool</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Podcast Addict</title>
@@ -1140,6 +1464,8 @@
       <href>https://www.toptools4learning.com/podcast-addict/</href>
       <change>DOWN 6</change>
       <category>web resources (podcast player)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Highbrow</title>
@@ -1147,6 +1473,8 @@
       <href>https://www.toptools4learning.com/highbrow/</href>
       <change>DOWN 6</change>
       <category>online courses</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Google Lens</title>
@@ -1154,6 +1482,8 @@
       <href>https://www.toptools4learning.com/google-lens/</href>
       <change>NEW</change>
       <category>productivity (image recognition)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Scoopit</title>
@@ -1161,6 +1491,8 @@
       <href>https://www.toptools4learning.com/scoopit/</href>
       <change>DOWN 39</change>
       <category>curation tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Piktochart</title>
@@ -1168,6 +1500,8 @@
       <href>https://www.toptools4learning.com/piktochart/</href>
       <change>DOWN 67</change>
       <category>content dev tool (infographics)</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Pluralsight</title>
@@ -1175,6 +1509,8 @@
       <href>https://www.toptools4learning.com/pluralsight/</href>
       <change>DOWN 12</change>
       <category>online course platform</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Apple Numbers</title>
@@ -1182,6 +1518,8 @@
       <href>https://www.toptools4learning.com/apple-numbers/</href>
       <change>NEW</change>
       <category>office tool / suite</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>IFTTT</title>
@@ -1189,6 +1527,8 @@
       <href>https://www.toptools4learning.com/ifttt/</href>
       <change>DOWN 10</change>
       <category>productivity (workflow automation)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>MS Edge</title>
@@ -1196,6 +1536,8 @@
       <href>https://www.toptools4learning.com/microsoft-edge/</href>
       <change>DOWN 4</change>
       <category>web browser</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Zapier</title>
@@ -1203,6 +1545,8 @@
       <href>https://www.toptools4learning.com/zapier/</href>
       <change>DOWN 1</change>
       <category>productivity (workflow automation)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Bing</title>
@@ -1210,6 +1554,8 @@
       <href>https://www.toptools4learning.com/bing/</href>
       <change>DOWN 1</change>
       <category>search engine</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Mind Tools</title>
@@ -1217,6 +1563,8 @@
       <href>https://www.toptools4learning.com/mindtools/</href>
       <change>DOWN 23</change>
       <category>online course platform</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Khan Academy</title>
@@ -1224,6 +1572,8 @@
       <href>https://www.toptools4learning.com/khan-academy/</href>
       <change>DOWN 2</change>
       <category>online course platform</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Google Arts &amp; Culture</title>
@@ -1231,6 +1581,8 @@
       <href>https://www.toptools4learning.com/google-arts-culture/</href>
       <change>NEW</change>
       <category>web resource (virtual visits)</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>MS Learn</title>
@@ -1238,6 +1590,8 @@
       <href>https://www.toptools4learning.com/ms-learn/</href>
       <change>NEW</change>
       <category>online courses</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Evolve</title>
@@ -1245,6 +1599,8 @@
       <href>https://www.toptools4learning.com/evolve-authoring/</href>
       <change>DOWN 34</change>
       <category>course authoring tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Gimkit</title>
@@ -1252,6 +1608,8 @@
       <href>https://www.toptools4learning.com/gimkit/</href>
       <change>NEW</change>
       <category>live engagement tool</category>
+      <learning>False</learning>
+      <teaching>True</teaching>
    </tool>
    <tool>
       <title>Telegram</title>
@@ -1259,6 +1617,8 @@
       <href>https://www.toptools4learning.com/telegram/</href>
       <change>NEW</change>
       <category>chat tool</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Brave</title>
@@ -1266,6 +1626,8 @@
       <href>https://www.toptools4learning.com/brave/</href>
       <change>NEW</change>
       <category>web browser</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Pixabay</title>
@@ -1273,6 +1635,8 @@
       <href>https://www.toptools4learning.com/pixabay/</href>
       <change>DOWN 71</change>
       <category>content dev tool (image library)</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Axonify</title>
@@ -1280,6 +1644,8 @@
       <href>https://www.toptools4learning.com/axonify/</href>
       <change>DOWN 55</change>
       <category>learning platform/LMS</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Google Analytics</title>
@@ -1287,6 +1653,8 @@
       <href>https://www.toptools4learning.com/google-analytics/</href>
       <change>UP 9</change>
       <category>web traffic analysis</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>LearnDash</title>
@@ -1294,6 +1662,8 @@
       <href>https://www.toptools4learning.com/learndash/</href>
       <change>UP 10</change>
       <category>WordPress LMS plugin</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>OpenLearn</title>
@@ -1301,6 +1671,8 @@
       <href>https://www.toptools4learning.com/openlearn/</href>
       <change>NEW</change>
       <category>online courses</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Otter.ai</title>
@@ -1308,6 +1680,8 @@
       <href>https://www.toptools4learning.com/otter/</href>
       <change>NEW</change>
       <category>content dev tool (live transcription)</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Google Currents</title>
@@ -1315,6 +1689,8 @@
       <href>https://www.toptools4learning.com/google-currents/</href>
       <change>NEW</change>
       <category>collaboration platform</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>MasterClass</title>
@@ -1322,6 +1698,8 @@
       <href>https://www.toptools4learning.com/masterclass/</href>
       <change>NEW</change>
       <category>online courses</category>
+      <learning>True</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>MS Publisher</title>
@@ -1329,6 +1707,8 @@
       <href>https://www.toptools4learning.com/publisher/</href>
       <change>NEW</change>
       <category>content development tool (DTP)</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Thinkific</title>
@@ -1336,6 +1716,8 @@
       <href>https://www.toptools4learning.com/thinkific/</href>
       <change>UP 5</change>
       <category>learning platform/LMS</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>AskDelphi</title>
@@ -1343,6 +1725,8 @@
       <href>https://www.toptools4learning.com/askdelphi/</href>
       <change>NEW</change>
       <category>learning platform/LMS</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Drillster</title>
@@ -1350,6 +1734,8 @@
       <href>https://www.toptools4learning.com/drillster/</href>
       <change>NEW</change>
       <category>learning platform/LMS</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Docebo</title>
@@ -1357,6 +1743,8 @@
       <href>https://www.toptools4learning.com/docebo/</href>
       <change>DOWN 12</change>
       <category>learning platform/LMS</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Adapt</title>
@@ -1364,6 +1752,8 @@
       <href>https://www.toptools4learning.com/adapt/</href>
       <change>DOWN 5</change>
       <category>course authoring tool</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Bluejeans</title>
@@ -1371,6 +1761,8 @@
       <href>https://www.toptools4learning.com/bluejeans/</href>
       <change>UP 4</change>
       <category>video meeting platform</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>edCast</title>
@@ -1378,6 +1770,8 @@
       <href>https://www.toptools4learning.com/edcast/</href>
       <change>DOWN 18</change>
       <category>learning platform/LMS</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>AnswerGarden</title>
@@ -1385,6 +1779,8 @@
       <href>https://www.toptools4learning.com/answergarden/</href>
       <change>DOWN 13</change>
       <category>live engagement tool</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>Open edX</title>
@@ -1392,6 +1788,8 @@
       <href>https://www.toptools4learning.com/open-edx/</href>
       <change>NEW</change>
       <category>learning platform/LMS</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
    <tool>
       <title>GoBrunch</title>
@@ -1399,5 +1797,7 @@
       <href>https://www.toptools4learning.com/gobrunch/</href>
       <change>NEW</change>
       <category>video meeting platform</category>
+      <learning>False</learning>
+      <teaching>False</teaching>
    </tool>
 </tools>
