@@ -25,7 +25,19 @@ for data in tbody:
                 title = title_node.text.strip()
                 tools_list[title] = {}
                 tools_list[title]['title'] = title
-                tools_list[title]['href'] = title_node.get('href')
+
+                URL = title_node.get('href')
+                req = requests.get(URL)
+                soup = BeautifulSoup(req.text, 'html.parser')
+                div = soup.find('div', {"id" : "rml_free_content"})
+                if div != None:
+                    link = div.find('a')
+                    if link == None:
+                        tools_list[title]['href'] = URL
+                    else:
+                        tools_list[title]['href'] = "http://www." + link.text.strip()
+                else:
+                    tools_list[title]['href'] = URL
         if title == None:
             continue
         else:
