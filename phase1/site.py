@@ -3,6 +3,7 @@ from tools import Tool
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 import os
+import lxml.etree as ET2
 
 app = Flask(__name__)
 categories = []
@@ -55,6 +56,40 @@ def new():
             categories.append(category)
     sorted_categories = sorted(categories, key=str.casefold)
     return render_template('new_tool.html', categories = sorted_categories)
+
+@app.route('/about', methods=['GET', 'POST'])
+def about():
+    
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    parser = ET2.XMLParser(remove_blank_text=True)
+    tree = ET2.parse(dir_path + "\\tools.xml", parser)
+
+    name = request.form.get("title","")
+
+    result = tree.xpath('/tools/tool[title = "'+ name +'"]')
+    tool = ET2.tostring(result[0], pretty_print=True)
+
+    root = ET.fromstring(tool)
+
+    title = root[0].text
+    position = root[1].text
+    href = root[2].text
+    change = root[3].text
+    category = root[4].text
+    if root[5].text == "True":
+        learning = True
+    else:
+        learning = False
+    if root[6].text == "True":
+        teaching = True
+    else:
+        teaching = False
+    
+    newTool = Tool(title, position, href, change, category, learning, teaching)
+
+    return render_template('about.html', tool = newTool)
+
+
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
