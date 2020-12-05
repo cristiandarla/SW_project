@@ -8,7 +8,7 @@
       <category>web resource (videos)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>01/12/2020</date>
+      <date>2020/11/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -19,8 +19,8 @@
       <category>video meeting platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Google Search</title>
@@ -30,8 +30,8 @@
       <category>search engine</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>PowerPoint</title>
@@ -41,8 +41,8 @@
       <category>office tool / suite</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Microsoft Teams</title>
@@ -52,8 +52,8 @@
       <category>collaboration platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Word</title>
@@ -63,7 +63,7 @@
       <category>office tool / suite</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -74,8 +74,8 @@
       <category>office suite | file sharing platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>LinkedIn</title>
@@ -85,8 +85,8 @@
       <category>social network / community</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Twitter</title>
@@ -96,8 +96,8 @@
       <category>social network / community</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>WhatsApp</title>
@@ -107,7 +107,7 @@
       <category>chat tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -118,8 +118,8 @@
       <category>web resource</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Facebook</title>
@@ -129,7 +129,7 @@
       <category>social network / community</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -140,8 +140,8 @@
       <category>office tool / suite</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>WordPress</title>
@@ -151,8 +151,8 @@
       <category>blogging/website platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Google Classroom</title>
@@ -162,7 +162,7 @@
       <category>learning platform / LMS</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -173,8 +173,8 @@
       <category>video meeting platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Slack</title>
@@ -184,8 +184,8 @@
       <category>collaboration platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Canva</title>
@@ -195,7 +195,7 @@
       <category>content dev tool (graphics)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -206,8 +206,8 @@
       <category>chat tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Trello</title>
@@ -217,7 +217,7 @@
       <category>collaboration platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -228,8 +228,8 @@
       <category>news reader &amp; alert tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>LinkedIn Learning</title>
@@ -239,7 +239,7 @@
       <category>online courses</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -250,7 +250,7 @@
       <category>collaboration platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -261,8 +261,8 @@
       <category>live engagement tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Dropbox</title>
@@ -272,7 +272,7 @@
       <category>file sharing platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -283,7 +283,7 @@
       <category>live engagement tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -294,8 +294,8 @@
       <category>email tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Instagram</title>
@@ -305,8 +305,8 @@
       <category>social network / community</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Google Forms</title>
@@ -316,7 +316,7 @@
       <category>forms and survey tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -327,8 +327,8 @@
       <category>course authoring tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>OneNote</title>
@@ -338,8 +338,8 @@
       <category>digital notebook</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Google Translate</title>
@@ -349,8 +349,8 @@
       <category>translation tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Outlook</title>
@@ -360,7 +360,7 @@
       <category>email tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -371,7 +371,7 @@
       <category>web resource (videos)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -382,8 +382,8 @@
       <category>web browser</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Moodle</title>
@@ -393,7 +393,7 @@
       <category>learning platform/LMS</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -404,8 +404,8 @@
       <category>productivity tool (mapping)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Flipgrid</title>
@@ -415,7 +415,7 @@
       <category>video meeting platform</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -426,8 +426,8 @@
       <category>office tool / suite</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>TED Talks</title>
@@ -437,8 +437,8 @@
       <category>web resource (videos)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>OneDrive</title>
@@ -448,8 +448,8 @@
       <category>file sharing platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Easygenerator</title>
@@ -459,7 +459,7 @@
       <category>course authoring tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -470,8 +470,8 @@
       <category>content dev tool (screencasts)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Snagit</title>
@@ -481,8 +481,8 @@
       <category>content dev tool (screen capture)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Whereby</title>
@@ -492,8 +492,8 @@
       <category>video meeting platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Evernote</title>
@@ -503,7 +503,7 @@
       <category>digital notebook</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -514,7 +514,7 @@
       <category>learning platform/LMS</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -525,7 +525,7 @@
       <category>curation platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -536,8 +536,8 @@
       <category>content dev tool (screencasts)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Pocket</title>
@@ -547,8 +547,8 @@
       <category>curation tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>hihaho</title>
@@ -558,7 +558,7 @@
       <category>content dev tool (interactive video)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -569,8 +569,8 @@
       <category>curation tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Vyond</title>
@@ -580,8 +580,8 @@
       <category>content dev tool (animation)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Udemy</title>
@@ -591,8 +591,8 @@
       <category>online courses</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Google Sites</title>
@@ -602,8 +602,8 @@
       <category>blogging/website platform</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Cisco Webex</title>
@@ -613,8 +613,8 @@
       <category>video meeting platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Coursera</title>
@@ -624,8 +624,8 @@
       <category>online courses</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>SharePoint</title>
@@ -635,8 +635,8 @@
       <category>collaboration platform</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Quizlet</title>
@@ -646,8 +646,8 @@
       <category>games &amp; testing tool</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>DeepL</title>
@@ -657,8 +657,8 @@
       <category>translation tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Kindle</title>
@@ -668,8 +668,8 @@
       <category>web resource (e-books)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Quizizz</title>
@@ -679,8 +679,8 @@
       <category>games &amp; testing tool</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>H5P</title>
@@ -690,8 +690,8 @@
       <category>content dev tool (HTML5 content)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>aNewSpring</title>
@@ -701,8 +701,8 @@
       <category>learning platform/LMS</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Google Scholar</title>
@@ -712,8 +712,8 @@
       <category>web search engine</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Mural</title>
@@ -723,8 +723,8 @@
       <category>online whiteboard</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Audible</title>
@@ -734,8 +734,8 @@
       <category>web resource (audio books)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Poll Everywhere</title>
@@ -745,8 +745,8 @@
       <category>live engagement tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Apple Podcasts</title>
@@ -756,7 +756,7 @@
       <category>web resource (podcasts)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -767,8 +767,8 @@
       <category>video meeting platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Netflix</title>
@@ -778,8 +778,8 @@
       <category>web resource (documentaries)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Diigo</title>
@@ -789,8 +789,8 @@
       <category>content curation tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Yammer</title>
@@ -800,8 +800,8 @@
       <category>collaboration platform</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Degreed</title>
@@ -811,8 +811,8 @@
       <category>learning platform/LMS</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Miro</title>
@@ -822,8 +822,8 @@
       <category>online whiteboard</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Adobe Spark</title>
@@ -833,8 +833,8 @@
       <category>content development tool (graphics)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Blogger</title>
@@ -844,8 +844,8 @@
       <category>blogging/website platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>iSpring</title>
@@ -855,8 +855,8 @@
       <category>course authoring tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Grammarly</title>
@@ -866,8 +866,8 @@
       <category>productivity tool (grammar checker)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>getAbstract</title>
@@ -877,8 +877,8 @@
       <category>web resource (book summaries)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Apple Keynote</title>
@@ -888,7 +888,7 @@
       <category>office tool / suite</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -899,8 +899,8 @@
       <category>lesson authoring tool</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Spotify</title>
@@ -910,8 +910,8 @@
       <category>web resource (podcasts &amp; music)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>MS PowerBI</title>
@@ -921,7 +921,7 @@
       <category>data analytics &amp; visualisation tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -932,8 +932,8 @@
       <category>collaboration platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Snip &amp; Sketch</title>
@@ -943,7 +943,7 @@
       <category>content dev tool (screenshots)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -954,7 +954,7 @@
       <category>content dev tool (graphics)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -965,7 +965,7 @@
       <category>live engagement tool</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -976,8 +976,8 @@
       <category>news alert tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Adobe Captivate</title>
@@ -987,7 +987,7 @@
       <category>course authoring tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -998,8 +998,8 @@
       <category>language learning app</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Totara</title>
@@ -1009,8 +1009,8 @@
       <category>learning platform/LMS</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Loom</title>
@@ -1020,8 +1020,8 @@
       <category>content dev tool (screen recording)</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Tweetdeck</title>
@@ -1031,8 +1031,8 @@
       <category>social network (Twitter dashboard)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Blackboard Learn</title>
@@ -1042,7 +1042,7 @@
       <category>learning platform/LMS</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -1053,7 +1053,7 @@
       <category>content development tool (PDFs)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1064,7 +1064,7 @@
       <category>news reader &amp; alert tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1075,8 +1075,8 @@
       <category>web browser</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Google Keep</title>
@@ -1086,8 +1086,8 @@
       <category>digital notebook</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Adobe Photoshop</title>
@@ -1097,8 +1097,8 @@
       <category>content dev tool (photo editing)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Thinglink</title>
@@ -1108,7 +1108,7 @@
       <category>content dev tool (interactive media)</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1119,8 +1119,8 @@
       <category>online whiteboard</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Workplace by Facebook</title>
@@ -1130,8 +1130,8 @@
       <category>collaboration platform</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Adobe Premiere Pro</title>
@@ -1141,7 +1141,7 @@
       <category>content dev tool (video)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1152,8 +1152,8 @@
       <category>online courses</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Adobe Illustrator</title>
@@ -1163,8 +1163,8 @@
       <category>content dev tool (graphics)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Screencastify</title>
@@ -1174,7 +1174,7 @@
       <category>content dev tool (screencasts)</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -1185,7 +1185,7 @@
       <category>content dev tool (video)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1196,7 +1196,7 @@
       <category>video meeting platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1207,8 +1207,8 @@
       <category>content dev (video streaming)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Survey Monkey</title>
@@ -1218,7 +1218,7 @@
       <category>forms &amp; survey tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1229,8 +1229,8 @@
       <category>content dev tool (audio/podcasts)</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Adobe Audition</title>
@@ -1240,8 +1240,8 @@
       <category>content dev tool (audio/podcasts)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Coggle</title>
@@ -1251,8 +1251,8 @@
       <category>mind mapping tool</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Medium</title>
@@ -1262,8 +1262,8 @@
       <category>blogging/website platform</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Freemind</title>
@@ -1273,7 +1273,7 @@
       <category>mindmapping tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -1284,8 +1284,8 @@
       <category>video meeting platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Apple iMovie</title>
@@ -1295,8 +1295,8 @@
       <category>content development tool (videos)</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Quora</title>
@@ -1306,8 +1306,8 @@
       <category>web resource (Q&amp;A site)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>WebinarGeek</title>
@@ -1317,8 +1317,8 @@
       <category>video meeting platform</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Mindmeister</title>
@@ -1328,7 +1328,7 @@
       <category>mindmapping tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1339,7 +1339,7 @@
       <category>forms &amp; survey tool</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -1350,8 +1350,8 @@
       <category>social network / community</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>ClickUp</title>
@@ -1361,8 +1361,8 @@
       <category>collaboration platform</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>EdPuzzle</title>
@@ -1372,7 +1372,7 @@
       <category>lesson authoring tool</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -1383,8 +1383,8 @@
       <category>content dev tool (interactive PDFs)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Blackboard Collaborate</title>
@@ -1394,8 +1394,8 @@
       <category>video meeting platform</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>MS Whiteboard</title>
@@ -1405,8 +1405,8 @@
       <category>online whiteboard</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Wooclap</title>
@@ -1416,8 +1416,8 @@
       <category>live engagement tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Plickers</title>
@@ -1427,8 +1427,8 @@
       <category>live engagement tool</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Google Calendar</title>
@@ -1438,8 +1438,8 @@
       <category>productivity tool (calendar)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Slideshare</title>
@@ -1449,8 +1449,8 @@
       <category>web resource (slide sets)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Udacity</title>
@@ -1460,8 +1460,8 @@
       <category>online courses</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Mailchimp</title>
@@ -1471,8 +1471,8 @@
       <category>email tool (newsletters etc)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>FutureLearn</title>
@@ -1482,7 +1482,7 @@
       <category>online courses</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -1493,8 +1493,8 @@
       <category>content dev tool (diagrams)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>DuckDuckGo</title>
@@ -1504,8 +1504,8 @@
       <category>search engine</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Asana</title>
@@ -1515,7 +1515,7 @@
       <category>collaboration platform</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -1526,8 +1526,8 @@
       <category>course authoring tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Notability</title>
@@ -1537,8 +1537,8 @@
       <category>digital notebook</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Anders Pink</title>
@@ -1548,8 +1548,8 @@
       <category>curation platform</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Sway</title>
@@ -1559,8 +1559,8 @@
       <category>content dev tool (presentations)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Ayoa</title>
@@ -1570,7 +1570,7 @@
       <category>mindmapping tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -1581,7 +1581,7 @@
       <category>email tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1592,7 +1592,7 @@
       <category>curation tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1603,8 +1603,8 @@
       <category>content dev tool (animation)</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>ilovepdf.com</title>
@@ -1614,8 +1614,8 @@
       <category>content dev tool (PDFs)</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Apple Pages</title>
@@ -1625,7 +1625,7 @@
       <category>office tool / suite</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1636,8 +1636,8 @@
       <category>games &amp; testing tool</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Unsplash</title>
@@ -1647,8 +1647,8 @@
       <category>content dev tool (image library)</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Biteable</title>
@@ -1658,8 +1658,8 @@
       <category>content dev tool (video)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>isEazy</title>
@@ -1669,8 +1669,8 @@
       <category>course authoring</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Blinkist</title>
@@ -1680,7 +1680,7 @@
       <category>web resource (book summaries</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1691,7 +1691,7 @@
       <category>content dev tool (video conversion)</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1702,8 +1702,8 @@
       <category>web browser</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>WeTransfer</title>
@@ -1713,8 +1713,8 @@
       <category>file sharing platform</category>
       <learning>True</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Nuzzel</title>
@@ -1724,8 +1724,8 @@
       <category>news alert tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Zotero</title>
@@ -1735,8 +1735,8 @@
       <category>research tool</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Overcast</title>
@@ -1746,7 +1746,7 @@
       <category>web resource (podcast player)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -1757,7 +1757,7 @@
       <category>social network / community</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1768,8 +1768,8 @@
       <category>course authoring tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Hot Potatoes</title>
@@ -1779,7 +1779,7 @@
       <category>games &amp; testing tool</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -1790,7 +1790,7 @@
       <category>web resources (podcast player)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1801,8 +1801,8 @@
       <category>online courses</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Google Lens</title>
@@ -1812,8 +1812,8 @@
       <category>productivity (image recognition)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Scoopit</title>
@@ -1823,8 +1823,8 @@
       <category>curation tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Piktochart</title>
@@ -1834,8 +1834,8 @@
       <category>content dev tool (infographics)</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Pluralsight</title>
@@ -1845,7 +1845,7 @@
       <category>online course platform</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -1856,8 +1856,8 @@
       <category>office tool / suite</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>IFTTT</title>
@@ -1867,7 +1867,7 @@
       <category>productivity (workflow automation)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -1878,8 +1878,8 @@
       <category>web browser</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Zapier</title>
@@ -1889,7 +1889,7 @@
       <category>productivity (workflow automation)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -1900,8 +1900,8 @@
       <category>search engine</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Mind Tools</title>
@@ -1911,8 +1911,8 @@
       <category>online course platform</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Khan Academy</title>
@@ -1922,8 +1922,8 @@
       <category>online course platform</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Google Arts &amp; Culture</title>
@@ -1933,7 +1933,7 @@
       <category>web resource (virtual visits)</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1944,7 +1944,7 @@
       <category>online courses</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -1955,8 +1955,8 @@
       <category>course authoring tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Gimkit</title>
@@ -1966,7 +1966,7 @@
       <category>live engagement tool</category>
       <learning>False</learning>
       <teaching>True</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -1977,8 +1977,8 @@
       <category>chat tool</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>Brave</title>
@@ -1988,7 +1988,7 @@
       <category>web browser</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -1999,8 +1999,8 @@
       <category>content dev tool (image library)</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Axonify</title>
@@ -2010,8 +2010,8 @@
       <category>learning platform/LMS</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Google Analytics</title>
@@ -2021,8 +2021,8 @@
       <category>web traffic analysis</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>LearnDash</title>
@@ -2032,7 +2032,7 @@
       <category>WordPress LMS plugin</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -2043,7 +2043,7 @@
       <category>online courses</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -2054,8 +2054,8 @@
       <category>content dev tool (live transcription)</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Google Currents</title>
@@ -2065,8 +2065,8 @@
       <category>collaboration platform</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>arts</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>MasterClass</title>
@@ -2076,7 +2076,7 @@
       <category>online courses</category>
       <learning>True</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -2087,8 +2087,8 @@
       <category>content development tool (DTP)</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Thinkific</title>
@@ -2098,7 +2098,7 @@
       <category>learning platform/LMS</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>arts</subject>
    </tool>
    <tool>
@@ -2109,8 +2109,8 @@
       <category>learning platform/LMS</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>engineering</subject>
    </tool>
    <tool>
       <title>Drillster</title>
@@ -2120,8 +2120,8 @@
       <category>learning platform/LMS</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Docebo</title>
@@ -2131,7 +2131,7 @@
       <category>learning platform/LMS</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
    <tool>
@@ -2142,7 +2142,7 @@
       <category>course authoring tool</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -2153,7 +2153,7 @@
       <category>video meeting platform</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -2164,8 +2164,8 @@
       <category>learning platform/LMS</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>engineering</subject>
+      <date>2020/12/05</date>
+      <subject>general</subject>
    </tool>
    <tool>
       <title>AnswerGarden</title>
@@ -2175,8 +2175,8 @@
       <category>live engagement tool</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
-      <subject>general</subject>
+      <date>2020/12/05</date>
+      <subject>arts</subject>
    </tool>
    <tool>
       <title>Open edX</title>
@@ -2186,7 +2186,7 @@
       <category>learning platform/LMS</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>general</subject>
    </tool>
    <tool>
@@ -2197,7 +2197,7 @@
       <category>video meeting platform</category>
       <learning>False</learning>
       <teaching>False</teaching>
-      <date>04/12/2020</date>
+      <date>2020/12/05</date>
       <subject>engineering</subject>
    </tool>
 </tools>

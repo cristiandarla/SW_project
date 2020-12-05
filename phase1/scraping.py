@@ -74,7 +74,7 @@ for value in tools_list.keys():
     child_teaching = SubElement(child, 'teaching')
     child_teaching.text = tools_list[value]['teaching']
     child_date = SubElement(child, 'date')
-    child_date.text = date.today().strftime("%d/%m/%Y")
+    child_date.text = date.today().strftime("%Y/%m/%d")
     child_subject = SubElement(child, 'subject')
     child_subject.text = choice(['general', 'engineering', 'arts'])
     

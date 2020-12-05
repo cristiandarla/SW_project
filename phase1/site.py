@@ -118,7 +118,7 @@ def days():
         daysformated = datetime.timedelta(int(days))
         difference = todaysdate - daysformated
         
-        differencestr = difference.strftime("%d/%m/%Y")
+        differencestr = difference.strftime("%Y/%m/%d")
         differencestr = differencestr.replace("/","")
         print(differencestr)
         #/tools/tool[number(translate(date,'/','')) > 03122020]
