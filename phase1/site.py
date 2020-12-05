@@ -12,41 +12,41 @@ categories = []
 @app.route('/home')
 def index():
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    dom = ET2.parse(dir_path + "\\tools.xml")
-    xslt = ET2.parse(dir_path + "\\template.xsl")
-    transform = ET2.XSLT(xslt)
-    newdom = transform(dom)
-    xml_file = open(dir_path + "\\templates\\file.html", "w")
-    xml_file.write(str(ET2.tostring(newdom)))
-    xml_file.close()
-    return render_template('file.html')
+    #dom = ET2.parse(dir_path + "\\tools.xml")
+    #xslt = ET2.parse(dir_path + "\\template.xsl")
+    #transform = ET2.XSLT(xslt)
+    #newdom = transform(dom)
+    #xml_file = open(dir_path + "\\templates\\file.html", "w")
+    #xml_file.write(str(ET2.tostring(newdom)))
+    #xml_file.close()
+    #return render_template('file.html')
     
-    #tree = ET.parse(dir_path + "\\tools.xml")
-    #root = tree.getroot()
-    #tools = []
-    #categories = []
-    #for tool in root.findall('./tool'):
-    #    title = tool[0].text
-    #    position = tool[1].text
-    #    href = tool[2].text
-    #    change = tool[3].text
-    #    category = tool[4].text
-    #    date = tool[7].text
-    #    subject = tool[8].text
-    #    if tool[5].text == "True":
-    #        learning = True
-    #    else:
-    #        learning = False
-    #    if tool[6].text == "True":
-    #        teaching = True
-    #    else:
-    #        teaching = False
-    #    newTool = Tool(title, position, href, change, category, learning, teaching, date, subject)
-    #    tools.append(newTool)
-    #    if category not in categories:
-    #        categories.append(category)
-    #sorted_categories = sorted(categories, key=str.casefold)
-    #return render_template('index.html', tools = tools, categories = sorted_categories)
+    tree = ET.parse(dir_path + "\\tools.xml")
+    root = tree.getroot()
+    tools = []
+    categories = []
+    for tool in root.findall('./tool'):
+        title = tool[0].text
+        position = tool[1].text
+        href = tool[2].text
+        change = tool[3].text
+        category = tool[4].text
+        date = tool[7].text
+        subject = tool[8].text
+        if tool[5].text == "True":
+            learning = True
+        else:
+            learning = False
+        if tool[6].text == "True":
+            teaching = True
+        else:
+            teaching = False
+        newTool = Tool(title, position, href, change, category, learning, teaching, date, subject)
+        tools.append(newTool)
+        if category not in categories:
+            categories.append(category)
+    sorted_categories = sorted(categories, key=str.casefold)
+    return render_template('index.html', tools = tools, categories = sorted_categories)
 
 
 
