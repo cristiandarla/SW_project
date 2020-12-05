@@ -2,40 +2,53 @@ from flask import Flask, flash, request, redirect, url_for, render_template, mak
 from tools import Tool
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
-import os
+from datetime import date
 import lxml.etree as ET2
+import os
 
 app = Flask(__name__)
 categories = []
 
 @app.route('/home')
 def index():
-    
     dir_path = os.path.dirname(os.path.realpath(__file__))
-    tree = ET.parse(dir_path + "\\tools.xml")
-    root = tree.getroot()
-    tools = []
-    categories = []
-    for tool in root.findall('./tool'):
-        title = tool[0].text
-        position = tool[1].text
-        href = tool[2].text
-        change = tool[3].text
-        category = tool[4].text
-        if tool[5].text == "True":
-            learning = True
-        else:
-            learning = False
-        if tool[6].text == "True":
-            teaching = True
-        else:
-            teaching = False
-        newTool = Tool(title, position, href, change, category, learning, teaching)
-        tools.append(newTool)
-        if category not in categories:
-            categories.append(category)
-    sorted_categories = sorted(categories, key=str.casefold)
-    return render_template('index.html', tools = tools, categories = sorted_categories)
+    dom = ET2.parse(dir_path + "\\tools.xml")
+    xslt = ET2.parse(dir_path + "\\template.xsl")
+    transform = ET2.XSLT(xslt)
+    newdom = transform(dom)
+    xml_file = open(dir_path + "\\templates\\file.html", "w")
+    xml_file.write(str(ET2.tostring(newdom)))
+    xml_file.close()
+    return render_template('file.html')
+    
+    #tree = ET.parse(dir_path + "\\tools.xml")
+    #root = tree.getroot()
+    #tools = []
+    #categories = []
+    #for tool in root.findall('./tool'):
+    #    title = tool[0].text
+    #    position = tool[1].text
+    #    href = tool[2].text
+    #    change = tool[3].text
+    #    category = tool[4].text
+    #    date = tool[7].text
+    #    subject = tool[8].text
+    #    if tool[5].text == "True":
+    #        learning = True
+    #    else:
+    #        learning = False
+    #    if tool[6].text == "True":
+    #        teaching = True
+    #    else:
+    #        teaching = False
+    #    newTool = Tool(title, position, href, change, category, learning, teaching, date, subject)
+    #    tools.append(newTool)
+    #    if category not in categories:
+    #        categories.append(category)
+    #sorted_categories = sorted(categories, key=str.casefold)
+    #return render_template('index.html', tools = tools, categories = sorted_categories)
+
+
 
 @app.route('/new', methods=['GET', 'POST'])
 def new():
@@ -43,6 +56,9 @@ def new():
     tree = ET.parse(dir_path + "\\tools.xml")
     root = tree.getroot()
     if request.method == "POST":
+        for elem in root.iter('*'):
+            if elem.text is not None:
+                elem.text = elem.text.strip()
         position = len(root.findall('./tool'))
         addTool(root, request, position + 1, dir_path)
         xml_file = open(dir_path + "\\tools.xml", "w")
@@ -55,7 +71,8 @@ def new():
         if category not in categories:
             categories.append(category)
     sorted_categories = sorted(categories, key=str.casefold)
-    return render_template('new_tool.html', categories = sorted_categories)
+    options = ['general', 'engineering', 'arts']
+    return render_template('new_tool.html', categories = sorted_categories, options = options)
 
 @app.route('/about', methods=['GET', 'POST'])
 def about():
@@ -76,6 +93,8 @@ def about():
     href = root[2].text
     change = root[3].text
     category = root[4].text
+    date = root[7].text
+    subject = root[8].text
     if root[5].text == "True":
         learning = True
     else:
@@ -85,11 +104,9 @@ def about():
     else:
         teaching = False
     
-    newTool = Tool(title, position, href, change, category, learning, teaching)
+    newTool = Tool(title, position, href, change, category, learning, teaching, date, subject)
 
     return render_template('about.html', tool = newTool)
-
-
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
@@ -113,6 +130,10 @@ def addTool(root, request, position, dir_path):
     child_learning.text = str(not request.form.get('learning') == None) 
     child_teaching = ET.SubElement(child, 'teaching')
     child_teaching.text = str(not request.form.get('teaching') == None )
+    child_date = ET.SubElement(child, 'date')
+    child_date.text = date.today().strftime("%d/%m/%Y")
+    child_subject = ET.SubElement(child, 'subject')
+    child_subject.text = request.form.get('subject')
     root.insert(position - 1, child)
     
     

@@ -2,7 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 from xml.etree.ElementTree import Element, SubElement, tostring
 from xml.dom import minidom
-import os 
+from datetime import date
+from random import choice
+import os
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 URL = 'https://www.toptools4learning.com/'
@@ -71,6 +73,10 @@ for value in tools_list.keys():
     child_learning.text = tools_list[value]['learning']
     child_teaching = SubElement(child, 'teaching')
     child_teaching.text = tools_list[value]['teaching']
+    child_date = SubElement(child, 'date')
+    child_date.text = date.today().strftime("%d/%m/%Y")
+    child_subject = SubElement(child, 'subject')
+    child_subject.text = choice(['general', 'engineering', 'arts'])
     
 xml_file = open(dir_path + "\\tools.xml", "w")
 xml_file.write(minidom.parseString(tostring(root)).toprettyxml(indent="   "))

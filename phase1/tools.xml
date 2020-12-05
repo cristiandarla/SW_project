@@ -1,5414 +1,2203 @@
 <?xml version="1.0" ?>
 <tools>
-   
-   
    <tool>
-      
-      
       <title>YouTube</title>
-      
-      
       <position>1</position>
-      
-      
       <href>http://www.youtube.com</href>
-      
-      
       <change>SAME</change>
-      
-      
       <category>web resource (videos)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Zoom</title>
-      
-      
       <position>2</position>
-      
-      
       <href>http://www.zoom.us</href>
-      
-      
       <change>UP 8</change>
-      
-      
       <category>video meeting platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Search</title>
-      
-      
       <position>3</position>
-      
-      
       <href>http://www.google.com</href>
-      
-      
       <change>DOWN 1</change>
-      
-      
       <category>search engine</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>PowerPoint</title>
-      
-      
       <position>4</position>
-      
-      
       <href>http://www.microsoft.com/powerpoint</href>
-      
-      
       <change>DOWN 1</change>
-      
-      
       <category>office tool / suite</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Microsoft Teams</title>
-      
-      
       <position>5</position>
-      
-      
       <href>http://www.teams.microsoft.com</href>
-      
-      
       <change>UP 6</change>
-      
-      
       <category>collaboration platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Word</title>
-      
-      
       <position>6</position>
-      
-      
       <href>http://www.microsoft.com/word</href>
-      
-      
       <change>UP 1</change>
-      
-      
       <category>office tool / suite</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Docs &amp; Drive</title>
-      
-      
       <position>7</position>
-      
-      
       <href>http://www.google.com/docs</href>
-      
-      
       <change>DOWN 1</change>
-      
-      
       <category>office suite | file sharing platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>LinkedIn</title>
-      
-      
       <position>8</position>
-      
-      
       <href>http://www.linkedin.com</href>
-      
-      
       <change>DOWN 3</change>
-      
-      
       <category>social network / community</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Twitter</title>
-      
-      
       <position>9</position>
-      
-      
       <href>http://www.twitter.com</href>
-      
-      
       <change>DOWN 5</change>
-      
-      
       <category>social network / community</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>WhatsApp</title>
-      
-      
       <position>10</position>
-      
-      
       <href>http://www.whatsapp.com</href>
-      
-      
       <change>UP 4</change>
-      
-      
       <category>chat tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Wikipedia</title>
-      
-      
       <position>11</position>
-      
-      
       <href>http://www.wikipedia.org</href>
-      
-      
       <change>DOWN 3</change>
-      
-      
       <category>web resource</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Facebook</title>
-      
-      
       <position>12</position>
-      
-      
       <href>http://www.facebook.com</href>
-      
-      
       <change>UP 6</change>
-      
-      
       <category>social network / community</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Excel</title>
-      
-      
       <position>13</position>
-      
-      
       <href>http://www.microsoft.com/excel</href>
-      
-      
       <change>UP 3</change>
-      
-      
       <category>office tool / suite</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>WordPress</title>
-      
-      
       <position>14</position>
-      
-      
       <href>http://www.wordpress.org</href>
-      
-      
       <change>DOWN 5</change>
-      
-      
       <category>blogging/website platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Classroom</title>
-      
-      
       <position>15</position>
-      
-      
       <href>http://www.classroom.google.com</href>
-      
-      
       <change>UP 121</change>
-      
-      
       <category>learning platform / LMS</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Meet</title>
-      
-      
       <position>16</position>
-      
-      
       <href>http://www.meet.google.com</href>
-      
-      
       <change>UP 77</change>
-      
-      
       <category>video meeting platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Slack</title>
-      
-      
       <position>17</position>
-      
-      
       <href>http://www.slack.com</href>
-      
-      
       <change>DOWN 5</change>
-      
-      
       <category>collaboration platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Canva</title>
-      
-      
       <position>18</position>
-      
-      
       <href>http://www.canva.com</href>
-      
-      
       <change>UP 16</change>
-      
-      
       <category>content dev tool (graphics)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Skype</title>
-      
-      
       <position>19</position>
-      
-      
       <href>http://www.skype.net</href>
-      
-      
       <change>SAME</change>
-      
-      
       <category>chat tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Trello</title>
-      
-      
       <position>20</position>
-      
-      
       <href>http://www.trello.com</href>
-      
-      
       <change>UP 8</change>
-      
-      
       <category>collaboration platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Feedly</title>
-      
-      
       <position>21</position>
-      
-      
       <href>http://www.feedly.com</href>
-      
-      
       <change>DOWN 6</change>
-      
-      
       <category>news reader &amp; alert tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>LinkedIn Learning</title>
-      
-      
       <position>22</position>
-      
-      
       <href>http://www.linkedin.com/learning</href>
-      
-      
       <change>DOWN 9</change>
-      
-      
       <category>online courses</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Padlet</title>
-      
-      
       <position>23</position>
-      
-      
       <href>http://www.padlet.com</href>
-      
-      
       <change>UP 7</change>
-      
-      
       <category>collaboration platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Kahoot</title>
-      
-      
       <position>24</position>
-      
-      
       <href>http://www.getkahoot.com</href>
-      
-      
       <change>DOWN 3</change>
-      
-      
       <category>live engagement tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Dropbox</title>
-      
-      
       <position>25</position>
-      
-      
       <href>http://www.dropbox.com</href>
-      
-      
       <change>DOWN 8</change>
-      
-      
       <category>file sharing platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Mentimeter</title>
-      
-      
       <position>26</position>
-      
-      
       <href>http://www.mentimeter.com</href>
-      
-      
       <change>UP 15</change>
-      
-      
       <category>live engagement tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Gmail</title>
-      
-      
       <position>27</position>
-      
-      
       <href>http://www.G Suite</href>
-      
-      
       <change>UP 19</change>
-      
-      
       <category>email tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Instagram</title>
-      
-      
       <position>28</position>
-      
-      
       <href>http://www.instagram.com</href>
-      
-      
       <change>UP 20</change>
-      
-      
       <category>social network / community</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Forms</title>
-      
-      
       <position>29</position>
-      
-      
       <href>http://www.google.com/forms/</href>
-      
-      
       <change>DOWN 3</change>
-      
-      
       <category>forms and survey tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Articulate</title>
-      
-      
       <position>30</position>
-      
-      
       <href>http://www.articulate.com</href>
-      
-      
       <change>DOWN 10</change>
-      
-      
       <category>course authoring tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>OneNote</title>
-      
-      
       <position>31</position>
-      
-      
       <href>http://www.onenote.com</href>
-      
-      
       <change>DOWN 9</change>
-      
-      
       <category>digital notebook</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Translate</title>
-      
-      
       <position>32</position>
-      
-      
       <href>http://www.google.com/translate</href>
-      
-      
       <change>UP 13</change>
-      
-      
       <category>translation tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Outlook</title>
-      
-      
       <position>33</position>
-      
-      
       <href>http://www.outlook.com</href>
-      
-      
       <change>UP 5</change>
-      
-      
       <category>email tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Vimeo</title>
-      
-      
       <position>34</position>
-      
-      
       <href>http://www.vimeo.com</href>
-      
-      
       <change>UP 32</change>
-      
-      
       <category>web resource (videos)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Chrome</title>
-      
-      
       <position>35</position>
-      
-      
       <href>http://www.google.com/chrome</href>
-      
-      
       <change>SAME</change>
-      
-      
       <category>web browser</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Moodle</title>
-      
-      
       <position>36</position>
-      
-      
       <href>http://www.moodle.org</href>
-      
-      
       <change>UP 14</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Maps</title>
-      
-      
       <position>37</position>
-      
-      
       <href>http://www.maps.google.com</href>
-      
-      
       <change>UP 40</change>
-      
-      
       <category>productivity tool (mapping)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Flipgrid</title>
-      
-      
       <position>38</position>
-      
-      
       <href>http://www.flipgrid.com</href>
-      
-      
       <change>UP 34</change>
-      
-      
       <category>video meeting platform</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Prezi</title>
-      
-      
       <position>39</position>
-      
-      
       <href>http://www.prezi.com</href>
-      
-      
       <change>UP 8</change>
-      
-      
       <category>office tool / suite</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>TED Talks</title>
-      
-      
       <position>40</position>
-      
-      
       <href>http://www.ted.com</href>
-      
-      
       <change>DOWN 16</change>
-      
-      
       <category>web resource (videos)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>OneDrive</title>
-      
-      
       <position>41</position>
-      
-      
       <href>http://www.onedrive.com</href>
-      
-      
       <change>UP 14</change>
-      
-      
       <category>file sharing platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Easygenerator</title>
-      
-      
       <position>42</position>
-      
-      
       <href>http://www.easygenerator.com</href>
-      
-      
       <change>SAME</change>
-      
-      
       <category>course authoring tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Camtasia</title>
-      
-      
       <position>43</position>
-      
-      
       <href>http://www.techsmith.com/camtasia.html</href>
-      
-      
       <change>DOWN 20</change>
-      
-      
       <category>content dev tool (screencasts)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Snagit</title>
-      
-      
       <position>44</position>
-      
-      
       <href>http://www.techsmith.com/snagit.html</href>
-      
-      
       <change>DOWN 17</change>
-      
-      
       <category>content dev tool (screen capture)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Whereby</title>
-      
-      
       <position>45</position>
-      
-      
       <href>http://www.whereby.com</href>
-      
-      
       <change>UP 79</change>
-      
-      
       <category>video meeting platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Evernote</title>
-      
-      
       <position>46</position>
-      
-      
       <href>http://www.evernote.com</href>
-      
-      
       <change>DOWN 21</change>
-      
-      
       <category>digital notebook</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Canvas</title>
-      
-      
       <position>47</position>
-      
-      
       <href>http://www.instructure.com</href>
-      
-      
       <change>UP 23</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Pinterest</title>
-      
-      
       <position>48</position>
-      
-      
       <href>http://www.pinterest.com</href>
-      
-      
       <change>DOWN 17</change>
-      
-      
       <category>curation platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Screencast-O-matic</title>
-      
-      
       <position>49</position>
-      
-      
       <href>http://www.screencast-o-matic.com</href>
-      
-      
       <change>UP 43</change>
-      
-      
       <category>content dev tool (screencasts)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Pocket</title>
-      
-      
       <position>50</position>
-      
-      
       <href>http://www.getpocket.com</href>
-      
-      
       <change>UP 6</change>
-      
-      
       <category>curation tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>hihaho</title>
-      
-      
       <position>51</position>
-      
-      
       <href>http://www.hihaho.com</href>
-      
-      
       <change>UP 8</change>
-      
-      
       <category>content dev tool (interactive video)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Wakelet</title>
-      
-      
       <position>52</position>
-      
-      
       <href>http://www.wakelet.com</href>
-      
-      
       <change>UP 27</change>
-      
-      
       <category>curation tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Vyond</title>
-      
-      
       <position>53</position>
-      
-      
       <href>http://www.vyond.com</href>
-      
-      
       <change>UP 22</change>
-      
-      
       <category>content dev tool (animation)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Udemy</title>
-      
-      
       <position>54</position>
-      
-      
       <href>http://www.udemy.com</href>
-      
-      
       <change>DOWN 25</change>
-      
-      
       <category>online courses</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Sites</title>
-      
-      
       <position>55</position>
-      
-      
       <href>http://www.sites.google.com</href>
-      
-      
       <change>UP 76</change>
-      
-      
       <category>blogging/website platform</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Cisco Webex</title>
-      
-      
       <position>56</position>
-      
-      
       <href>http://www.webex.com</href>
-      
-      
       <change>UP 8</change>
-      
-      
       <category>video meeting platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Coursera</title>
-      
-      
       <position>57</position>
-      
-      
       <href>http://www.coursera.org</href>
-      
-      
       <change>DOWN 4</change>
-      
-      
       <category>online courses</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>SharePoint</title>
-      
-      
       <position>58</position>
-      
-      
       <href>http://www.sharepoint.com</href>
-      
-      
       <change>DOWN 25</change>
-      
-      
       <category>collaboration platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Quizlet</title>
-      
-      
       <position>59</position>
-      
-      
       <href>http://www.quizlet.com</href>
-      
-      
       <change>UP 32</change>
-      
-      
       <category>games &amp; testing tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>DeepL</title>
-      
-      
       <position>60</position>
-      
-      
       <href>http://www.deepl.com/translator</href>
-      
-      
       <change>UP 63</change>
-      
-      
       <category>translation tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Kindle</title>
-      
-      
       <position>61</position>
-      
-      
       <href>http://www.amazon.com/kindle</href>
-      
-      
       <change>UP 10</change>
-      
-      
       <category>web resource (e-books)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Quizizz</title>
-      
-      
       <position>62</position>
-      
-      
       <href>http://www.quizizz.com</href>
-      
-      
       <change>UP 115</change>
-      
-      
       <category>games &amp; testing tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>H5P</title>
-      
-      
       <position>63</position>
-      
-      
       <href>http://www.h5p.org</href>
-      
-      
       <change>DOWN 6</change>
-      
-      
       <category>content dev tool (HTML5 content)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>aNewSpring</title>
-      
-      
       <position>64</position>
-      
-      
       <href>http://www.anewspring.com</href>
-      
-      
       <change>UP 77</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Scholar</title>
-      
-      
       <position>65</position>
-      
-      
       <href>http://www.scholar.google.com</href>
-      
-      
       <change>DOWN 26</change>
-      
-      
       <category>web search engine</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Mural</title>
-      
-      
       <position>66</position>
-      
-      
       <href>http://www.www.mural.co</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>online whiteboard</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Audible</title>
-      
-      
       <position>67</position>
-      
-      
       <href>http://www.audible.com</href>
-      
-      
       <change>DOWN 6</change>
-      
-      
       <category>web resource (audio books)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Poll Everywhere</title>
-      
-      
       <position>68</position>
-      
-      
       <href>http://www.polleverywhere.com</href>
-      
-      
       <change>DOWN 6</change>
-      
-      
       <category>live engagement tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Apple Podcasts</title>
-      
-      
       <position>69</position>
-      
-      
       <href>http://www.apps.apple.com/us/app/apple-podcasts/id525463029</href>
-      
-      
       <change>DOWN 15</change>
-      
-      
       <category>web resource (podcasts)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Adobe Connect</title>
-      
-      
       <position>70</position>
-      
-      
       <href>http://www.adobe.com/products/adobeconnect.html</href>
-      
-      
       <change>UP 11</change>
-      
-      
       <category>video meeting platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Netflix</title>
-      
-      
       <position>71</position>
-      
-      
       <href>http://www.netflix.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>web resource (documentaries)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Diigo</title>
-      
-      
       <position>72</position>
-      
-      
       <href>https://www.toptools4learning.com/diigo/</href>
-      
-      
       <change>DOWN 40</change>
-      
-      
       <category>content curation tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Yammer</title>
-      
-      
       <position>73</position>
-      
-      
       <href>http://www.yammer.com</href>
-      
-      
       <change>DOWN 37</change>
-      
-      
       <category>collaboration platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Degreed</title>
-      
-      
       <position>74</position>
-      
-      
       <href>http://www.degreed.com</href>
-      
-      
       <change>DOWN 9</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Miro</title>
-      
-      
       <position>75</position>
-      
-      
       <href>http://www.miro.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>online whiteboard</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Adobe Spark</title>
-      
-      
       <position>76</position>
-      
-      
       <href>http://www.spark.adobe.com</href>
-      
-      
       <change>UP 6</change>
-      
-      
       <category>content development tool (graphics)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Blogger</title>
-      
-      
       <position>77</position>
-      
-      
       <href>http://www.blogger.com</href>
-      
-      
       <change>DOWN 25</change>
-      
-      
       <category>blogging/website platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>iSpring</title>
-      
-      
       <position>78</position>
-      
-      
       <href>http://www.ispringsolutions.com</href>
-      
-      
       <change>DOWN 38</change>
-      
-      
       <category>course authoring tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Grammarly</title>
-      
-      
       <position>79</position>
-      
-      
       <href>http://www.grammarly.com</href>
-      
-      
       <change>DOWN 1</change>
-      
-      
       <category>productivity tool (grammar checker)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>getAbstract</title>
-      
-      
       <position>80</position>
-      
-      
       <href>http://www.getabstract.com</href>
-      
-      
       <change>UP 36</change>
-      
-      
       <category>web resource (book summaries)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Apple Keynote</title>
-      
-      
       <position>81</position>
-      
-      
       <href>http://www.apple.com/keynote/</href>
-      
-      
       <change>DOWN 7</change>
-      
-      
       <category>office tool / suite</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Nearpod</title>
-      
-      
       <position>82</position>
-      
-      
       <href>http://www.nearpod.com</href>
-      
-      
       <change>UP 68</change>
-      
-      
       <category>lesson authoring tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Spotify</title>
-      
-      
       <position>83</position>
-      
-      
       <href>http://www.spotify.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>web resource (podcasts &amp; music)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>MS PowerBI</title>
-      
-      
       <position>84</position>
-      
-      
       <href>http://www.powerbi.microsoft.com</href>
-      
-      
       <change>BACK</change>
-      
-      
       <category>data analytics &amp; visualisation tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Workspace</title>
-      
-      
       <position>85</position>
-      
-      
       <href>http://www.workspace.google.com</href>
-      
-      
       <change>UP 13</change>
-      
-      
       <category>collaboration platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Snip &amp; Sketch</title>
-      
-      
       <position>86</position>
-      
-      
       <href>http://www.microsoft.com/snip-sketch/</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>content dev tool (screenshots)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Genially</title>
-      
-      
       <position>87</position>
-      
-      
       <href>http://www.genial.ly</href>
-      
-      
       <change>DOWN 14</change>
-      
-      
       <category>content dev tool (graphics)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Socrative</title>
-      
-      
       <position>88</position>
-      
-      
       <href>http://www.socrative.com</href>
-      
-      
       <change>UP 31</change>
-      
-      
       <category>live engagement tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Alerts</title>
-      
-      
       <position>89</position>
-      
-      
       <href>http://www.google.com/alerts</href>
-      
-      
       <change>UP 50</change>
-      
-      
       <category>news alert tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Adobe Captivate</title>
-      
-      
       <position>90</position>
-      
-      
       <href>http://www.adobe.com/products/captivate.html</href>
-      
-      
       <change>DOWN 53</change>
-      
-      
       <category>course authoring tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Duolingo</title>
-      
-      
       <position>91</position>
-      
-      
       <href>http://www.duolingo.com</href>
-      
-      
       <change>DOWN 33</change>
-      
-      
       <category>language learning app</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Totara</title>
-      
-      
       <position>92</position>
-      
-      
       <href>http://www.totaralearning.com</href>
-      
-      
       <change>UP 34</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Loom</title>
-      
-      
       <position>93</position>
-      
-      
       <href>http://www.www.loom.com</href>
-      
-      
       <change>UP 17</change>
-      
-      
       <category>content dev tool (screen recording)</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Tweetdeck</title>
-      
-      
       <position>94</position>
-      
-      
       <href>http://www.tweetdeck.com</href>
-      
-      
       <change>DOWN 51</change>
-      
-      
       <category>social network (Twitter dashboard)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Blackboard Learn</title>
-      
-      
       <position>95</position>
-      
-      
       <href>http://www.blackboard.com</href>
-      
-      
       <change>UP 35</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Adobe Acrobat Pro</title>
-      
-      
       <position>96</position>
-      
-      
       <href>http://www.adobe.com/products/acrobatpro</href>
-      
-      
       <change>DOWN 8</change>
-      
-      
       <category>content development tool (PDFs)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Inoreader</title>
-      
-      
       <position>97</position>
-      
-      
       <href>http://www.inoreader.com</href>
-      
-      
       <change>DOWN 21</change>
-      
-      
       <category>news reader &amp; alert tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Firefox</title>
-      
-      
       <position>98</position>
-      
-      
       <href>http://www.mozilla.com/firefox/</href>
-      
-      
       <change>UP 27</change>
-      
-      
       <category>web browser</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Keep</title>
-      
-      
       <position>99</position>
-      
-      
       <href>http://www.google.com/keep</href>
-      
-      
       <change>DOWN 16</change>
-      
-      
       <category>digital notebook</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Adobe Photoshop</title>
-      
-      
       <position>100</position>
-      
-      
       <href>http://www.adobe.com/products/photoshop</href>
-      
-      
       <change>DOWN 56</change>
-      
-      
       <category>content dev tool (photo editing)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Thinglink</title>
-      
-      
       <position>101</position>
-      
-      
       <href>http://www.thinglink.com</href>
-      
-      
       <change>UP 21</change>
-      
-      
       <category>content dev tool (interactive media)</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Jamboard</title>
-      
-      
       <position>102</position>
-      
-      
       <href>http://www.gsuite.google.com/products/jamboard/</href>
-      
-      
       <change>UP 11</change>
-      
-      
       <category>online whiteboard</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Workplace by Facebook</title>
-      
-      
       <position>103</position>
-      
-      
       <href>http://www.facebook.com/workplace</href>
-      
-      
       <change>DOWN 43</change>
-      
-      
       <category>collaboration platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Adobe Premiere Pro</title>
-      
-      
       <position>104</position>
-      
-      
       <href>http://www.adobe.com/products/premiere.html</href>
-      
-      
       <change>DOWN 18</change>
-      
-      
       <category>content dev tool (video)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>edX</title>
-      
-      
       <position>105</position>
-      
-      
       <href>http://www.edx.org</href>
-      
-      
       <change>DOWN 4</change>
-      
-      
       <category>online courses</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Adobe Illustrator</title>
-      
-      
       <position>106</position>
-      
-      
       <href>http://www.adobe.com/products/illustrator.html</href>
-      
-      
       <change>DOWN 11</change>
-      
-      
       <category>content dev tool (graphics)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Screencastify</title>
-      
-      
       <position>107</position>
-      
-      
       <href>http://www.screencastify.com</href>
-      
-      
       <change>UP 41</change>
-      
-      
       <category>content dev tool (screencasts)</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Adobe After Effects</title>
-      
-      
       <position>108</position>
-      
-      
       <href>http://www.adobe.com/products/aftereffects.html</href>
-      
-      
       <change>DOWN 9</change>
-      
-      
       <category>content dev tool (video)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Jitsi Meet</title>
-      
-      
       <position>109</position>
-      
-      
       <href>http://www.jitsi.org/jitsi-meet/</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>video meeting platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>MS Stream</title>
-      
-      
       <position>110</position>
-      
-      
       <href>http://www.products.office.com/en-us/microsoft-stream</href>
-      
-      
       <change>UP 19</change>
-      
-      
       <category>content dev (video streaming)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Survey Monkey</title>
-      
-      
       <position>111</position>
-      
-      
       <href>http://www.SurveyMonkey.com</href>
-      
-      
       <change>DOWN 14</change>
-      
-      
       <category>forms &amp; survey tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Audacity</title>
-      
-      
       <position>112</position>
-      
-      
       <href>http://www.audacityteam.org</href>
-      
-      
       <change>DOWN 63</change>
-      
-      
       <category>content dev tool (audio/podcasts)</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Adobe Audition</title>
-      
-      
       <position>113</position>
-      
-      
       <href>http://www.adobe.com/products/audition.html</href>
-      
-      
       <change>DOWN 9</change>
-      
-      
       <category>content dev tool (audio/podcasts)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Coggle</title>
-      
-      
       <position>114</position>
-      
-      
       <href>http://www.coggle.it</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>mind mapping tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Medium</title>
-      
-      
       <position>115</position>
-      
-      
       <href>http://www.medium.com</href>
-      
-      
       <change>DOWN 64</change>
-      
-      
       <category>blogging/website platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Freemind</title>
-      
-      
       <position>116</position>
-      
-      
       <href>http://www.freemind.sourceforge.net/wiki/index.php/Main_Page</href>
-      
-      
       <change>UP 54</change>
-      
-      
       <category>mindmapping tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Big Blue Button</title>
-      
-      
       <position>117</position>
-      
-      
       <href>http://www.bigbluebutton.org</href>
-      
-      
       <change>UP 25</change>
-      
-      
       <category>video meeting platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Apple iMovie</title>
-      
-      
       <position>118</position>
-      
-      
       <href>http://www.apple.com/ilife/imovie/</href>
-      
-      
       <change>UP 35</change>
-      
-      
       <category>content development tool (videos)</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Quora</title>
-      
-      
       <position>119</position>
-      
-      
       <href>http://www.quora.com</href>
-      
-      
       <change>DOWN 12</change>
-      
-      
       <category>web resource (Q&amp;A site)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>WebinarGeek</title>
-      
-      
       <position>120</position>
-      
-      
       <href>http://www.webinargeek.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>video meeting platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Mindmeister</title>
-      
-      
       <position>121</position>
-      
-      
       <href>http://www.mindmeister.com</href>
-      
-      
       <change>DOWN 58</change>
-      
-      
       <category>mindmapping tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>MS Forms</title>
-      
-      
       <position>122</position>
-      
-      
       <href>http://www.forms.office.com</href>
-      
-      
       <change>DOWN 16</change>
-      
-      
       <category>forms &amp; survey tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Stack Overflow</title>
-      
-      
       <position>123</position>
-      
-      
       <href>http://www.stackoverflow.com</href>
-      
-      
       <change>DOWN 39</change>
-      
-      
       <category>social network / community</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>ClickUp</title>
-      
-      
       <position>124</position>
-      
-      
       <href>http://www.clickup.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>collaboration platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>EdPuzzle</title>
-      
-      
       <position>125</position>
-      
-      
       <href>http://www.edpuzzle.com</href>
-      
-      
       <change>BACK</change>
-      
-      
       <category>lesson authoring tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Adobe InDesign</title>
-      
-      
       <position>126</position>
-      
-      
       <href>http://www.adobe.com/products/indesign.html</href>
-      
-      
       <change>DOWN 48</change>
-      
-      
       <category>content dev tool (interactive PDFs)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Blackboard Collaborate</title>
-      
-      
       <position>127</position>
-      
-      
       <href>http://www.blackboard.com/online-collaborative-learning/blackboard-collaborate.html</href>
-      
-      
       <change>BACK</change>
-      
-      
       <category>video meeting platform</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>MS Whiteboard</title>
-      
-      
       <position>128</position>
-      
-      
       <href>http://www.microsoft.com/microsoft-365/microsoft-whiteboard/</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>online whiteboard</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Wooclap</title>
-      
-      
       <position>129</position>
-      
-      
       <href>http://www.www.wooclap.com</href>
-      
-      
       <change>BACK</change>
-      
-      
       <category>live engagement tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Plickers</title>
-      
-      
       <position>130</position>
-      
-      
       <href>http://www.plickers.com</href>
-      
-      
       <change>DOWN 28</change>
-      
-      
       <category>live engagement tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Calendar</title>
-      
-      
       <position>131</position>
-      
-      
       <href>http://www.google.com/calendar</href>
-      
-      
       <change>DOWN 23</change>
-      
-      
       <category>productivity tool (calendar)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Slideshare</title>
-      
-      
       <position>132</position>
-      
-      
       <href>http://www.Scribd</href>
-      
-      
       <change>DOWN 43</change>
-      
-      
       <category>web resource (slide sets)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Udacity</title>
-      
-      
       <position>133</position>
-      
-      
       <href>http://www.udacity.com</href>
-      
-      
       <change>DOWN 18</change>
-      
-      
       <category>online courses</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Mailchimp</title>
-      
-      
       <position>134</position>
-      
-      
       <href>http://www.mailchimp.com</href>
-      
-      
       <change>UP 9</change>
-      
-      
       <category>email tool (newsletters etc)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>FutureLearn</title>
-      
-      
       <position>135</position>
-      
-      
       <href>http://www.futurelearn.com</href>
-      
-      
       <change>DOWN 32</change>
-      
-      
       <category>online courses</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Omnigraffle</title>
-      
-      
       <position>136</position>
-      
-      
       <href>http://www.omnigroup.com/omnigraffle</href>
-      
-      
       <change>UP 29</change>
-      
-      
       <category>content dev tool (diagrams)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>DuckDuckGo</title>
-      
-      
       <position>137</position>
-      
-      
       <href>http://www.duckduckgo.com</href>
-      
-      
       <change>UP 26</change>
-      
-      
       <category>search engine</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Asana</title>
-      
-      
       <position>138</position>
-      
-      
       <href>http://www.asana.com</href>
-      
-      
       <change>BACK</change>
-      
-      
       <category>collaboration platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Lectora</title>
-      
-      
       <position>139</position>
-      
-      
       <href>http://www.lectora.com</href>
-      
-      
       <change>DOWN 4</change>
-      
-      
       <category>course authoring tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Notability</title>
-      
-      
       <position>140</position>
-      
-      
       <href>http://www.gingerlabs.com</href>
-      
-      
       <change>UP 43</change>
-      
-      
       <category>digital notebook</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Anders Pink</title>
-      
-      
       <position>141</position>
-      
-      
       <href>http://www.anderspink.com</href>
-      
-      
       <change>DOWN 72</change>
-      
-      
       <category>curation platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Sway</title>
-      
-      
       <position>142</position>
-      
-      
       <href>http://www.sway.com</href>
-      
-      
       <change>DOWN 48</change>
-      
-      
       <category>content dev tool (presentations)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Ayoa</title>
-      
-      
       <position>143</position>
-      
-      
       <href>http://www.ayoa.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>mindmapping tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Apple Mail</title>
-      
-      
       <position>144</position>
-      
-      
       <href>http://www.apple.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>email tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Flipboard</title>
-      
-      
       <position>145</position>
-      
-      
       <href>http://www.flipboard.com</href>
-      
-      
       <change>DOWN 55</change>
-      
-      
       <category>curation tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Powtoon</title>
-      
-      
       <position>146</position>
-      
-      
       <href>http://www.powtoon.com</href>
-      
-      
       <change>DOWN 79</change>
-      
-      
       <category>content dev tool (animation)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>ilovepdf.com</title>
-      
-      
       <position>147</position>
-      
-      
       <href>http://www.ilovepdf.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>content dev tool (PDFs)</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Apple Pages</title>
-      
-      
       <position>148</position>
-      
-      
       <href>http://www.apple.com/pages</href>
-      
-      
       <change>UP 18</change>
-      
-      
       <category>office tool / suite</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Factile</title>
-      
-      
       <position>149</position>
-      
-      
       <href>http://www.playfactile.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>games &amp; testing tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Unsplash</title>
-      
-      
       <position>150</position>
-      
-      
       <href>http://www.unsplash.com</href>
-      
-      
       <change>DOWN 63</change>
-      
-      
       <category>content dev tool (image library)</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Biteable</title>
-      
-      
       <position>151</position>
-      
-      
       <href>http://www.biteable.com</href>
-      
-      
       <change>DOWN 55</change>
-      
-      
       <category>content dev tool (video)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>isEazy</title>
-      
-      
       <position>152</position>
-      
-      
       <href>http://www.iseazy.com</href>
-      
-      
       <change>DOWN 67</change>
-      
-      
       <category>course authoring</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Blinkist</title>
-      
-      
       <position>153</position>
-      
-      
       <href>http://www.blinkist.com</href>
-      
-      
       <change>DOWN 15</change>
-      
-      
       <category>web resource (book summaries</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Handbrake</title>
-      
-      
       <position>154</position>
-      
-      
       <href>http://www.handbrake.fr</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>content dev tool (video conversion)</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Safari</title>
-      
-      
       <position>155</position>
-      
-      
       <href>http://www.apple.com/safari</href>
-      
-      
       <change>BACK</change>
-      
-      
       <category>web browser</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>WeTransfer</title>
-      
-      
       <position>156</position>
-      
-      
       <href>http://www.wetransfer.com</href>
-      
-      
       <change>DOWN 7</change>
-      
-      
       <category>file sharing platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Nuzzel</title>
-      
-      
       <position>157</position>
-      
-      
       <href>http://www.nuzzel.com</href>
-      
-      
       <change>DOWN 20</change>
-      
-      
       <category>news alert tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Zotero</title>
-      
-      
       <position>158</position>
-      
-      
       <href>http://www.zotero.org</href>
-      
-      
       <change>UP 20</change>
-      
-      
       <category>research tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Overcast</title>
-      
-      
       <position>159</position>
-      
-      
       <href>http://www.LearnGeek</href>
-      
-      
       <change>DOWN 13</change>
-      
-      
       <category>web resource (podcast player)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Xing</title>
-      
-      
       <position>160</position>
-      
-      
       <href>http://www.xing.com</href>
-      
-      
       <change>DOWN 42</change>
-      
-      
       <category>social network / community</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>gomo Learning</title>
-      
-      
       <position>161</position>
-      
-      
       <href>http://www.gomolearning.com</href>
-      
-      
       <change>SAME</change>
-      
-      
       <category>course authoring tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Hot Potatoes</title>
-      
-      
       <position>162</position>
-      
-      
       <href>http://www.hotpot.uvic.ca</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>games &amp; testing tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Podcast Addict</title>
-      
-      
       <position>163</position>
-      
-      
       <href>http://www.facebook.com/podcastAddict/</href>
-      
-      
       <change>DOWN 6</change>
-      
-      
       <category>web resources (podcast player)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Highbrow</title>
-      
-      
       <position>164</position>
-      
-      
       <href>http://www.gohighbrow.com</href>
-      
-      
       <change>DOWN 6</change>
-      
-      
       <category>online courses</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Lens</title>
-      
-      
       <position>165</position>
-      
-      
       <href>http://www.lens.google.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>productivity (image recognition)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Scoopit</title>
-      
-      
       <position>166</position>
-      
-      
       <href>http://www.scoop.it</href>
-      
-      
       <change>DOWN 39</change>
-      
-      
       <category>curation tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Piktochart</title>
-      
-      
       <position>167</position>
-      
-      
       <href>http://www.piktochart.com</href>
-      
-      
       <change>DOWN 67</change>
-      
-      
       <category>content dev tool (infographics)</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Pluralsight</title>
-      
-      
       <position>168</position>
-      
-      
       <href>http://www.pluralsight.com</href>
-      
-      
       <change>DOWN 12</change>
-      
-      
       <category>online course platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Apple Numbers</title>
-      
-      
       <position>169</position>
-      
-      
       <href>https://www.toptools4learning.com/apple-numbers/</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>office tool / suite</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>IFTTT</title>
-      
-      
       <position>170</position>
-      
-      
       <href>http://www.ifttt.com</href>
-      
-      
       <change>DOWN 10</change>
-      
-      
       <category>productivity (workflow automation)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>MS Edge</title>
-      
-      
       <position>171</position>
-      
-      
       <href>http://www.microsoft.com/windows/microsoft-edge</href>
-      
-      
       <change>DOWN 4</change>
-      
-      
       <category>web browser</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Zapier</title>
-      
-      
       <position>172</position>
-      
-      
       <href>http://www.zapier.com</href>
-      
-      
       <change>DOWN 1</change>
-      
-      
       <category>productivity (workflow automation)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Bing</title>
-      
-      
       <position>173</position>
-      
-      
       <href>http://www.bing.com</href>
-      
-      
       <change>DOWN 1</change>
-      
-      
       <category>search engine</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Mind Tools</title>
-      
-      
       <position>174</position>
-      
-      
       <href>http://www.mindtools.com</href>
-      
-      
       <change>DOWN 23</change>
-      
-      
       <category>online course platform</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Khan Academy</title>
-      
-      
       <position>175</position>
-      
-      
       <href>http://www.khanacademy.org</href>
-      
-      
       <change>DOWN 2</change>
-      
-      
       <category>online course platform</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Arts &amp; Culture</title>
-      
-      
       <position>176</position>
-      
-      
       <href>http://www.artsandculture.google.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>web resource (virtual visits)</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>MS Learn</title>
-      
-      
       <position>177</position>
-      
-      
       <href>http://www.learn.microsoft.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>online courses</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Evolve</title>
-      
-      
       <position>178</position>
-      
-      
       <href>http://www.Adapt</href>
-      
-      
       <change>DOWN 34</change>
-      
-      
       <category>course authoring tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Gimkit</title>
-      
-      
       <position>179</position>
-      
-      
       <href>http://www.gimkit.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>live engagement tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>True</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Telegram</title>
-      
-      
       <position>180</position>
-      
-      
       <href>http://www.telegram.org</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>chat tool</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Brave</title>
-      
-      
       <position>181</position>
-      
-      
       <href>http://www.brave.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>web browser</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Pixabay</title>
-      
-      
       <position>182</position>
-      
-      
       <href>http://www.pixabay.com</href>
-      
-      
       <change>DOWN 71</change>
-      
-      
       <category>content dev tool (image library)</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Axonify</title>
-      
-      
       <position>183</position>
-      
-      
       <href>http://www.axonify.com</href>
-      
-      
       <change>DOWN 55</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Analytics</title>
-      
-      
       <position>184</position>
-      
-      
       <href>http://www.analytics.google.com/</href>
-      
-      
       <change>UP 9</change>
-      
-      
       <category>web traffic analysis</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>LearnDash</title>
-      
-      
       <position>185</position>
-      
-      
       <href>http://www.learndash.com</href>
-      
-      
       <change>UP 10</change>
-      
-      
       <category>WordPress LMS plugin</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>OpenLearn</title>
-      
-      
       <position>186</position>
-      
-      
       <href>http://www.open.edu/openlearn/</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>online courses</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Otter.ai</title>
-      
-      
       <position>187</position>
-      
-      
       <href>http://www.otter.ai</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>content dev tool (live transcription)</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Google Currents</title>
-      
-      
       <position>188</position>
-      
-      
       <href>http://www.gsuite.google.co.uk/products/currents/</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>collaboration platform</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>MasterClass</title>
-      
-      
       <position>189</position>
-      
-      
       <href>http://www.masterclass.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>online courses</category>
-      
-      
       <learning>True</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>MS Publisher</title>
-      
-      
       <position>190</position>
-      
-      
       <href>http://www.microsoft.com/microsoft-365/publisher</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>content development tool (DTP)</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Thinkific</title>
-      
-      
       <position>191</position>
-      
-      
       <href>http://www.thinkific.com</href>
-      
-      
       <change>UP 5</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>arts</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>AskDelphi</title>
-      
-      
       <position>192</position>
-      
-      
       <href>http://www.askdelphi.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Drillster</title>
-      
-      
       <position>193</position>
-      
-      
       <href>http://www.drillster.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Docebo</title>
-      
-      
       <position>194</position>
-      
-      
       <href>http://www.docebo.com</href>
-      
-      
       <change>DOWN 12</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Adapt</title>
-      
-      
       <position>195</position>
-      
-      
       <href>http://www.adaptlearning.org</href>
-      
-      
       <change>DOWN 5</change>
-      
-      
       <category>course authoring tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Bluejeans</title>
-      
-      
       <position>196</position>
-      
-      
       <href>http://www.bluejeans.com</href>
-      
-      
       <change>UP 4</change>
-      
-      
       <category>video meeting platform</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>edCast</title>
-      
-      
       <position>197</position>
-      
-      
       <href>http://www.www.edcast.com</href>
-      
-      
       <change>DOWN 18</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>AnswerGarden</title>
-      
-      
       <position>198</position>
-      
-      
       <href>http://www.answergarden.ch</href>
-      
-      
       <change>DOWN 13</change>
-      
-      
       <category>live engagement tool</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>Open edX</title>
-      
-      
       <position>199</position>
-      
-      
       <href>http://www.open.edx.org</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>learning platform/LMS</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
+      <date>04/12/2020</date>
+      <subject>general</subject>
    </tool>
-   
-   
    <tool>
-      
-      
       <title>GoBrunch</title>
-      
-      
       <position>200</position>
-      
-      
       <href>http://www.gobrunch.com</href>
-      
-      
       <change>NEW</change>
-      
-      
       <category>video meeting platform</category>
-      
-      
       <learning>False</learning>
-      
-      
       <teaching>False</teaching>
-      
-   
-   </tool>
-   
-
-   <tool>
-      <title>New Tool</title>
-      <position>201</position>
-      <href>http://www.newtool.com</href>
-      <change>NEW</change>
-      <category>web resource (book summaries)</category>
-      <learning>True</learning>
-      <teaching>False</teaching>
+      <date>04/12/2020</date>
+      <subject>engineering</subject>
    </tool>
 </tools>
