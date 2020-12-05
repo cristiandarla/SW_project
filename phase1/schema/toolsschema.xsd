@@ -30,6 +30,14 @@
                                     </xs:restriction>
                                 </xs:simpleType>
                             </xs:element>
+							<xs:element name="date">
+                                <xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="(0[1-9]|[12][0-9]|3[01])/(0[1-9]|1[012])/(19|20)\d\d"/>
+									</xs:restriction>
+								</xs:simpleType>
+                            </xs:element>
+							<xs:element name="subject" type="xs:string"></xs:element>
                         </xs:sequence>
                     </xs:complexType>
                 </xs:element>

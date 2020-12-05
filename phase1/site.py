@@ -3,6 +3,7 @@ from tools import Tool
 import xml.etree.ElementTree as ET
 from xml.dom import minidom
 from datetime import date
+import datetime
 import lxml.etree as ET2
 import os
 
@@ -31,7 +32,7 @@ def index():
         href = tool[2].text
         change = tool[3].text
         category = tool[4].text
-        date = tool[7].text
+        datet = tool[7].text
         subject = tool[8].text
         if tool[5].text == "True":
             learning = True
@@ -41,7 +42,7 @@ def index():
             teaching = True
         else:
             teaching = False
-        newTool = Tool(title, position, href, change, category, learning, teaching, date, subject)
+        newTool = Tool(title, position, href, change, category, learning, teaching, datet, subject)
         tools.append(newTool)
         if category not in categories:
             categories.append(category)
@@ -93,7 +94,7 @@ def about():
     href = root[2].text
     change = root[3].text
     category = root[4].text
-    date = root[7].text
+    datet = root[7].text
     subject = root[8].text
     if root[5].text == "True":
         learning = True
@@ -104,9 +105,126 @@ def about():
     else:
         teaching = False
     
-    newTool = Tool(title, position, href, change, category, learning, teaching, date, subject)
+    newTool = Tool(title, position, href, change, category, learning, teaching, datet, subject)
 
     return render_template('about.html', tool = newTool)
+
+@app.route('/days', methods=['GET', 'POST'])
+def days():
+    if request.method == 'POST':
+        days = request.form.get("days","")
+        todays = date.today().strftime("%d/%m/%Y")
+        todaysdate = datetime.datetime.strptime(todays, "%d/%m/%Y")
+        daysformated = datetime.timedelta(int(days))
+        difference = todaysdate - daysformated
+        
+        differencestr = difference.strftime("%d/%m/%Y")
+        differencestr = differencestr.replace("/","")
+        print(differencestr)
+        #/tools/tool[number(translate(date,'/','')) > 03122020]
+
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        tree = ET2.parse(dir_path + "\\tools.xml")
+        result = tree.xpath("/tools/tool[number(translate(date,'/','')) >= " + differencestr +"]")
+        tools = []
+        for t in result:
+            title = t[0].text
+            position = t[1].text
+            href = t[2].text
+            change = t[3].text
+            category = t[4].text
+            datet = t[7].text
+            subject = t[8].text
+            if t[5].text == "True":
+                learning = True
+            else:
+                learning = False
+            if t[6].text == "True":
+                teaching = True
+            else:
+                teaching = False
+            
+            newTool = Tool(title, position, href, change, category, learning, teaching, datet, subject)
+            tools.append(newTool)
+
+        return render_template('listby.html', tools = tools)
+
+    return render_template('days.html')
+
+@app.route('/getcategory', methods=['GET', 'POST'])
+def getcategory():
+    if request.method == 'POST':
+        categ = request.form.get("category","")
+        print(categ)
+
+        dir_path = os.path.dirname(os.path.realpath(__file__))
+        tree = ET2.parse(dir_path + "\\tools.xml")
+        result = tree.xpath('/tools/tool[category = "' + categ + '"]')
+        tools = []
+        for t in result:
+            title = t[0].text
+            position = t[1].text
+            href = t[2].text
+            change = t[3].text
+            category = t[4].text
+            datet = t[7].text
+            subject = t[8].text
+            if t[5].text == "True":
+                learning = True
+            else:
+                learning = False
+            if t[6].text == "True":
+                teaching = True
+            else:
+                teaching = False
+            
+            newTool = Tool(title, position, href, change, category, learning, teaching, datet, subject)
+            tools.append(newTool)
+
+        return render_template('listby.html', tools = tools)
+
+
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    tree = ET.parse(dir_path + "\\tools.xml")
+    root = tree.getroot()
+
+    categories = []
+    for tool in root.findall('./tool'):
+        category = tool[4].text
+        if category not in categories:
+            categories.append(category)
+    sorted_categories = sorted(categories, key=str.casefold)
+
+    return render_template("catform.html", categories = sorted_categories)
+
+@app.route('/engineering', methods=['GET', 'POST'])
+def engineering():
+    dir_path = os.path.dirname(os.path.realpath(__file__))
+    tree = ET2.parse(dir_path + "\\tools.xml")
+    sub = "engineering"
+    result = tree.xpath('/tools/tool[subject = "' + sub + '"]')
+    tools = []
+    for t in result:
+        title = t[0].text
+        position = t[1].text
+        href = t[2].text
+        change = t[3].text
+        category = t[4].text
+        datet = t[7].text
+        subject = t[8].text
+        if t[5].text == "True":
+            learning = True
+        else:
+            learning = False
+        if t[6].text == "True":
+            teaching = True
+        else:
+            teaching = False
+        
+        newTool = Tool(title, position, href, change, category, learning, teaching, datet, subject)
+        tools.append(newTool)
+
+    return render_template('listby.html', tools = tools)
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
