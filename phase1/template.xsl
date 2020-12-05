@@ -4,7 +4,7 @@
     exclude-result-prefixes="xs"
     version="2.0">
     <xsl:template match="/">
-    <table class="table">
+    <table class="table table-sm">
         <thead>
             <tr>
                 <th scope="col">Position</th>
@@ -15,9 +15,9 @@
         <tbody>
         <xsl:for-each select="tools/tool">
             <tr>
-                <th scope="row"><xsl:value-of select="title"/></th>
-                <th><xsl:value-of select="position"/></th>
-                <th><a href="<xsl:value-of select='href'/>"><xsl:value-of select="href"/></a></th>
+                <th scope="row"><xsl:value-of select="position"/></th>
+                <th><xsl:value-of select="title"/></th>
+                <th>Button</th>
             </tr>
         </xsl:for-each>
         </tbody>
