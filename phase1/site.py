@@ -249,7 +249,7 @@ def addTool(root, request, position, dir_path):
     child_teaching = ET.SubElement(child, 'teaching')
     child_teaching.text = str(not request.form.get('teaching') == None )
     child_date = ET.SubElement(child, 'date')
-    child_date.text = date.today().strftime("%d/%m/%Y")
+    child_date.text = date.today().strftime("%Y/%m/%d")
     child_subject = ET.SubElement(child, 'subject')
     child_subject.text = request.form.get('subject')
     root.insert(position - 1, child)
