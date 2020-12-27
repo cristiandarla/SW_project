@@ -8,9 +8,9 @@ import lxml.etree as ET2
 import os
 import ontospy
 from ontospy.ontodocs.viz.viz_d3tree import *
-import shutil
+from flask import send_from_directory
 
-app = Flask(__name__)
+app = Flask(__name__, static_folder="templates/graph/static")
 categories = []
 
 @app.route('/home')
@@ -238,12 +238,17 @@ def visualize():
         g = ontospy.Ontospy(os.path.abspath(f.filename))
 
         v = Dataviz(g)
-        v.build(output_path=os.path.dirname(os.path.abspath(f.filename)) + "\ha")
-        v.preview()      
+        v.build(output_path=os.path.dirname(os.path.abspath(f.filename)) + "\\templates\graph")
+        #v.preview()      
 
         os.remove(f.filename)
 
+        return render_template("/graph/index.html")
+
+
     return render_template('seerdf.html')
+
+
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
