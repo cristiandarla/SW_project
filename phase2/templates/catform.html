@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{%block content%}
+<div class="d-flex justify-content-center my-3 align-items-center">
+    <div class="card w-50 p-3">
+        <h3 class="text-center text-uppercase">Filter The Tools</h3>
+        <form method="POST" action="{{ url_for('getcategory') }}">
+            <div class="form-group">
+                <label for="categories">Category</label>
+                <select class="form-control" id="categories" name="category">
+                    {%for category in categories%}
+                    <option value="{{ category }}">{{ category }}</option>
+                    {%endfor%}
+                </select>
+            </div>
+            <div class="row">
+                <div class="col-4 offset-4">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{%endblock%}

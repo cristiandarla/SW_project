@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{%block content%}
+{% if tools %}
+{%for tool in tools%}
+    {%if loop.index % 3 == 1%}
+    <div class="row my-2 px-3">
+    {%endif%}
+    <div class="col-4">
+        <div class="card">
+            <div class="card-header">
+                <h4 class="text-uppercase text-center"><a href={{tool.href}} target="_blank">{{tool.title}}</a></h4>
+            </div>
+            <form method="POST" action="{{ url_for('about') }}">
+            <div class="card-body">
+                <p class="card-text"><strong>Position: </strong>{{tool.position}}</p>
+                <p class="card-text"><strong>Address: </strong><a href={{tool.href}} target="_blank">{{tool.href}}</a></p>
+                <p class="card-text"><strong>Change: </strong>{{tool.change}}</p>
+                <p class="card-text"><strong>Category: </strong>{{tool.category}}</p>
+                <input type="hidden" name="title" value="{{tool.title}}">
+                <input type="submit" value="Read more">
+            </div>
+            </form>
+        </div>
+    </div>
+    {%if loop.index % 3 == 0%}
+    </div>
+    {%endif%}
+{%endfor%}
+{% else %}
+<h2>No tools found for your query.</h2>
+{% endif %}
+{%endblock%}

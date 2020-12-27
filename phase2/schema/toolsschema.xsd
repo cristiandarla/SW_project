@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+    xmlns:vc="http://www.w3.org/2007/XMLSchema-versioning" elementFormDefault="qualified"
+    vc:minVersion="1.0" vc:maxVersion="1.1">
+    
+    <xs:element name="tools">
+        <xs:complexType>
+            <xs:sequence>
+                <xs:element name="tool" minOccurs="1" maxOccurs="unbounded">
+                    <xs:complexType>
+                        <xs:sequence>
+                            <xs:element name="title" type="xs:string"></xs:element>
+                            <xs:element name="position" type="xs:integer"></xs:element>
+                            <xs:element name="href" type="xs:string"></xs:element>
+                            <xs:element name="change" type="xs:string"></xs:element>
+                            <xs:element name="category" type="xs:string"></xs:element>
+                            <xs:element name="learning">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="True"/>
+                                        <xs:enumeration value="False"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+                            <xs:element name="teaching">
+                                <xs:simpleType>
+                                    <xs:restriction base="xs:string">
+                                        <xs:enumeration value="True"/>
+                                        <xs:enumeration value="False"/>
+                                    </xs:restriction>
+                                </xs:simpleType>
+                            </xs:element>
+							<xs:element name="date">
+                                <xs:simpleType>
+									<xs:restriction base="xs:string">
+										<xs:pattern value="\d{4}[/]\d{2}[/]\d{2}"></xs:pattern>
+										<xs:length value="10"/>
+									</xs:restriction>
+								</xs:simpleType>
+                            </xs:element>
+							<xs:element name="subject" type="xs:string"></xs:element>
+                        </xs:sequence>
+                    </xs:complexType>
+                </xs:element>
+            </xs:sequence>
+        </xs:complexType>
+    </xs:element>
+    
+    
+</xs:schema>

@@ -1,0 +1,49 @@
+{% extends "base.html" %}
+{%block content%}
+<div class="d-flex justify-content-center my-3 align-items-center">
+    <div class="card w-50 p-3">
+        <h3 class="text-center text-uppercase">new learning tool form</h3>
+        <form method="POST" action="{{ url_for('new') }}">
+            <div class="form-group">
+                <label for="titleInput">Title</label>
+                <input type="text" name="title" class="form-control" id="titleInput" required>
+            </div>
+            <div class="form-group">
+                <label for="webInput">Web Address</label>
+                <input type="text" name="webAddress" class="form-control" id="webInput" aria-describedby="webAddressHelp" required>
+                <small id="webAddressHelp" class="form-text text-muted">The web should be of form www.(site).(domain)</small>
+            </div>
+            <div class="form-group">
+                <label for="categories">Category</label>
+                <select class="form-control" id="categories" name="category">
+                    {%for category in categories%}
+                    <option value="{{ category }}">{{ category }}</option>
+                    {%endfor%}
+                </select>
+            </div>
+            <label>Subject</label><br>
+            {%for option in options%}
+                <div class="form-check form-check-inline">
+                    <input class="form-check-input" type="radio" name="subject" id="inlineRadio1" value="{{option}}" required>
+                    <label class="form-check-label" for="inlineRadio1">{{option}}</label>
+                </div>
+            {%endfor%}<br><br>
+            <div class="form-group">
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="learningTool" name="learning">
+                    <label class="custom-control-label" for="learningTool">Learning tool</label>
+                </div>
+                <div class="custom-control custom-checkbox">
+                    <input type="checkbox" class="custom-control-input" id="teachingTool" name="teaching">
+                    <label class="custom-control-label" for="teachingTool">Teaching tool</label>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-4 offset-4">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">Submit</button>
+                </div>
+            </div>
+        </form>
+    </div>
+</div>
+{%endblock%}

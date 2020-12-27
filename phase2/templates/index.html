@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{%block content%}
+<table class="table table-bordered table-sm">
+    <thead class="thead-dark">
+        <tr>
+            <th scope="col">Position</th>
+            <th scope="col">Title</th>
+            <th scope="col">Button</th>
+        </tr>
+    </thead>
+    <tbody>
+    {%for tool in tools%}
+        {%if tool.learning and tool.teaching%}
+        <tr class="bg-primary">
+        {%elif tool.learning%}
+        <tr class="bg-success">
+        {%elif tool.teaching%}
+        <tr class="bg-warning">
+        {%else%}
+        <tr>
+        {%endif%}
+            <th scope="row">{{tool.position}}</th>
+            <th>{{tool.title}}</th>
+            <th><form method="POST" action="{{ url_for('about') }}">
+                    <input type="hidden" name="title" value="{{tool.title}}">
+                    <input type="submit" value="Read more">
+                </form></th>
+        </tr>
+    {%endfor%}
+    </tbody>
+</table>   
+{%endblock%}

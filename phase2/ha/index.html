@@ -1,0 +1,2591 @@
+
+
+
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+
+<title></title>
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+
+
+
+
+<style type="text/css" media="screen">
+
+
+
+	body {
+	    margin-left: 6em;
+	    margin-right: 12em;
+	    font-size: 14px;
+	    font-family: "Helvetica Neue", Helvetica;
+	}
+
+	h1, h2, h3, h4, h5, h6 { text-align: left }
+
+	h1, h2, h3, h4, h5 { color: #000000;}
+	h2 { font: 140% sans-serif }
+	h3 { font: 120% sans-serif }
+	h4 { font: bold 100% sans-serif }
+	h5 { font: italic 100% sans-serif }
+	h6 { font: small-caps 100% sans-serif }
+
+	.margintop {
+		 margin-top: 40px;
+	}
+
+
+
+	/* rect {
+	   fill: none;
+	   pointer-events: all;
+	 }*/
+
+	 rect {
+	   fill:black;
+	   stroke:none;
+	 }
+
+	 line {
+	   stroke: #000;
+	   stroke-width: 1.5px;
+	 }
+
+	 .string, .regexp {
+	   color: #f39;
+	 }
+
+
+	 a:link, a:visited {
+	   color: #666;
+	   text-decoration: none;
+	 }
+
+	 a:hover {
+	   color: #000
+	 }
+
+
+	/*extra css*/
+
+	.node circle {
+	  cursor: pointer;
+	  fill: #fff;
+	  stroke: steelblue;
+	  stroke-width: 1.5px;
+	}
+
+	.node text {
+	  font-size: 11px;
+	}
+
+	path.link {
+	  fill: none;
+	  stroke: #ccc;
+	  stroke-width: 1.5px;
+	}
+
+
+	.infoentity {
+	    stroke: white;
+	    stroke-width: 2.5px;
+	    opacity: 0.7;
+		background: linen;
+		line-height: 0.7em;
+	}
+
+
+	.smalldesc {
+		font-size: 20px;
+		margin-top: 0px;
+		color: black;
+	}
+
+
+	.hidden {
+		display: none;
+	}
+
+	kbd {
+		padding: 2px 4px;
+	    font-size: 90%;
+	    color: #fff;
+	    background-color: #333;
+	    border-radius: 3px;
+	    box-shadow: inset 0 -1px 0 rgba(0,0,0,.25);border-image-outset:
+	}
+
+	/*slider*/
+
+	.side-panel{
+		background-color: #E6E6E6;
+		padding: 10px;
+		/*word-wrap: break-word;*/
+	    overflow: auto;
+	}
+
+	.side-panel-left{
+		box-shadow: -5px 0 15px -6px #585858 inset;
+	}
+
+	.side-panel-right{
+		box-shadow: 5px 0 15px -6px #585858 inset;
+	}
+
+	a.class {
+		color: darkred;
+	}
+	a.prop {
+		color: darkblue;
+	}
+
+	.turtlesource {
+		font-size: 12px;
+	}
+
+	dt {
+		color: darkslategrey;
+	}
+
+	.text-muted {
+		color: grey;
+	}
+
+	hr {
+		margin-top: 20px;
+	    margin-bottom: 20px;
+	}
+
+    .credits {
+        color: gray;
+    }
+
+    a.greylink {
+        color: #666;
+        text-decoration: underline;
+    }
+
+    .section-title {
+
+        font-size: smaller;
+    }
+
+</style>
+
+
+</head>
+
+
+<body>
+
+	
+
+	
+
+	<h1 class="title">Ontology:&nbsp;<a href="javascript:showpanel('ontoinfo');">http://cohere.open.ac.uk/ontology/cohere.owl</a></h1>
+
+	<p>
+    <small class="credits">Ontology documentation automatically generated with <a class="greylink" href="http://lambdamusic.github.io/Ontospy/" target="_blank">Ontospy</a> on 27th December 2020 15:21 </small>
+  </p>
+
+	<hr>
+
+
+	
+		<div class="row">
+			<h3>Classes (14)</h3>
+			<div class="col-md-12" id="graph_classes">
+
+
+			</div>
+
+
+		</div>
+	
+
+	
+		<div class="row">
+			<h3>Properties (22)</h3>
+			<div class="col-md-12" id="graph_properties">
+
+
+			</div>
+
+
+		</div>
+	
+
+
+	
+
+
+
+
+	<hr>
+    <small class="credits">Ontology documentation automatically generated with <a class="greylink" href="http://lambdamusic.github.io/Ontospy/" target="_blank">Ontospy</a> on 27th December 2020 15:21 </small>
+
+
+
+
+	
+
+	
+
+
+
+<div class="hidden" id="ontoinfo">
+	<h2>Ontology: <a href="" target="_blank" class="class"  title="Try to open original URI"></a></h2>
+
+	<hr class="margintop">
+
+	
+		<em>No annotations available</em>
+	
+
+
+	
+
+</div>
+
+
+
+
+
+	
+<div class="hidden" id="2">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#abstract_idea" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:abstract_idea</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Abstract_idea</p>
+    
+    
+        <p><b class="section-title">Description: </b>Ideas can exist independently or in connection to other ideas, and are what we use to make connections. Notice that &#x27;abstract_idea&#x27; here can also include composite ideas, i.e. sets of connections or one single connection used as a node in an argument. By doing so we can support, for example, Dung&#x27;s abstract argumentation framework.</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+
+	
+		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a> | <a href="javascript:showpanel('12');" class="class">cohere.owl:node</a> | <a href="javascript:showpanel('14');" class="class">cohere.owl:set</a>  </p>
+	
+	
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('31');"  class="prop">cohere.owl:has_image</a> | <a href="javascript:showpanel('34');"  class="prop">cohere.owl:has_thumbnail_image</a> | <a href="javascript:showpanel('36');"  class="prop">cohere.owl:has_website</a>  </p>
+	
+	
+	
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('23');" class="prop">cohere.owl:has_from_node</a> | <a href="javascript:showpanel('26');" class="prop">cohere.owl:has_to_node</a> | <a href="javascript:showpanel('37');" class="prop">cohere.owl:includes_idea</a>  </p>
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:abstract_idea a owl:Class ;
+    rdfs:comment &quot;Ideas can exist independently or in connection to other ideas, and are what we use to make connections. Notice that &#x27;abstract_idea&#x27; here can also include composite ideas, i.e. sets of connections or one single connection used as a node in an argument. By doing so we can support, for example, Dung&#x27;s abstract argumentation framework.&quot;^^xsd:string ;
+    rdfs:subClassOf :abstract_object ;
+    owl:disjointWith :connection_label,
+        :role .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="3">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#abstract_object" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:abstract_object</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Abstract_object</p>
+    
+    
+        <p><b class="section-title">Description: </b>Non-material entities we create and discuss about in Cohere</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+	
+	
+
+	
+		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a> | <a href="javascript:showpanel('7');" class="class">cohere.owl:connection_label</a> | <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Sub Class (all):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a> | <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a> | <a href="javascript:showpanel('12');" class="class">cohere.owl:node</a> | <a href="javascript:showpanel('14');" class="class">cohere.owl:set</a> | <a href="javascript:showpanel('7');" class="class">cohere.owl:connection_label</a> | <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a> | <a href="javascript:showpanel('8');" class="class">cohere.owl:connection_label_role</a> | <a href="javascript:showpanel('9');" class="class">cohere.owl:connection_node_role</a>  </p>
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('16');"  class="prop">cohere.owl:has_creation_date</a> | <a href="javascript:showpanel('19');"  class="prop">cohere.owl:has_modification_date</a> | <a href="javascript:showpanel('22');"  class="prop">cohere.owl:has_creator</a>  </p>
+	
+	
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:abstract_object a owl:Class ;
+    rdfs:comment &quot;Non-material entities we create and discuss about in Cohere&quot;^^xsd:string ;
+    rdfs:subClassOf :cohere_thing ;
+    owl:disjointWith :cohere_user,
+        :document .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="4">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#cohere_thing" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:cohere_thing</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Cohere_thing</p>
+    
+    
+        <p><b class="section-title">Description: </b>Metaclass to group all the entities in the Cohere world. We decided to include it in the ontology for being able to specify some properties at this &#x27;meta&#x27; level (i.e. properties that apply to all Cohere entities: has_description and has_name).</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+	
+	
+
+	
+		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a> | <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Sub Class (all):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a> | <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a> | <a href="javascript:showpanel('12');" class="class">cohere.owl:node</a> | <a href="javascript:showpanel('14');" class="class">cohere.owl:set</a> | <a href="javascript:showpanel('7');" class="class">cohere.owl:connection_label</a> | <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a> | <a href="javascript:showpanel('8');" class="class">cohere.owl:connection_label_role</a> | <a href="javascript:showpanel('9');" class="class">cohere.owl:connection_node_role</a> | <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a> | <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a> | <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a> | <a href="javascript:showpanel('15');" class="class">cohere.owl:website</a>  </p>
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('17');"  class="prop">cohere.owl:has_description</a> | <a href="javascript:showpanel('20');"  class="prop">cohere.owl:has_name</a>  </p>
+	
+	
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:cohere_thing a owl:Class ;
+    rdfs:comment &quot;Metaclass to group all the entities in the Cohere world. We decided to include it in the ontology for being able to specify some properties at this &#x27;meta&#x27; level (i.e. properties that apply to all Cohere entities: has_description and has_name).&quot;^^xsd:string .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="5">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#cohere_user" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:cohere_user</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Cohere_user</p>
+    
+    
+        <p><b class="section-title">Description: </b>A person. In the future, we can describe also other kinds of agents, such as groups or organizations. Maps to FOAF:PERSON</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+	
+	
+
+	
+	
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('18');"  class="prop">cohere.owl:has_email_address</a> | <a href="javascript:showpanel('28');"  class="prop">cohere.owl:has_depiction</a> | <a href="javascript:showpanel('30');"  class="prop">cohere.owl:has_homepage</a> | <a href="javascript:showpanel('33');"  class="prop">cohere.owl:has_thumbnail</a>  </p>
+	
+	
+	
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('22');" class="prop">cohere.owl:has_creator</a>  </p>
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:cohere_user a owl:Class ;
+    rdfs:comment &quot;A person. In the future, we can describe also other kinds of agents, such as groups or organizations. Maps to FOAF:PERSON&quot;^^xsd:string ;
+    rdfs:subClassOf :cohere_thing ;
+    owl:disjointWith :abstract_object,
+        :document .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="6">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#connection" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:connection</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Connection</p>
+    
+    
+        <p><b class="section-title">Description: </b>A connection of two abstract_ideas through a relation. Since a connection is itself an abstract_ideas, the connection can also link two connections, or one connection with a node (= a simple idea) . in other words, a connection can be used as a node in a new connection. At the moment, we only provide support for representing binary connections only (two nodes only). Moreover, when a connection is instantiated, it is also possible to define the node_types of the two ideas which are connected. The node_types are also called the &#x27;roles&#x27; or &#x27;contexts&#x27; of the ideas.</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a> | <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+
+	
+	
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('23');"  class="prop">cohere.owl:has_from_node</a> | <a href="javascript:showpanel('24');"  class="prop">cohere.owl:has_label</a> | <a href="javascript:showpanel('26');"  class="prop">cohere.owl:has_to_node</a> | <a href="javascript:showpanel('29');"  class="prop">cohere.owl:has_from_node_role</a> | <a href="javascript:showpanel('35');"  class="prop">cohere.owl:has_to_node_role</a>  </p>
+	
+	
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:connection a owl:Class ;
+    rdfs:comment &quot;A connection of two abstract_ideas through a relation. Since a connection is itself an abstract_ideas, the connection can also link two connections, or one connection with a node (= a simple idea) . in other words, a connection can be used as a node in a new connection. At the moment, we only provide support for representing binary connections only (two nodes only). Moreover, when a connection is instantiated, it is also possible to define the node_types of the two ideas which are connected. The node_types are also called the &#x27;roles&#x27; or &#x27;contexts&#x27; of the ideas.&quot;^^xsd:string ;
+    rdfs:subClassOf :abstract_idea .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="7">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#connection_label" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:connection_label</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Connection_label</p>
+    
+    
+        <p><b class="section-title">Description: </b>The link that connects two nodes in a connection object. Notice that links or labels can be classified by means of &#x27;roles&#x27; of labels (see Connection_label_role class). For example, a label could be &#x27;supports&#x27; and its role could be a &#x27;positive_label_role&#x27;.</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+
+	
+	
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('25');"  class="prop">cohere.owl:has_label_role</a>  </p>
+	
+	
+	
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('24');" class="prop">cohere.owl:has_label</a>  </p>
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:connection_label a owl:Class ;
+    rdfs:comment &quot;The link that connects two nodes in a connection object. Notice that links or labels can be classified by means of &#x27;roles&#x27; of labels (see Connection_label_role class). For example, a label could be &#x27;supports&#x27; and its role could be a &#x27;positive_label_role&#x27;.&quot;^^xsd:string ;
+    rdfs:subClassOf :abstract_object ;
+    owl:disjointWith :abstract_idea,
+        :role .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="8">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#connection_label_role" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:connection_label_role</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Connection_label_role</p>
+    
+    
+        <p><b class="section-title">Description: </b>The roles (or types) used for organizing the labels between ideas: e.g. supports, contrasts, is-example-of etc... It is important to remember that its subclasses must be disjoint - this is one of the reasons why we decided to use OWL, as RDFS would not let us specify this feature.</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a> | <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+
+	
+	
+	
+
+	
+	
+	
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('25');" class="prop">cohere.owl:has_label_role</a>  </p>
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:connection_label_role a owl:Class ;
+    rdfs:comment &quot;The roles (or types) used for organizing the labels between ideas: e.g. supports, contrasts, is-example-of etc... It is important to remember that its subclasses must be disjoint - this is one of the reasons why we decided to use OWL, as RDFS would not let us specify this feature.&quot;^^xsd:string ;
+    rdfs:subClassOf :role .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="9">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#connection_node_role" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:connection_node_role</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Connection_node_role</p>
+    
+    
+        <p><b class="section-title">Description: </b>It is the contextual information associated with the idea in a connection: we can also refer to it as the &#x27;role&#x27; of the idea in that connection. For example, it can be an &#x27;answer&#x27;, a &#x27;conclusion&#x27;, an &#x27;idea&#x27;, an &#x27;experiment&#x27; etc. Cohere suggests some predefined roles, but users can also create new roles for their ideas.</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a> | <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+
+	
+	
+	
+
+	
+	
+	
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('29');" class="prop">cohere.owl:has_from_node_role</a> | <a href="javascript:showpanel('35');" class="prop">cohere.owl:has_to_node_role</a>  </p>
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:connection_node_role a owl:Class ;
+    rdfs:comment &quot;It is the contextual information associated with the idea in a connection: we can also refer to it as the &#x27;role&#x27; of the idea in that connection. For example, it can be an &#x27;answer&#x27;, a &#x27;conclusion&#x27;, an &#x27;idea&#x27;, an &#x27;experiment&#x27; etc. Cohere suggests some predefined roles, but users can also create new roles for their ideas.&quot;^^xsd:string ;
+    rdfs:subClassOf :role .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="10">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#document" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:document</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Document</p>
+    
+    
+        <p><b class="section-title">Description: </b>We do not (currently) distinguish precisely between physical and electronic documents, or between copies of a work and the abstraction those copies embody. The has_url property is defined at this level, even if it would apply to web-documents only. The hierarchy can be refined in the future. This class maps to FOAF:DOCUMENT</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+	
+	
+
+	
+		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a> | <a href="javascript:showpanel('15');" class="class">cohere.owl:website</a>  </p>
+	
+	
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('21');"  class="prop">cohere.owl:has_url</a>  </p>
+	
+	
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:document a owl:Class ;
+    rdfs:comment &quot;We do not (currently) distinguish precisely between physical and electronic documents, or between copies of a work and the abstraction those copies embody. The has_url property is defined at this level, even if it would apply to web-documents only. The hierarchy can be refined in the future. This class maps to FOAF:DOCUMENT&quot;^^xsd:string ;
+    rdfs:subClassOf :cohere_thing ;
+    owl:disjointWith :abstract_object,
+        :cohere_user .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="11">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#image" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:image</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Image</p>
+    
+    
+        <p><b class="section-title">Description: </b>An image we can associate to an idea, or to a person</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+
+	
+	
+	
+
+	
+	
+	
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('28');" class="prop">cohere.owl:has_depiction</a> | <a href="javascript:showpanel('31');" class="prop">cohere.owl:has_image</a> | <a href="javascript:showpanel('32');" class="prop">cohere.owl:has_screenshot</a> | <a href="javascript:showpanel('33');" class="prop">cohere.owl:has_thumbnail</a> | <a href="javascript:showpanel('34');" class="prop">cohere.owl:has_thumbnail_image</a>  </p>
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:image a owl:Class ;
+    rdfs:comment &quot;An image we can associate to an idea, or to a person&quot;^^xsd:string ;
+    rdfs:subClassOf :document .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="12">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#node" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:node</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Node</p>
+    
+    
+        <p><b class="section-title">Description: </b>Instances of nodes (previously called also &#x27;simple&#x27; ideas) are the nodes of a connection without the &#x27;context&#x27; information. Basically, they are the isolated bubbles we can see in Cohere.</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a> | <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+
+	
+	
+	
+
+	
+	
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:node a owl:Class ;
+    rdfs:comment &quot;Instances of nodes (previously called also &#x27;simple&#x27; ideas) are the nodes of a connection without the &#x27;context&#x27; information. Basically, they are the isolated bubbles we can see in Cohere.&quot;^^xsd:string ;
+    rdfs:subClassOf :abstract_idea .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="13">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#role" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:role</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Role</p>
+    
+    
+        <p><b class="section-title">Description: </b>Abstract class grouping things representing the role of nodes within a connection and the roles of label connecting ideas in. (it was previously named &#x27;type&#x27;)</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+
+	
+		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('8');" class="class">cohere.owl:connection_label_role</a> | <a href="javascript:showpanel('9');" class="class">cohere.owl:connection_node_role</a>  </p>
+	
+	
+	
+
+	
+	
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:role a owl:Class ;
+    rdfs:comment &quot;Abstract class grouping things representing the role of nodes within a connection and the roles of label connecting ideas in. (it was previously named &#x27;type&#x27;)&quot;^^xsd:string ;
+    rdfs:subClassOf :abstract_object ;
+    owl:disjointWith :abstract_idea,
+        :connection_label .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="14">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#set" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:set</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Set</p>
+    
+    
+        <p><b class="section-title">Description: </b>This class serves as the basic mean to create abstractions within Cohere. By creating a set it is possible to have any arbitrary aggregation of connections, nodes or sets themselves into a new abstract_idea. In other words, the resulting set is itself an idea that can be connected into a new argument.</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a> | <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+
+	
+	
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('37');"  class="prop">cohere.owl:includes_idea</a>  </p>
+	
+	
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:set a owl:Class ;
+    rdfs:comment &quot;This class serves as the basic mean to create abstractions within Cohere. By creating a set it is possible to have any arbitrary aggregation of connections, nodes or sets themselves into a new abstract_idea. In other words, the resulting set is itself an idea that can be connected into a new argument.&quot;^^xsd:string ;
+    rdfs:subClassOf :abstract_idea .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="15">
+
+	
+	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#website" class="class" target="_blank"
+                                          title="Try to open original URI">cohere.owl:website</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Website</p>
+    
+    
+        <p><b class="section-title">Description: </b>Self explanatory</p>
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+
+	
+	
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('32');"  class="prop">cohere.owl:has_screenshot</a>  </p>
+	
+	
+	
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('30');" class="prop">cohere.owl:has_homepage</a> | <a href="javascript:showpanel('36');" class="prop">cohere.owl:has_website</a>  </p>
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:website a owl:Class ;
+    rdfs:comment &quot;Self explanatory&quot;^^xsd:string ;
+    rdfs:subClassOf :document .
+
+</pre>
+
+</div>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hidden" id="16">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_creation_date" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_creation_date</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_creation_date</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('38');" class="class">xsd:dateTime</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:has_creation_date a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :abstract_object ;
+    rdfs:range xsd:dateTime .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="22">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_creator" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_creator</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_creator</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_creator a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :abstract_object ;
+    rdfs:range :cohere_user .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="28">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_depiction" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_depiction</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_depiction</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_depiction a owl:ObjectProperty ;
+    rdfs:domain :cohere_user ;
+    rdfs:range :image .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="17">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_description" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_description</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_description</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('39');" class="class">xsd:string</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:has_description a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :cohere_thing ;
+    rdfs:range xsd:string .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="18">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_email_address" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_email_address</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_email_address</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('40');" class="class">xsd:string</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:has_email_address a owl:DatatypeProperty ;
+    rdfs:domain :cohere_user ;
+    rdfs:range xsd:string .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="23">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_from_node" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_from_node</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_from_node</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_from_node a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :connection ;
+    rdfs:range :abstract_idea .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="29">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_from_node_role" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_from_node_role</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_from_node_role</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('9');" class="class">cohere.owl:connection_node_role</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_from_node_role a owl:ObjectProperty ;
+    rdfs:domain :connection ;
+    rdfs:range :connection_node_role .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="30">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_homepage" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_homepage</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_homepage</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('15');" class="class">cohere.owl:website</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_homepage a owl:ObjectProperty ;
+    rdfs:domain :cohere_user ;
+    rdfs:range :website .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="31">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_image" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_image</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_image</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_image a owl:ObjectProperty ;
+    rdfs:domain :abstract_idea ;
+    rdfs:range :image .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="24">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_label" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_label</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_label</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('7');" class="class">cohere.owl:connection_label</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_label a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :connection ;
+    rdfs:range :connection_label .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="25">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_label_role" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_label_role</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_label_role</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('7');" class="class">cohere.owl:connection_label</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('8');" class="class">cohere.owl:connection_label_role</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_label_role a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :connection_label ;
+    rdfs:range :connection_label_role .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="19">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_modification_date" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_modification_date</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_modification_date</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('41');" class="class">xsd:dateTime</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:has_modification_date a owl:DatatypeProperty ;
+    rdfs:domain :abstract_object ;
+    rdfs:range xsd:dateTime .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="20">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_name" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_name</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_name</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('42');" class="class">xsd:string</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:has_name a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :cohere_thing ;
+    rdfs:range xsd:string .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="32">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_screenshot" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_screenshot</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_screenshot</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('15');" class="class">cohere.owl:website</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_screenshot a owl:ObjectProperty ;
+    rdfs:domain :website ;
+    rdfs:range :image .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="33">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_thumbnail" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_thumbnail</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_thumbnail</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_thumbnail a owl:ObjectProperty ;
+    rdfs:domain :cohere_user ;
+    rdfs:range :image .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="34">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_thumbnail_image" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_thumbnail_image</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_thumbnail_image</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_thumbnail_image a owl:ObjectProperty ;
+    rdfs:domain :abstract_idea ;
+    rdfs:range :image .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="26">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_to_node" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_to_node</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_to_node</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_to_node a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:domain :connection ;
+    rdfs:range :abstract_idea .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="35">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_to_node_role" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_to_node_role</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_to_node_role</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('9');" class="class">cohere.owl:connection_node_role</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_to_node_role a owl:ObjectProperty ;
+    rdfs:domain :connection ;
+    rdfs:range :connection_node_role .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="21">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_url" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_url</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_url</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('43');" class="class">xsd:string</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:has_url a owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:domain :document ;
+    rdfs:range xsd:string .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="36">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_website" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:has_website</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Has_website</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('15');" class="class">cohere.owl:website</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:has_website a owl:ObjectProperty ;
+    rdfs:domain :abstract_idea ;
+    rdfs:range :website .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="37">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#includes_idea" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:includes_idea</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Includes_idea</p>
+    
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">cohere.owl:set</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+:includes_idea a owl:ObjectProperty ;
+    rdfs:domain :set ;
+    rdfs:range :abstract_idea .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="27">
+	
+	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#uses_aif_scheme_type" class="prop"  target="_blank"
+                                          title="Try to open original URI">cohere.owl:uses_aif_scheme_type</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Uses_aif_scheme_type</p>
+    
+    
+        <p><b class="section-title">Description: </b>This property is specified at this level only for documentation purposes: in a more precise implementation, there would be specific properties for each subclass of AIF-scheme_node, linking them respectively and exclusively to one AIF-scheme_type</p>
+    
+
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+
+:uses_aif_scheme_type a owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:comment &quot;This property is specified at this level only for documentation purposes: in a more precise implementation, there would be specific properties for each subclass of AIF-scheme_node, linking them respectively and exclusively to one AIF-scheme_type&quot;^^xsd:string .
+
+</pre>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	<div id='slider' class="side-panel side-panel-left">
+		<span class="text-muted">Press <kbd>ESC</kbd> to close</span>
+		<div id="slide_contents"></div>
+	</div>
+
+	
+
+
+
+
+
+
+
+
+
+	
+
+	
+
+		<script type="text/javascript" src="static/libs/d3-v2/d3.v2.min.js"></script>
+	    <script type="text/javascript" src="static/libs/d3-v2/d3.layout.tree.js"></script>
+
+	    <script type="text/javascript" src="static/libs/jquery/jquery-1.7.1.min.js"></script>
+	    <script type="text/javascript" src="static/libs/jquery/jquery.slidereveal.min.js"></script>
+
+
+	
+
+
+
+
+    <script type="text/javascript">
+
+		var slider = $("#slider").slideReveal({
+			  trigger: $("#trigger"),
+			  push: false,
+			  overlay: true,
+			  width: '50%',
+			  speed: 700 ,
+			});
+
+		function showpanel(argument) {
+			console.log("#"+argument);
+			if (argument != "None") {
+				$("#slide_contents").empty();
+				$("#slide_contents").html($("#"+argument).html());
+				slider.slideReveal("show");
+			}
+		}
+
+
+
+
+
+    </script>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript">
+
+//
+// CLASSES
+//
+
+
+
+	var json1 = {"children": [{"qname": "cohere.owl:cohere_thing", "name": "cohere thing", "objid": 4, "size": 8, "realsize": 3, "children": [{"qname": "cohere.owl:abstract_object", "name": "abstract object", "objid": 3, "size": 8, "realsize": 3, "children": [{"qname": "cohere.owl:abstract_idea", "name": "abstract idea", "objid": 2, "size": 8, "realsize": 3, "children": [{"qname": "cohere.owl:connection", "name": "connection", "objid": 6, "size": 1, "realsize": 0}, {"qname": "cohere.owl:node", "name": "node", "objid": 12, "size": 1, "realsize": 0}, {"qname": "cohere.owl:set", "name": "set", "objid": 14, "size": 1, "realsize": 0}]}, {"qname": "cohere.owl:connection_label", "name": "connection label", "objid": 7, "size": 1, "realsize": 0}, {"qname": "cohere.owl:role", "name": "role", "objid": 13, "size": 7, "realsize": 2, "children": [{"qname": "cohere.owl:connection_label_role", "name": "connection label role", "objid": 8, "size": 1, "realsize": 0}, {"qname": "cohere.owl:connection_node_role", "name": "connection node role", "objid": 9, "size": 1, "realsize": 0}]}]}, {"qname": "cohere.owl:cohere_user", "name": "cohere user", "objid": 5, "size": 1, "realsize": 0}, {"qname": "cohere.owl:document", "name": "document", "objid": 10, "size": 7, "realsize": 2, "children": [{"qname": "cohere.owl:image", "name": "image", "objid": 11, "size": 1, "realsize": 0}, {"qname": "cohere.owl:website", "name": "website", "objid": 15, "size": 1, "realsize": 0}]}]}], "name": "owl:Thing", "id": "None"};
+
+	
+	var variable_height1 = 800;
+	
+
+	var m = [20, 120, 100, 120],
+	    w = 2600 - m[1] - m[3],
+	    h = variable_height1 - m[0] - m[2],
+	    i = 0,
+	    root_classes;
+
+	var tree1 = d3.layout.tree()
+	    .size([h, w]);
+
+	var diagonal1 = d3.svg.diagonal()
+	    .projection(function(d) { return [d.y, d.x]; });
+
+	var vis1 = d3.select("#graph_classes").append("svg:svg")
+	    .attr("width", w + m[1] + m[3])
+	    .attr("height", h + m[0] + m[2])
+	  	.append("svg:g")
+	    .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
+
+	// d3.json(JSON_FILE, function(json) {
+	root_classes = json1;
+	root_classes.x0 = h / 2;
+	root_classes.y0 = 0;
+
+
+	
+
+
+	update(vis1, tree1, diagonal1, root_classes, json1);
+
+
+
+
+
+
+//
+// PROPERTIES
+//
+
+
+
+
+
+	var json2 = {"children": [{"qname": "cohere.owl:has_creation_date", "name": "has creation date", "objid": 16, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_creator", "name": "has creator", "objid": 22, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_depiction", "name": "has depiction", "objid": 28, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_description", "name": "has description", "objid": 17, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_email_address", "name": "has email address", "objid": 18, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_from_node", "name": "has from node", "objid": 23, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_from_node_role", "name": "has from node role", "objid": 29, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_homepage", "name": "has homepage", "objid": 30, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_image", "name": "has image", "objid": 31, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_label", "name": "has label", "objid": 24, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_label_role", "name": "has label role", "objid": 25, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_modification_date", "name": "has modification date", "objid": 19, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_name", "name": "has name", "objid": 20, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_screenshot", "name": "has screenshot", "objid": 32, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_thumbnail", "name": "has thumbnail", "objid": 33, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_thumbnail_image", "name": "has thumbnail image", "objid": 34, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_to_node", "name": "has to node", "objid": 26, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_to_node_role", "name": "has to node role", "objid": 35, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_url", "name": "has url", "objid": 21, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_website", "name": "has website", "objid": 36, "size": 1, "realsize": 0}, {"qname": "cohere.owl:includes_idea", "name": "includes idea", "objid": 37, "size": 1, "realsize": 0}, {"qname": "cohere.owl:uses_aif_scheme_type", "name": "uses aif scheme type", "objid": 27, "size": 1, "realsize": 0}], "name": "Properties", "id": "None"};
+
+
+	
+	var variable_height2 = 800;
+	
+
+	var m = [20, 120, 100, 120],
+	    w = 2600 - m[1] - m[3],
+	    h = variable_height2 - m[0] - m[2],
+	    i = 0,
+	    root_properties;
+
+	var tree2 = d3.layout.tree()
+	    .size([h, w]);
+
+	var diagonal2 = d3.svg.diagonal()
+	    .projection(function(d) { return [d.y, d.x]; });
+
+	var vis2 = d3.select("#graph_properties").append("svg:svg")
+	    .attr("width", w + m[1] + m[3])
+	    .attr("height", h + m[0] + m[2])
+	  	.append("svg:g")
+	    .attr("transform", "translate(" + m[3] + "," + m[0] + ")");
+
+	// d3.json(JSON_FILE, function(json) {
+	root_properties = json2;
+	root_properties.x0 = h / 2;
+	root_properties.y0 = 0;
+
+	
+
+
+	update(vis2, tree2, diagonal2, root_properties, json2);
+
+
+
+
+
+
+
+
+
+
+
+//
+//  SHARED FUNCTIONS
+//
+
+
+// mikele: added more args [vis, tree, diagonal, root] which originally were referenced as a Global var
+function update(vis, tree, diagonal, source, root) {
+
+  var duration = d3.event && d3.event.altKey ? 5000 : 500;
+
+  // Compute the new tree layout.
+  var nodes = tree.nodes(root).reverse();
+
+  // Normalize for fixed-depth.
+  nodes.forEach(function(d) { d.y = d.depth * 180; });
+
+  // Update the nodesâ€¦
+  var node = vis.selectAll("g.node")
+      .data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+  // Enter any new nodes at the parent's previous position.
+  var nodeEnter = node.enter().append("svg:g")
+      .attr("class", "node")
+      .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; });
+
+
+  nodeEnter.append("svg:circle")
+      .attr("r", 1e-6)
+      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; })
+      .on("click", function(d) { toggle(d); update(vis, tree, diagonal, d, root); }); // note ref to <root>
+
+  nodeEnter.append("svg:text")
+      .attr("x", function(d) { return d.children || d._children ? -10 : 10; })
+      .attr("dy", ".35em")
+      .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+      .text(function(d) { return d.name; })
+      .style("fill-opacity", 1e-6)
+      .on("click", function(d) { showpanel(d.objid); })
+	  .on("mouseover", function(d){
+			d3.select(this).attr("fill", "darkorange");
+			tooltip.text(d.qname);
+			tooltip.style("visibility", "visible"); }
+		)
+      .on("mousemove", function(d){return tooltip.style("top",
+		    (d3.event.pageY-100)+"px").style("left",(d3.event.pageX+50)+"px");})
+	  .on("mouseout", function(d){
+			d3.select(this).attr("fill", ""); // default = no stroke
+			return tooltip.style("visibility", "hidden");}
+			);
+	  // .on("mouseover", function(d, i) {
+	  // 		  label_name.text(d.name);
+	  // })
+	  // .on("mouseout", function(d, i) {
+	  // 		  label_name.text("");
+	  // });
+
+
+
+   // approach 1
+  var label_name = vis.append("text")
+      .attr("x", 20)
+      .attr("y", 200)
+	  // .attr("text-anchor", "middle")
+      .attr("opacity", "1")
+	  .style("font-size", "90px")
+	  .style("fill", "lightsteelblue")
+	  .text("");
+
+   // approach 2
+  var tooltip = d3.select("body")
+	    .append("div")
+	    .style("position", "absolute")
+	    .style("border-radius", "25px")
+	    .style("z-index", "100")
+	    .style("visibility", "hidden")
+	    .style("opacity", ".85")
+	    .style("color", "lightsteelblue")
+	    .style("background", "white")
+	    .style("font-size", "90px")
+	    .text("a simple tooltip");
+
+
+  // Transition nodes to their new position.
+  var nodeUpdate = node.transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+  nodeUpdate.select("circle")
+      .attr("r", 4.5)
+      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+  nodeUpdate.select("text")
+      .style("fill-opacity", 1);
+
+  // Transition exiting nodes to the parent's new position.
+  var nodeExit = node.exit().transition()
+      .duration(duration)
+      .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+      .remove();
+
+  nodeExit.select("circle")
+      .attr("r", 1e-6);
+
+  nodeExit.select("text")
+      .style("fill-opacity", 1e-6);
+
+  // Update the linksâ€¦
+  var link = vis.selectAll("path.link")
+      .data(tree.links(nodes), function(d) { return d.target.id; });
+
+  // Enter any new links at the parent's previous position.
+  link.enter().insert("svg:path", "g")
+      .attr("class", "link")
+      .attr("d", function(d) {
+        var o = {x: source.x0, y: source.y0};
+        return diagonal({source: o, target: o});
+      })
+    .transition()
+      .duration(duration)
+      .attr("d", diagonal);
+
+  // Transition links to their new position.
+  link.transition()
+      .duration(duration)
+      .attr("d", diagonal);
+
+  // Transition exiting nodes to the parent's new position.
+  link.exit().transition()
+      .duration(duration)
+      .attr("d", function(d) {
+        var o = {x: source.x, y: source.y};
+        return diagonal({source: o, target: o});
+      })
+      .remove();
+
+  // Stash the old positions for transition.
+  nodes.forEach(function(d) {
+    d.x0 = d.x;
+    d.y0 = d.y;
+  });
+
+
+}  // end of Update
+
+
+
+
+function toggleAll(d) {
+	if (d.children) {
+	  d.children.forEach(toggleAll);
+	  toggle(d);
+	}
+}
+
+
+
+// Toggle children.
+function toggle(d) {
+  if (d.children) {
+    d._children = d.children;
+    d.children = null;
+  } else {
+    d.children = d._children;
+    d._children = null;
+  }
+}
+
+
+</script>
+
+
+
+
+
+
+
+
+</body>
+</html>
