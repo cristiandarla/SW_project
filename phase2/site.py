@@ -9,6 +9,8 @@ import os
 import ontospy
 from ontospy.ontodocs.viz.viz_d3tree import *
 from flask import send_from_directory
+from rdflib import Graph, URIRef, RDF, FOAF
+import pprint
 
 app = Flask(__name__, static_folder="templates/graph/static")
 categories = []
@@ -248,7 +250,85 @@ def visualize():
 
     return render_template('seerdf.html')
 
+@app.route('/top10rdf', methods=['GET'])
+def top10rdf():
+    tools = []
 
+    g = Graph()
+    g.parse("C:/Users/Stefan/Desktop/aas.rdf", format="xml")
+
+    """
+    s = URIRef('file:///C://Users/Stefan/Desktop/aas.rdf#tools/tool_2/title')
+
+    title = ""
+    for person in g.objects(subject=s):
+        print(person)
+        print("----------------")
+        title=person
+
+    print(title)
+
+
+    """
+    for i in range(201):
+        if(i == 0):
+            s = URIRef('file:///C://Users/Stefan/Desktop/aas.rdf#tools/tool/')
+            position = findInGraph(g=g,sub=s + "position")
+
+            if(int(position) <= 10):
+                title = findInGraph(g=g,sub=s + "title")
+                position = findInGraph(g=g,sub=s + "position")
+                href = findInGraph(g=g,sub=s + "href")
+                change = findInGraph(g=g,sub=s + "change")
+                category = findInGraph(g=g,sub=s + "category")
+                datet = findInGraph(g=g,sub=s + "datet")
+                subject = findInGraph(g=g,sub=s + "subject")
+                learning = findInGraph(g=g,sub=s + "learning")
+                teaching = findInGraph(g=g,sub=s + "teaching")
+            
+                newTool = Tool(title, position, href, change, category, learning, teaching, datet, subject)
+                tools.append(newTool)
+
+        if(i != 0 and i != 1): 
+            s = URIRef('file:///C://Users/Stefan/Desktop/aas.rdf#tools/tool_'+str(i)+'/')
+            position = findInGraph(g=g,sub=s + "position")
+            print(s)
+            print(position)
+            if(int(position) <= 10):
+                title = findInGraph(g=g,sub=s + "title")
+                position = findInGraph(g=g,sub=s + "position")
+                href = findInGraph(g=g,sub=s + "href")
+                change = findInGraph(g=g,sub=s + "change")
+                category = findInGraph(g=g,sub=s + "category")
+                datet = findInGraph(g=g,sub=s + "datet")
+                subject = findInGraph(g=g,sub=s + "subject")
+                learning = findInGraph(g=g,sub=s + "learning")
+                teaching = findInGraph(g=g,sub=s + "teaching")
+            
+                newTool = Tool(title, position, href, change, category, learning, teaching, datet, subject)
+                tools.append(newTool)
+
+        
+
+    """
+    for i in range(2,11):
+        s = URIRef('file:///C://Users/Stefan/Desktop/aas.rdf#tools/tool_'+str(i)+'/')
+
+        title = findInGraph(g=g,sub=s + "title")
+        position = findInGraph(g=g,sub=s + "position")
+        href = findInGraph(g=g,sub=s + "href")
+        change = findInGraph(g=g,sub=s + "change")
+        category = findInGraph(g=g,sub=s + "category")
+        datet = findInGraph(g=g,sub=s + "datet")
+        subject = findInGraph(g=g,sub=s + "subject")
+        learning = findInGraph(g=g,sub=s + "learning")
+        teaching = findInGraph(g=g,sub=s + "teaching")
+    
+        newTool = Tool(title, position, href, change, category, learning, teaching, datet, subject)
+        tools.append(newTool)
+    """
+
+    return render_template('listby.html', tools = tools)
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
@@ -277,7 +357,10 @@ def addTool(root, request, position, dir_path):
     child_subject = ET.SubElement(child, 'subject')
     child_subject.text = request.form.get('subject')
     root.insert(position - 1, child)
-    
+
+def findInGraph(g, sub):
+    for person in g.objects(subject=sub):
+        return person
     
 if __name__ == "__main__":
         app.run(debug=True)
