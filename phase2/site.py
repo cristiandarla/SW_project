@@ -292,8 +292,7 @@ def top10rdf():
         if(i != 0 and i != 1): 
             s = URIRef('file:///C://Users/Stefan/Desktop/aas.rdf#tools/tool_'+str(i)+'/')
             position = findInGraph(g=g,sub=s + "position")
-            print(s)
-            print(position)
+
             if(int(position) <= 10):
                 title = findInGraph(g=g,sub=s + "title")
                 position = findInGraph(g=g,sub=s + "position")
@@ -329,6 +328,104 @@ def top10rdf():
     """
 
     return render_template('listby.html', tools = tools)
+
+@app.route('/learning', methods=['GET'])
+def learning():
+    tools = []
+
+    g = Graph()
+    g.parse("C:/Users/Stefan/Desktop/aas.rdf", format="xml")
+
+    for i in range(201):
+        if(i == 0):
+            s = URIRef('file:///C://Users/Stefan/Desktop/aas.rdf#tools/tool/')
+            learning = findInGraph(g=g,sub=s + "learning")
+
+            if(str(learning) == "True"):
+                title = findInGraph(g=g,sub=s + "title")
+                position = findInGraph(g=g,sub=s + "position")
+                href = findInGraph(g=g,sub=s + "href")
+                change = findInGraph(g=g,sub=s + "change")
+                category = findInGraph(g=g,sub=s + "category")
+                datet = findInGraph(g=g,sub=s + "datet")
+                subject = findInGraph(g=g,sub=s + "subject")
+                learning = findInGraph(g=g,sub=s + "learning")
+                teaching = findInGraph(g=g,sub=s + "teaching")
+            
+                newTool = Tool(title, position, href, change, category, learning, teaching, datet, subject)
+                tools.append(newTool)
+
+        if(i != 0 and i != 1): 
+            s = URIRef('file:///C://Users/Stefan/Desktop/aas.rdf#tools/tool_'+str(i)+'/')
+            learning = findInGraph(g=g,sub=s + "learning")
+
+            if(str(learning) == "True"):
+                title = findInGraph(g=g,sub=s + "title")
+                position = findInGraph(g=g,sub=s + "position")
+                href = findInGraph(g=g,sub=s + "href")
+                change = findInGraph(g=g,sub=s + "change")
+                category = findInGraph(g=g,sub=s + "category")
+                datet = findInGraph(g=g,sub=s + "datet")
+                subject = findInGraph(g=g,sub=s + "subject")
+                learning = findInGraph(g=g,sub=s + "learning")
+                teaching = findInGraph(g=g,sub=s + "teaching")
+            
+                newTool = Tool(title, position, href, change, category, learning, teaching, datet, subject)
+                tools.append(newTool)
+
+
+
+    return render_template('listby.html', tools = tools)
+
+
+@app.route('/engineeringrdf', methods=['GET'])
+def engineeringrdf():
+    tools = []
+
+    g = Graph()
+    g.parse("C:/Users/Stefan/Desktop/aas.rdf", format="xml")
+
+    for i in range(201):
+        if(i == 0):
+            s = URIRef('file:///C://Users/Stefan/Desktop/aas.rdf#tools/tool/')
+            subject = findInGraph(g=g,sub=s + "subject")
+
+            if(str(subject) == "engineering"):
+                title = findInGraph(g=g,sub=s + "title")
+                position = findInGraph(g=g,sub=s + "position")
+                href = findInGraph(g=g,sub=s + "href")
+                change = findInGraph(g=g,sub=s + "change")
+                category = findInGraph(g=g,sub=s + "category")
+                datet = findInGraph(g=g,sub=s + "datet")
+                subject = findInGraph(g=g,sub=s + "subject")
+                learning = findInGraph(g=g,sub=s + "learning")
+                teaching = findInGraph(g=g,sub=s + "teaching")
+            
+                newTool = Tool(title, position, href, change, category, learning, teaching, datet, subject)
+                tools.append(newTool)
+
+        if(i != 0 and i != 1): 
+            s = URIRef('file:///C://Users/Stefan/Desktop/aas.rdf#tools/tool_'+str(i)+'/')
+            subject = findInGraph(g=g,sub=s + "subject")
+
+            if(str(subject) == "engineering"):
+                title = findInGraph(g=g,sub=s + "title")
+                position = findInGraph(g=g,sub=s + "position")
+                href = findInGraph(g=g,sub=s + "href")
+                change = findInGraph(g=g,sub=s + "change")
+                category = findInGraph(g=g,sub=s + "category")
+                datet = findInGraph(g=g,sub=s + "datet")
+                subject = findInGraph(g=g,sub=s + "subject")
+                learning = findInGraph(g=g,sub=s + "learning")
+                teaching = findInGraph(g=g,sub=s + "teaching")
+            
+                newTool = Tool(title, position, href, change, category, learning, teaching, datet, subject)
+                tools.append(newTool)
+
+
+
+    return render_template('listby.html', tools = tools)
+
 
 @app.route('/', methods=['GET', 'POST'])
 def login():
