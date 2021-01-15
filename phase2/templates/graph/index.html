@@ -184,10 +184,10 @@
 
 	
 
-	<h1 class="title">Ontology:&nbsp;<a href="javascript:showpanel('ontoinfo');">http://cohere.open.ac.uk/ontology/cohere.owl</a></h1>
+	<h1 class="title">Ontology:&nbsp;<a href="javascript:showpanel('ontoinfo');">http://xmlns.com/foaf/0.1/</a></h1>
 
 	<p>
-    <small class="credits">Ontology documentation automatically generated with <a class="greylink" href="http://lambdamusic.github.io/Ontospy/" target="_blank">Ontospy</a> on 5th January 2021 13:27 </small>
+    <small class="credits">Ontology documentation automatically generated with <a class="greylink" href="http://lambdamusic.github.io/Ontospy/" target="_blank">Ontospy</a> on 15th January 2021 18:55 </small>
   </p>
 
 	<hr>
@@ -195,7 +195,7 @@
 
 	
 		<div class="row">
-			<h3>Classes (14)</h3>
+			<h3>Classes (15)</h3>
 			<div class="col-md-12" id="graph_classes">
 
 
@@ -207,7 +207,7 @@
 
 	
 		<div class="row">
-			<h3>Properties (22)</h3>
+			<h3>Properties (67)</h3>
 			<div class="col-md-12" id="graph_properties">
 
 
@@ -224,7 +224,7 @@
 
 
 	<hr>
-    <small class="credits">Ontology documentation automatically generated with <a class="greylink" href="http://lambdamusic.github.io/Ontospy/" target="_blank">Ontospy</a> on 5th January 2021 13:27 </small>
+    <small class="credits">Ontology documentation automatically generated with <a class="greylink" href="http://lambdamusic.github.io/Ontospy/" target="_blank">Ontospy</a> on 15th January 2021 18:55 </small>
 
 
 
@@ -254,145 +254,19 @@
 
 
 	
-<div class="hidden" id="2">
-
-	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#abstract_idea" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:abstract_idea</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Abstract_idea</p>
-    
-    
-        <p><b class="section-title">Description: </b>Ideas can exist independently or in connection to other ideas, and are what we use to make connections. Notice that &#x27;abstract_idea&#x27; here can also include composite ideas, i.e. sets of connections or one single connection used as a node in an argument. By doing so we can support, for example, Dung&#x27;s abstract argumentation framework.</p>
-    
-
-
-
-	
-		<hr>
-	
-	
-	
-	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
-	
-
-	
-		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a> | <a href="javascript:showpanel('12');" class="class">cohere.owl:node</a> | <a href="javascript:showpanel('14');" class="class">cohere.owl:set</a>  </p>
-	
-	
-	
-
-	
-		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('31');"  class="prop">cohere.owl:has_image</a> | <a href="javascript:showpanel('34');"  class="prop">cohere.owl:has_thumbnail_image</a> | <a href="javascript:showpanel('36');"  class="prop">cohere.owl:has_website</a>  </p>
-	
-	
-	
-		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('23');" class="prop">cohere.owl:has_from_node</a> | <a href="javascript:showpanel('26');" class="prop">cohere.owl:has_to_node</a> | <a href="javascript:showpanel('37');" class="prop">cohere.owl:includes_idea</a>  </p>
-	
-
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
-
-:abstract_idea a owl:Class ;
-    rdfs:comment &quot;Ideas can exist independently or in connection to other ideas, and are what we use to make connections. Notice that &#x27;abstract_idea&#x27; here can also include composite ideas, i.e. sets of connections or one single connection used as a node in an argument. By doing so we can support, for example, Dung&#x27;s abstract argumentation framework.&quot;^^xsd:string ;
-    rdfs:subClassOf :abstract_object ;
-    owl:disjointWith :connection_label,
-        :role .
-
-</pre>
-
-</div>
-	
-	
-
-	
-<div class="hidden" id="3">
-
-	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#abstract_object" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:abstract_object</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Abstract_object</p>
-    
-    
-        <p><b class="section-title">Description: </b>Non-material entities we create and discuss about in Cohere</p>
-    
-
-
-
-	
-		<hr>
-	
-	
-	
-	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
-	
-	
-	
-
-	
-		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a> | <a href="javascript:showpanel('7');" class="class">cohere.owl:connection_label</a> | <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Has Sub Class (all):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a> | <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a> | <a href="javascript:showpanel('12');" class="class">cohere.owl:node</a> | <a href="javascript:showpanel('14');" class="class">cohere.owl:set</a> | <a href="javascript:showpanel('7');" class="class">cohere.owl:connection_label</a> | <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a> | <a href="javascript:showpanel('8');" class="class">cohere.owl:connection_label_role</a> | <a href="javascript:showpanel('9');" class="class">cohere.owl:connection_node_role</a>  </p>
-	
-
-	
-		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('16');"  class="prop">cohere.owl:has_creation_date</a> | <a href="javascript:showpanel('19');"  class="prop">cohere.owl:has_modification_date</a> | <a href="javascript:showpanel('22');"  class="prop">cohere.owl:has_creator</a>  </p>
-	
-	
-	
-
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
-
-:abstract_object a owl:Class ;
-    rdfs:comment &quot;Non-material entities we create and discuss about in Cohere&quot;^^xsd:string ;
-    rdfs:subClassOf :cohere_thing ;
-    owl:disjointWith :cohere_user,
-        :document .
-
-</pre>
-
-</div>
-	
-	
-
-	
 <div class="hidden" id="4">
 
 	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#cohere_thing" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:cohere_thing</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/Agent" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:Agent</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Cohere_thing</p>
+	<p><b class="section-title">Label: </b>Agent</p>
     
     
-        <p><b class="section-title">Description: </b>Metaclass to group all the entities in the Cohere world. We decided to include it in the ontology for being able to specify some properties at this &#x27;meta&#x27; level (i.e. properties that apply to all Cohere entities: has_description and has_name).</p>
+        <p><b class="section-title">Description: </b>An agent (eg. person, group, software or physical artifact).</p>
     
 
 
@@ -407,28 +281,32 @@
 	
 
 	
-		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a> | <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a>  </p>
+		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('6');" class="class">foaf:Group</a> | <a href="javascript:showpanel('13');" class="class">foaf:Organization</a> | <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
 	
 	
-	
-		<p><b class="section-title">Has Sub Class (all):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a> | <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a> | <a href="javascript:showpanel('12');" class="class">cohere.owl:node</a> | <a href="javascript:showpanel('14');" class="class">cohere.owl:set</a> | <a href="javascript:showpanel('7');" class="class">cohere.owl:connection_label</a> | <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a> | <a href="javascript:showpanel('8');" class="class">cohere.owl:connection_label_role</a> | <a href="javascript:showpanel('9');" class="class">cohere.owl:connection_node_role</a> | <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a> | <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a> | <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a> | <a href="javascript:showpanel('15');" class="class">cohere.owl:website</a>  </p>
 	
 
 	
-		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('17');"  class="prop">cohere.owl:has_description</a> | <a href="javascript:showpanel('20');"  class="prop">cohere.owl:has_name</a>  </p>
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('17');"  class="prop">foaf:account</a> | <a href="javascript:showpanel('20');"  class="prop">foaf:age</a> | <a href="javascript:showpanel('21');"  class="prop">foaf:aimChatID</a> | <a href="javascript:showpanel('23');"  class="prop">foaf:birthday</a> | <a href="javascript:showpanel('34');"  class="prop">foaf:gender</a> | <a href="javascript:showpanel('36');"  class="prop">foaf:holdsAccount</a> | <a href="javascript:showpanel('38');"  class="prop">foaf:icqChatID</a> | <a href="javascript:showpanel('40');"  class="prop">foaf:interest</a> | <a href="javascript:showpanel('42');"  class="prop">foaf:jabberID</a> | <a href="javascript:showpanel('46');"  class="prop">foaf:made</a> | <a href="javascript:showpanel('48');"  class="prop">foaf:mbox</a> | <a href="javascript:showpanel('49');"  class="prop">foaf:mbox_sha1sum</a> | <a href="javascript:showpanel('52');"  class="prop">foaf:msnChatID</a> | <a href="javascript:showpanel('56');"  class="prop">foaf:openid</a> | <a href="javascript:showpanel('65');"  class="prop">foaf:skypeID</a> | <a href="javascript:showpanel('66');"  class="prop">foaf:status</a> | <a href="javascript:showpanel('70');"  class="prop">foaf:tipjar</a> | <a href="javascript:showpanel('73');"  class="prop">foaf:topic_interest</a> | <a href="javascript:showpanel('74');"  class="prop">foaf:weblog</a> | <a href="javascript:showpanel('77');"  class="prop">foaf:yahooChatID</a>  </p>
 	
 	
+	
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('47');" class="prop">foaf:maker</a> | <a href="javascript:showpanel('50');" class="prop">foaf:member</a>  </p>
 	
 
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:cohere_thing a owl:Class ;
-    rdfs:comment &quot;Metaclass to group all the entities in the Cohere world. We decided to include it in the ontology for being able to specify some properties at this &#x27;meta&#x27; level (i.e. properties that apply to all Cohere entities: has_description and has_name).&quot;^^xsd:string .
+foaf:Agent a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;Agent&quot; ;
+    rdfs:comment &quot;An agent (eg. person, group, software or physical artifact).&quot; ;
+    owl:equivalentClass &lt;http://purl.org/dc/terms/Agent&gt; ;
+    vs:term_status &quot;stable&quot; .
 
 </pre>
 
@@ -440,16 +318,16 @@
 <div class="hidden" id="5">
 
 	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#cohere_user" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:cohere_user</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/Document" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:Document</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Cohere_user</p>
+	<p><b class="section-title">Label: </b>Document</p>
     
     
-        <p><b class="section-title">Description: </b>A person. In the future, we can describe also other kinds of agents, such as groups or organizations. Maps to FOAF:PERSON</p>
+        <p><b class="section-title">Description: </b>A document.</p>
     
 
 
@@ -460,35 +338,39 @@
 	
 	
 	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+	
+	
+
+	
+		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('7');" class="class">foaf:Image</a> | <a href="javascript:showpanel('15');" class="class">foaf:PersonalProfileDocument</a>  </p>
 	
 	
 	
 
 	
-	
-	
-
-	
-		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('18');"  class="prop">cohere.owl:has_email_address</a> | <a href="javascript:showpanel('28');"  class="prop">cohere.owl:has_depiction</a> | <a href="javascript:showpanel('30');"  class="prop">cohere.owl:has_homepage</a> | <a href="javascript:showpanel('33');"  class="prop">cohere.owl:has_thumbnail</a>  </p>
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('61');"  class="prop">foaf:primaryTopic</a> | <a href="javascript:showpanel('64');"  class="prop">foaf:sha1</a> | <a href="javascript:showpanel('72');"  class="prop">foaf:topic</a>  </p>
 	
 	
 	
-		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('22');" class="prop">cohere.owl:has_creator</a>  </p>
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('19');" class="prop">foaf:accountServiceHomepage</a> | <a href="javascript:showpanel('37');" class="prop">foaf:homepage</a> | <a href="javascript:showpanel('40');" class="prop">foaf:interest</a> | <a href="javascript:showpanel('41');" class="prop">foaf:isPrimaryTopicOf</a> | <a href="javascript:showpanel('56');" class="prop">foaf:openid</a> | <a href="javascript:showpanel('57');" class="prop">foaf:page</a> | <a href="javascript:showpanel('62');" class="prop">foaf:publications</a> | <a href="javascript:showpanel('63');" class="prop">foaf:schoolHomepage</a> | <a href="javascript:showpanel('70');" class="prop">foaf:tipjar</a> | <a href="javascript:showpanel('74');" class="prop">foaf:weblog</a> | <a href="javascript:showpanel('75');" class="prop">foaf:workInfoHomepage</a> | <a href="javascript:showpanel('76');" class="prop">foaf:workplaceHomepage</a>  </p>
 	
 
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:cohere_user a owl:Class ;
-    rdfs:comment &quot;A person. In the future, we can describe also other kinds of agents, such as groups or organizations. Maps to FOAF:PERSON&quot;^^xsd:string ;
-    rdfs:subClassOf :cohere_thing ;
-    owl:disjointWith :abstract_object,
-        :document .
+foaf:Document a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;Document&quot; ;
+    rdfs:comment &quot;A document.&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    owl:disjointWith foaf:Organization,
+        foaf:Project ;
+    owl:equivalentClass &lt;http://schema.org/CreativeWork&gt; ;
+    vs:term_status &quot;stable&quot; .
 
 </pre>
 
@@ -500,16 +382,16 @@
 <div class="hidden" id="6">
 
 	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#connection" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:connection</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/Group" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:Group</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Connection</p>
+	<p><b class="section-title">Label: </b>Group</p>
     
     
-        <p><b class="section-title">Description: </b>A connection of two abstract_ideas through a relation. Since a connection is itself an abstract_ideas, the connection can also link two connections, or one connection with a node (= a simple idea) . in other words, a connection can be used as a node in a new connection. At the moment, we only provide support for representing binary connections only (two nodes only). Moreover, when a connection is instantiated, it is also possible to define the node_types of the two ideas which are connected. The node_types are also called the &#x27;roles&#x27; or &#x27;contexts&#x27; of the ideas.</p>
+        <p><b class="section-title">Description: </b>A class of Agents.</p>
     
 
 
@@ -520,33 +402,34 @@
 	
 	
 	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a> | <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
-	
-
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
 	
 	
 	
 
 	
-		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('23');"  class="prop">cohere.owl:has_from_node</a> | <a href="javascript:showpanel('24');"  class="prop">cohere.owl:has_label</a> | <a href="javascript:showpanel('26');"  class="prop">cohere.owl:has_to_node</a> | <a href="javascript:showpanel('29');"  class="prop">cohere.owl:has_from_node_role</a> | <a href="javascript:showpanel('35');"  class="prop">cohere.owl:has_to_node_role</a>  </p>
+	
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('50');"  class="prop">foaf:member</a>  </p>
 	
 	
 	
 
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:connection a owl:Class ;
-    rdfs:comment &quot;A connection of two abstract_ideas through a relation. Since a connection is itself an abstract_ideas, the connection can also link two connections, or one connection with a node (= a simple idea) . in other words, a connection can be used as a node in a new connection. At the moment, we only provide support for representing binary connections only (two nodes only). Moreover, when a connection is instantiated, it is also possible to define the node_types of the two ideas which are connected. The node_types are also called the &#x27;roles&#x27; or &#x27;contexts&#x27; of the ideas.&quot;^^xsd:string ;
-    rdfs:subClassOf :abstract_idea .
+foaf:Group a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;Group&quot; ;
+    rdfs:comment &quot;A class of Agents.&quot; ;
+    rdfs:subClassOf foaf:Agent ;
+    vs:term_status &quot;stable&quot; .
 
 </pre>
 
@@ -558,16 +441,16 @@
 <div class="hidden" id="7">
 
 	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#connection_label" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:connection_label</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/Image" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:Image</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Connection_label</p>
+	<p><b class="section-title">Label: </b>Image</p>
     
     
-        <p><b class="section-title">Description: </b>The link that connects two nodes in a connection object. Notice that links or labels can be classified by means of &#x27;roles&#x27; of labels (see Connection_label_role class). For example, a label could be &#x27;supports&#x27; and its role could be a &#x27;positive_label_role&#x27;.</p>
+        <p><b class="section-title">Description: </b>An image.</p>
     
 
 
@@ -578,37 +461,38 @@
 	
 	
 	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
-	
-
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
 	
 	
 	
 
 	
-		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('25');"  class="prop">cohere.owl:has_label_role</a>  </p>
+	
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('26');"  class="prop">foaf:depicts</a> | <a href="javascript:showpanel('69');"  class="prop">foaf:thumbnail</a>  </p>
 	
 	
 	
-		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('24');" class="prop">cohere.owl:has_label</a>  </p>
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('25');" class="prop">foaf:depiction</a> | <a href="javascript:showpanel('39');" class="prop">foaf:img</a> | <a href="javascript:showpanel('69');" class="prop">foaf:thumbnail</a>  </p>
 	
 
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:connection_label a owl:Class ;
-    rdfs:comment &quot;The link that connects two nodes in a connection object. Notice that links or labels can be classified by means of &#x27;roles&#x27; of labels (see Connection_label_role class). For example, a label could be &#x27;supports&#x27; and its role could be a &#x27;positive_label_role&#x27;.&quot;^^xsd:string ;
-    rdfs:subClassOf :abstract_object ;
-    owl:disjointWith :abstract_idea,
-        :role .
+foaf:Image a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;Image&quot; ;
+    rdfs:comment &quot;An image.&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:subClassOf foaf:Document ;
+    owl:equivalentClass &lt;http://schema.org/ImageObject&gt; ;
+    vs:term_status &quot;stable&quot; .
 
 </pre>
 
@@ -620,31 +504,25 @@
 <div class="hidden" id="8">
 
 	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#connection_label_role" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:connection_label_role</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/LabelProperty" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:LabelProperty</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Connection_label_role</p>
+	<p><b class="section-title">Label: </b>Label Property</p>
     
     
-        <p><b class="section-title">Description: </b>The roles (or types) used for organizing the labels between ideas: e.g. supports, contrasts, is-example-of etc... It is important to remember that its subclasses must be disjoint - this is one of the reasons why we decided to use OWL, as RDFS would not let us specify this feature.</p>
+        <p><b class="section-title">Description: </b>A foaf:LabelProperty is any RDF property with texual values that serve as labels.</p>
     
 
 
 
 	
-		<hr>
 	
 	
 	
 	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a> | <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
 	
 
 	
@@ -653,20 +531,21 @@
 
 	
 	
-	
-		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('25');" class="prop">cohere.owl:has_label_role</a>  </p>
 	
 
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:connection_label_role a owl:Class ;
-    rdfs:comment &quot;The roles (or types) used for organizing the labels between ideas: e.g. supports, contrasts, is-example-of etc... It is important to remember that its subclasses must be disjoint - this is one of the reasons why we decided to use OWL, as RDFS would not let us specify this feature.&quot;^^xsd:string ;
-    rdfs:subClassOf :role .
+foaf:LabelProperty a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;Label Property&quot; ;
+    rdfs:comment &quot;A foaf:LabelProperty is any RDF property with texual values that serve as labels.&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    vs:term_status &quot;unstable&quot; .
 
 </pre>
 
@@ -678,16 +557,16 @@
 <div class="hidden" id="9">
 
 	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#connection_node_role" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:connection_node_role</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/OnlineAccount" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:OnlineAccount</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Connection_node_role</p>
+	<p><b class="section-title">Label: </b>Online Account</p>
     
     
-        <p><b class="section-title">Description: </b>It is the contextual information associated with the idea in a connection: we can also refer to it as the &#x27;role&#x27; of the idea in that connection. For example, it can be an &#x27;answer&#x27;, a &#x27;conclusion&#x27;, an &#x27;idea&#x27;, an &#x27;experiment&#x27; etc. Cohere suggests some predefined roles, but users can also create new roles for their ideas.</p>
+        <p><b class="section-title">Description: </b>An online account.</p>
     
 
 
@@ -698,33 +577,37 @@
 	
 	
 	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('13');" class="class">cohere.owl:role</a> | <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
-	
-
-	
 	
 	
 
 	
+		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('10');" class="class">foaf:OnlineChatAccount</a> | <a href="javascript:showpanel('11');" class="class">foaf:OnlineEcommerceAccount</a> | <a href="javascript:showpanel('12');" class="class">foaf:OnlineGamingAccount</a>  </p>
 	
 	
-		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('29');" class="prop">cohere.owl:has_from_node_role</a> | <a href="javascript:showpanel('35');" class="prop">cohere.owl:has_to_node_role</a>  </p>
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('18');"  class="prop">foaf:accountName</a> | <a href="javascript:showpanel('19');"  class="prop">foaf:accountServiceHomepage</a>  </p>
+	
+	
+	
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('17');" class="prop">foaf:account</a> | <a href="javascript:showpanel('36');" class="prop">foaf:holdsAccount</a>  </p>
 	
 
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:connection_node_role a owl:Class ;
-    rdfs:comment &quot;It is the contextual information associated with the idea in a connection: we can also refer to it as the &#x27;role&#x27; of the idea in that connection. For example, it can be an &#x27;answer&#x27;, a &#x27;conclusion&#x27;, an &#x27;idea&#x27;, an &#x27;experiment&#x27; etc. Cohere suggests some predefined roles, but users can also create new roles for their ideas.&quot;^^xsd:string ;
-    rdfs:subClassOf :role .
+foaf:OnlineAccount a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;Online Account&quot; ;
+    rdfs:comment &quot;An online account.&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:subClassOf owl:Thing ;
+    vs:term_status &quot;testing&quot; .
 
 </pre>
 
@@ -736,16 +619,16 @@
 <div class="hidden" id="10">
 
 	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#document" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:document</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/OnlineChatAccount" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:OnlineChatAccount</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Document</p>
+	<p><b class="section-title">Label: </b>Online Chat Account</p>
     
     
-        <p><b class="section-title">Description: </b>We do not (currently) distinguish precisely between physical and electronic documents, or between copies of a work and the abstraction those copies embody. The has_url property is defined at this level, even if it would apply to web-documents only. The hierarchy can be refined in the future. This class maps to FOAF:DOCUMENT</p>
+        <p><b class="section-title">Description: </b>An online chat account.</p>
     
 
 
@@ -756,35 +639,33 @@
 	
 	
 	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('9');" class="class">foaf:OnlineAccount</a>  </p>
 	
 	
 	
 
 	
-		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a> | <a href="javascript:showpanel('15');" class="class">cohere.owl:website</a>  </p>
-	
 	
 	
 
-	
-		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('21');"  class="prop">cohere.owl:has_url</a>  </p>
 	
 	
 	
 
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:document a owl:Class ;
-    rdfs:comment &quot;We do not (currently) distinguish precisely between physical and electronic documents, or between copies of a work and the abstraction those copies embody. The has_url property is defined at this level, even if it would apply to web-documents only. The hierarchy can be refined in the future. This class maps to FOAF:DOCUMENT&quot;^^xsd:string ;
-    rdfs:subClassOf :cohere_thing ;
-    owl:disjointWith :abstract_object,
-        :cohere_user .
+foaf:OnlineChatAccount a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;Online Chat Account&quot; ;
+    rdfs:comment &quot;An online chat account.&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:subClassOf foaf:OnlineAccount ;
+    vs:term_status &quot;unstable&quot; .
 
 </pre>
 
@@ -796,16 +677,16 @@
 <div class="hidden" id="11">
 
 	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#image" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:image</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/OnlineEcommerceAccount" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:OnlineEcommerceAccount</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Image</p>
+	<p><b class="section-title">Label: </b>Online E-commerce Account</p>
     
     
-        <p><b class="section-title">Description: </b>An image we can associate to an idea, or to a person</p>
+        <p><b class="section-title">Description: </b>An online e-commerce account.</p>
     
 
 
@@ -816,13 +697,7 @@
 	
 	
 	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
-	
-
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('9');" class="class">foaf:OnlineAccount</a>  </p>
 	
 	
 	
@@ -830,19 +705,25 @@
 	
 	
 	
-		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('28');" class="prop">cohere.owl:has_depiction</a> | <a href="javascript:showpanel('31');" class="prop">cohere.owl:has_image</a> | <a href="javascript:showpanel('32');" class="prop">cohere.owl:has_screenshot</a> | <a href="javascript:showpanel('33');" class="prop">cohere.owl:has_thumbnail</a> | <a href="javascript:showpanel('34');" class="prop">cohere.owl:has_thumbnail_image</a>  </p>
+
+	
+	
 	
 
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:image a owl:Class ;
-    rdfs:comment &quot;An image we can associate to an idea, or to a person&quot;^^xsd:string ;
-    rdfs:subClassOf :document .
+foaf:OnlineEcommerceAccount a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;Online E-commerce Account&quot; ;
+    rdfs:comment &quot;An online e-commerce account.&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:subClassOf foaf:OnlineAccount ;
+    vs:term_status &quot;unstable&quot; .
 
 </pre>
 
@@ -854,16 +735,16 @@
 <div class="hidden" id="12">
 
 	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#node" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:node</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/OnlineGamingAccount" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:OnlineGamingAccount</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Node</p>
+	<p><b class="section-title">Label: </b>Online Gaming Account</p>
     
     
-        <p><b class="section-title">Description: </b>Instances of nodes (previously called also &#x27;simple&#x27; ideas) are the nodes of a connection without the &#x27;context&#x27; information. Basically, they are the isolated bubbles we can see in Cohere.</p>
+        <p><b class="section-title">Description: </b>An online gaming account.</p>
     
 
 
@@ -874,11 +755,9 @@
 	
 	
 	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('9');" class="class">foaf:OnlineAccount</a>  </p>
 	
 	
-	
-		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a> | <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
 	
 
 	
@@ -891,14 +770,18 @@
 
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:node a owl:Class ;
-    rdfs:comment &quot;Instances of nodes (previously called also &#x27;simple&#x27; ideas) are the nodes of a connection without the &#x27;context&#x27; information. Basically, they are the isolated bubbles we can see in Cohere.&quot;^^xsd:string ;
-    rdfs:subClassOf :abstract_idea .
+foaf:OnlineGamingAccount a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;Online Gaming Account&quot; ;
+    rdfs:comment &quot;An online gaming account.&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:subClassOf foaf:OnlineAccount ;
+    vs:term_status &quot;unstable&quot; .
 
 </pre>
 
@@ -910,16 +793,16 @@
 <div class="hidden" id="13">
 
 	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#role" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:role</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/Organization" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:Organization</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Role</p>
+	<p><b class="section-title">Label: </b>Organization</p>
     
     
-        <p><b class="section-title">Description: </b>Abstract class grouping things representing the role of nodes within a connection and the roles of label connecting ideas in. (it was previously named &#x27;type&#x27;)</p>
+        <p><b class="section-title">Description: </b>An organization.</p>
     
 
 
@@ -930,15 +813,11 @@
 	
 	
 	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a>  </p>
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
 	
 	
-	
-		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
 	
 
-	
-		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('8');" class="class">cohere.owl:connection_label_role</a> | <a href="javascript:showpanel('9');" class="class">cohere.owl:connection_node_role</a>  </p>
 	
 	
 	
@@ -949,16 +828,20 @@
 
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:role a owl:Class ;
-    rdfs:comment &quot;Abstract class grouping things representing the role of nodes within a connection and the roles of label connecting ideas in. (it was previously named &#x27;type&#x27;)&quot;^^xsd:string ;
-    rdfs:subClassOf :abstract_object ;
-    owl:disjointWith :abstract_idea,
-        :connection_label .
+foaf:Organization a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;Organization&quot; ;
+    rdfs:comment &quot;An organization.&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:subClassOf foaf:Agent ;
+    owl:disjointWith foaf:Document,
+        foaf:Person ;
+    vs:term_status &quot;stable&quot; .
 
 </pre>
 
@@ -970,16 +853,16 @@
 <div class="hidden" id="14">
 
 	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#set" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:set</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/Person" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:Person</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Set</p>
+	<p><b class="section-title">Label: </b>Person</p>
     
     
-        <p><b class="section-title">Description: </b>This class serves as the basic mean to create abstractions within Cohere. By creating a set it is possible to have any arbitrary aggregation of connections, nodes or sets themselves into a new abstract_idea. In other words, the resulting set is itself an idea that can be connected into a new argument.</p>
+        <p><b class="section-title">Description: </b>A person.</p>
     
 
 
@@ -990,33 +873,42 @@
 	
 	
 	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a> | <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
-	
-
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('2');" class="class">http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing</a> | <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
 	
 	
 	
 
 	
-		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('37');"  class="prop">cohere.owl:includes_idea</a>  </p>
 	
 	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('24');"  class="prop">foaf:currentProject</a> | <a href="javascript:showpanel('28');"  class="prop">foaf:familyName</a> | <a href="javascript:showpanel('29');"  class="prop">foaf:family_name</a> | <a href="javascript:showpanel('30');"  class="prop">foaf:firstName</a> | <a href="javascript:showpanel('33');"  class="prop">foaf:geekcode</a> | <a href="javascript:showpanel('39');"  class="prop">foaf:img</a> | <a href="javascript:showpanel('43');"  class="prop">foaf:knows</a> | <a href="javascript:showpanel('44');"  class="prop">foaf:lastName</a> | <a href="javascript:showpanel('53');"  class="prop">foaf:myersBriggs</a> | <a href="javascript:showpanel('58');"  class="prop">foaf:pastProject</a> | <a href="javascript:showpanel('60');"  class="prop">foaf:plan</a> | <a href="javascript:showpanel('62');"  class="prop">foaf:publications</a> | <a href="javascript:showpanel('63');"  class="prop">foaf:schoolHomepage</a> | <a href="javascript:showpanel('67');"  class="prop">foaf:surname</a> | <a href="javascript:showpanel('75');"  class="prop">foaf:workInfoHomepage</a> | <a href="javascript:showpanel('76');"  class="prop">foaf:workplaceHomepage</a>  </p>
+	
+	
+	
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('43');" class="prop">foaf:knows</a>  </p>
 	
 
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:set a owl:Class ;
-    rdfs:comment &quot;This class serves as the basic mean to create abstractions within Cohere. By creating a set it is possible to have any arbitrary aggregation of connections, nodes or sets themselves into a new abstract_idea. In other words, the resulting set is itself an idea that can be connected into a new argument.&quot;^^xsd:string ;
-    rdfs:subClassOf :abstract_idea .
+foaf:Person a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;Person&quot; ;
+    rdfs:comment &quot;A person.&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:subClassOf &lt;http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing&gt;,
+        foaf:Agent ;
+    owl:disjointWith foaf:Organization,
+        foaf:Project ;
+    owl:equivalentClass &lt;http://schema.org/Person&gt;,
+        &lt;http://www.w3.org/2000/10/swap/pim/contact#Person&gt; ;
+    vs:term_status &quot;stable&quot; .
 
 </pre>
 
@@ -1028,16 +920,16 @@
 <div class="hidden" id="15">
 
 	
-	<h2 class="entity-section">Class: <a href="http://cohere.open.ac.uk/ontology/cohere.owl#website" class="class" target="_blank"
-                                          title="Try to open original URI">cohere.owl:website</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/PersonalProfileDocument" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:PersonalProfileDocument</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Website</p>
+	<p><b class="section-title">Label: </b>PersonalProfileDocument</p>
     
     
-        <p><b class="section-title">Description: </b>Self explanatory</p>
+        <p><b class="section-title">Description: </b>A personal profile RDF document.</p>
     
 
 
@@ -1048,35 +940,32 @@
 	
 	
 	
-		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Has Super Class (all):</b> <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a> | <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
-	
-
+		<p><b class="section-title">Has Super Class (direct):</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
 	
 	
 	
 
 	
-		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('32');"  class="prop">cohere.owl:has_screenshot</a>  </p>
 	
 	
+
 	
-		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('30');" class="prop">cohere.owl:has_homepage</a> | <a href="javascript:showpanel('36');" class="prop">cohere.owl:has_website</a>  </p>
+	
 	
 
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:website a owl:Class ;
-    rdfs:comment &quot;Self explanatory&quot;^^xsd:string ;
-    rdfs:subClassOf :document .
+foaf:PersonalProfileDocument a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;PersonalProfileDocument&quot; ;
+    rdfs:comment &quot;A personal profile RDF document.&quot; ;
+    rdfs:subClassOf foaf:Document ;
+    vs:term_status &quot;testing&quot; .
 
 </pre>
 
@@ -1084,33 +973,187 @@
 	
 	
 
-
-
-
-
-
-
-
-
-
-
-
+	
 <div class="hidden" id="16">
+
 	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_creation_date" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_creation_date</a>
+	<h2 class="entity-section">Class: <a href="http://xmlns.com/foaf/0.1/Project" class="class" target="_blank"
+                                          title="Try to open original URI">foaf:Project</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Has_creation_date</p>
+	<p><b class="section-title">Label: </b>Project</p>
     
     
+        <p><b class="section-title">Description: </b>A project (a collective endeavour of some kind).</p>
+    
+
+
+
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+
+	
+	
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:Project a rdfs:Class,
+        owl:Class ;
+    rdfs:label &quot;Project&quot; ;
+    rdfs:comment &quot;A project (a collective endeavour of some kind).&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    owl:disjointWith foaf:Document,
+        foaf:Person ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="2">
+
+	
+	<h2 class="entity-section">Class: <a href="http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing" class="class" target="_blank"
+                                          title="Try to open original URI">http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Spatial Thing</p>
+    
+    
+
 
 
 	
 		<hr>
 	
+	
+	
+	
+	
+	
+
+	
+		<p><b class="section-title">Has Sub Class (direct):</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('22');"  class="prop">foaf:based_near</a>  </p>
+	
+	
+	
+		<p><b class="section-title">In Range Of:</b> <a href="javascript:showpanel('22');" class="prop">foaf:based_near</a>  </p>
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+
+&lt;http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing&gt; a owl:Class ;
+    rdfs:label &quot;Spatial Thing&quot; .
+
+</pre>
+
+</div>
+	
+	
+
+	
+<div class="hidden" id="3">
+
+	
+	<h2 class="entity-section">Class: <a href="http://www.w3.org/2004/02/skos/core#Concept" class="class" target="_blank"
+                                          title="Try to open original URI">skos:Concept</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Concept</p>
+    
+    
+
+
+
+	
+		<hr>
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+
+	
+		<p><b class="section-title">In Domain Of:</b> <a href="javascript:showpanel('31');"  class="prop">foaf:focus</a>  </p>
+	
+	
+	
+
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; .
+
+skos:Concept rdfs:label &quot;Concept&quot; .
+
+</pre>
+
+</div>
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="hidden" id="78">
+	
+	<h2 class="entity-section">Property: <a  href="http://purl.org/dc/elements/1.1/date" class="prop"  target="_blank"
+                                          title="Try to open original URI">dc:date</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Date</p>
+    
+    
+
+
+	
 
 
 	
@@ -1122,24 +1165,15 @@
 	
 	
 	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a>  </p>
 	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('38');" class="class">xsd:dateTime</a>  </p>
 	
 	
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
 
-:has_creation_date a owl:DatatypeProperty,
-        owl:FunctionalProperty ;
-    rdfs:domain :abstract_object ;
-    rdfs:range xsd:dateTime .
+dc:date a owl:AnnotationProperty .
 
 </pre>
 
@@ -1148,22 +1182,20 @@
 
 
 
-<div class="hidden" id="22">
+<div class="hidden" id="79">
 	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_creator" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_creator</a>
+	<h2 class="entity-section">Property: <a  href="http://purl.org/dc/elements/1.1/description" class="prop"  target="_blank"
+                                          title="Try to open original URI">dc:description</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Has_creator</p>
+	<p><b class="section-title">Label: </b>Description</p>
     
     
 
 
 	
-		<hr>
-	
 
 
 	
@@ -1175,23 +1207,15 @@
 	
 	
 	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a>  </p>
 	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a>  </p>
 	
 	
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 
-:has_creator a owl:FunctionalProperty,
-        owl:ObjectProperty ;
-    rdfs:domain :abstract_object ;
-    rdfs:range :cohere_user .
+dc:description a owl:AnnotationProperty .
 
 </pre>
 
@@ -1200,22 +1224,20 @@
 
 
 
-<div class="hidden" id="28">
+<div class="hidden" id="80">
 	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_depiction" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_depiction</a>
+	<h2 class="entity-section">Property: <a  href="http://purl.org/dc/elements/1.1/title" class="prop"  target="_blank"
+                                          title="Try to open original URI">dc:title</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Has_depiction</p>
+	<p><b class="section-title">Label: </b>Title</p>
     
     
 
 
 	
-		<hr>
-	
 
 
 	
@@ -1227,22 +1249,15 @@
 	
 	
 	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a>  </p>
 	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a>  </p>
 	
 	
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix dc: &lt;http://purl.org/dc/elements/1.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
 
-:has_depiction a owl:ObjectProperty ;
-    rdfs:domain :cohere_user ;
-    rdfs:range :image .
+dc:title a owl:AnnotationProperty .
 
 </pre>
 
@@ -1253,14 +1268,16 @@
 
 <div class="hidden" id="17">
 	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_description" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_description</a>
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/account" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:account</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Has_description</p>
+	<p><b class="section-title">Label: </b>Account</p>
     
+    
+        <p><b class="section-title">Description: </b>Indicates an account held by this agent.</p>
     
 
 
@@ -1278,24 +1295,29 @@
 	
 	
 	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
 	
 	
 	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('39');" class="class">xsd:string</a>  </p>
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('9');" class="class">foaf:OnlineAccount</a>  </p>
 	
 	
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:has_description a owl:DatatypeProperty,
-        owl:FunctionalProperty ;
-    rdfs:domain :cohere_thing ;
-    rdfs:range xsd:string .
+foaf:account a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;account&quot; ;
+    rdfs:comment &quot;Indicates an account held by this agent.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:OnlineAccount ;
+    vs:term_status &quot;testing&quot; .
 
 </pre>
 
@@ -1306,14 +1328,16 @@
 
 <div class="hidden" id="18">
 	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_email_address" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_email_address</a>
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/accountName" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:accountName</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Has_email_address</p>
+	<p><b class="section-title">Label: </b>Account name</p>
     
+    
+        <p><b class="section-title">Description: </b>Indicates the name (identifier) associated with this online account.</p>
     
 
 
@@ -1331,332 +1355,29 @@
 	
 	
 	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a>  </p>
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('9');" class="class">foaf:OnlineAccount</a>  </p>
 	
 	
 	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('40');" class="class">xsd:string</a>  </p>
-	
-	
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
-
-:has_email_address a owl:DatatypeProperty ;
-    rdfs:domain :cohere_user ;
-    rdfs:range xsd:string .
-
-</pre>
-
-
-</div>
-
-
-
-<div class="hidden" id="23">
-	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_from_node" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_from_node</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Has_from_node</p>
-    
-    
-
-
-	
-		<hr>
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('84');" class="class">rdfs:Literal</a>  </p>
 	
 	
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:has_from_node a owl:FunctionalProperty,
-        owl:ObjectProperty ;
-    rdfs:domain :connection ;
-    rdfs:range :abstract_idea .
-
-</pre>
-
-
-</div>
-
-
-
-<div class="hidden" id="29">
-	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_from_node_role" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_from_node_role</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Has_from_node_role</p>
-    
-    
-
-
-	
-		<hr>
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('9');" class="class">cohere.owl:connection_node_role</a>  </p>
-	
-	
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-
-:has_from_node_role a owl:ObjectProperty ;
-    rdfs:domain :connection ;
-    rdfs:range :connection_node_role .
-
-</pre>
-
-
-</div>
-
-
-
-<div class="hidden" id="30">
-	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_homepage" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_homepage</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Has_homepage</p>
-    
-    
-
-
-	
-		<hr>
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('15');" class="class">cohere.owl:website</a>  </p>
-	
-	
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-
-:has_homepage a owl:ObjectProperty ;
-    rdfs:domain :cohere_user ;
-    rdfs:range :website .
-
-</pre>
-
-
-</div>
-
-
-
-<div class="hidden" id="31">
-	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_image" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_image</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Has_image</p>
-    
-    
-
-
-	
-		<hr>
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a>  </p>
-	
-	
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-
-:has_image a owl:ObjectProperty ;
-    rdfs:domain :abstract_idea ;
-    rdfs:range :image .
-
-</pre>
-
-
-</div>
-
-
-
-<div class="hidden" id="24">
-	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_label" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_label</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Has_label</p>
-    
-    
-
-
-	
-		<hr>
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('7');" class="class">cohere.owl:connection_label</a>  </p>
-	
-	
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-
-:has_label a owl:FunctionalProperty,
-        owl:ObjectProperty ;
-    rdfs:domain :connection ;
-    rdfs:range :connection_label .
-
-</pre>
-
-
-</div>
-
-
-
-<div class="hidden" id="25">
-	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_label_role" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_label_role</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Has_label_role</p>
-    
-    
-
-
-	
-		<hr>
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('7');" class="class">cohere.owl:connection_label</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('8');" class="class">cohere.owl:connection_label_role</a>  </p>
-	
-	
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-
-:has_label_role a owl:FunctionalProperty,
-        owl:ObjectProperty ;
-    rdfs:domain :connection_label ;
-    rdfs:range :connection_label_role .
+foaf:accountName a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;account name&quot; ;
+    rdfs:comment &quot;Indicates the name (identifier) associated with this online account.&quot; ;
+    rdfs:domain foaf:OnlineAccount ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;testing&quot; .
 
 </pre>
 
@@ -1667,14 +1388,16 @@
 
 <div class="hidden" id="19">
 	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_modification_date" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_modification_date</a>
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/accountServiceHomepage" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:accountServiceHomepage</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Has_modification_date</p>
+	<p><b class="section-title">Label: </b>Account service homepage</p>
     
+    
+        <p><b class="section-title">Description: </b>Indicates a homepage of the service provide for this online account.</p>
     
 
 
@@ -1692,23 +1415,29 @@
 	
 	
 	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('3');" class="class">cohere.owl:abstract_object</a>  </p>
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('9');" class="class">foaf:OnlineAccount</a>  </p>
 	
 	
 	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('41');" class="class">xsd:dateTime</a>  </p>
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
 	
 	
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:has_modification_date a owl:DatatypeProperty ;
-    rdfs:domain :abstract_object ;
-    rdfs:range xsd:dateTime .
+foaf:accountServiceHomepage a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;account service homepage&quot; ;
+    rdfs:comment &quot;Indicates a homepage of the service provide for this online account.&quot; ;
+    rdfs:domain foaf:OnlineAccount ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Document ;
+    vs:term_status &quot;testing&quot; .
 
 </pre>
 
@@ -1719,14 +1448,16 @@
 
 <div class="hidden" id="20">
 	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_name" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_name</a>
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/age" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:age</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Has_name</p>
+	<p><b class="section-title">Label: </b>Age</p>
     
+    
+        <p><b class="section-title">Description: </b>The age in years of some agent.</p>
     
 
 
@@ -1744,280 +1475,30 @@
 	
 	
 	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">cohere.owl:cohere_thing</a>  </p>
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
 	
 	
 	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('42');" class="class">xsd:string</a>  </p>
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('85');" class="class">rdfs:Literal</a>  </p>
 	
 	
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:has_name a owl:DatatypeProperty,
+foaf:age a rdf:Property,
+        owl:DatatypeProperty,
         owl:FunctionalProperty ;
-    rdfs:domain :cohere_thing ;
-    rdfs:range xsd:string .
-
-</pre>
-
-
-</div>
-
-
-
-<div class="hidden" id="32">
-	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_screenshot" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_screenshot</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Has_screenshot</p>
-    
-    
-
-
-	
-		<hr>
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('15');" class="class">cohere.owl:website</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a>  </p>
-	
-	
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-
-:has_screenshot a owl:ObjectProperty ;
-    rdfs:domain :website ;
-    rdfs:range :image .
-
-</pre>
-
-
-</div>
-
-
-
-<div class="hidden" id="33">
-	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_thumbnail" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_thumbnail</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Has_thumbnail</p>
-    
-    
-
-
-	
-		<hr>
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('5');" class="class">cohere.owl:cohere_user</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a>  </p>
-	
-	
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-
-:has_thumbnail a owl:ObjectProperty ;
-    rdfs:domain :cohere_user ;
-    rdfs:range :image .
-
-</pre>
-
-
-</div>
-
-
-
-<div class="hidden" id="34">
-	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_thumbnail_image" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_thumbnail_image</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Has_thumbnail_image</p>
-    
-    
-
-
-	
-		<hr>
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('11');" class="class">cohere.owl:image</a>  </p>
-	
-	
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-
-:has_thumbnail_image a owl:ObjectProperty ;
-    rdfs:domain :abstract_idea ;
-    rdfs:range :image .
-
-</pre>
-
-
-</div>
-
-
-
-<div class="hidden" id="26">
-	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_to_node" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_to_node</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Has_to_node</p>
-    
-    
-
-
-	
-		<hr>
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
-	
-	
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-
-:has_to_node a owl:FunctionalProperty,
-        owl:ObjectProperty ;
-    rdfs:domain :connection ;
-    rdfs:range :abstract_idea .
-
-</pre>
-
-
-</div>
-
-
-
-<div class="hidden" id="35">
-	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_to_node_role" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_to_node_role</a>
-	</h2>
-	<hr>
-
-    
-	<p><b class="section-title">Label: </b>Has_to_node_role</p>
-    
-    
-
-
-	
-		<hr>
-	
-
-
-	
-	
-	
-	
-	
-	
-	
-	
-	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('6');" class="class">cohere.owl:connection</a>  </p>
-	
-	
-	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('9');" class="class">cohere.owl:connection_node_role</a>  </p>
-	
-	
-	<hr>
-	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
-@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
-@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-
-:has_to_node_role a owl:ObjectProperty ;
-    rdfs:domain :connection ;
-    rdfs:range :connection_node_role .
+    rdfs:label &quot;age&quot; ;
+    rdfs:comment &quot;The age in years of some agent.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;unstable&quot; .
 
 </pre>
 
@@ -2028,14 +1509,80 @@
 
 <div class="hidden" id="21">
 	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_url" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_url</a>
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/aimChatID" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:aimChatID</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Has_url</p>
+	<p><b class="section-title">Label: </b>AIM chat ID</p>
     
+    
+        <p><b class="section-title">Description: </b>An AIM chat ID</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+		<p><b  class="section-title">Has Super Property (direct):</b> <a href="javascript:showpanel('55');" class="prop">foaf:nick</a>  </p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('86');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:aimChatID a rdf:Property,
+        owl:DatatypeProperty,
+        owl:InverseFunctionalProperty ;
+    rdfs:label &quot;AIM chat ID&quot; ;
+    rdfs:comment &quot;An AIM chat ID&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf foaf:nick ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="22">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/based_near" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:based_near</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Based near</p>
+    
+    
+        <p><b class="section-title">Description: </b>A location that something is based near, for some broadly human notion of near.</p>
     
 
 
@@ -2053,24 +1600,90 @@
 	
 	
 	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('10');" class="class">cohere.owl:document</a>  </p>
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('2');" class="class">http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing</a>  </p>
 	
 	
 	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('43');" class="class">xsd:string</a>  </p>
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('2');" class="class">http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing</a>  </p>
 	
 	
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:has_url a owl:DatatypeProperty,
+foaf:based_near a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;based near&quot; ;
+    rdfs:comment &quot;A location that something is based near, for some broadly human notion of near.&quot; ;
+    rdfs:domain &lt;http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing&gt; ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range &lt;http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing&gt; ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="23">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/birthday" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:birthday</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Birthday</p>
+    
+    
+        <p><b class="section-title">Description: </b>The birthday of this Agent, represented in mm-dd string form, eg. &#x27;12-31&#x27;.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('87');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:birthday a rdf:Property,
+        owl:DatatypeProperty,
         owl:FunctionalProperty ;
-    rdfs:domain :document ;
-    rdfs:range xsd:string .
+    rdfs:label &quot;birthday&quot; ;
+    rdfs:comment &quot;The birthday of this Agent, represented in mm-dd string form, eg. &#x27;12-31&#x27;.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;unstable&quot; .
 
 </pre>
 
@@ -2079,16 +1692,18 @@
 
 
 
-<div class="hidden" id="36">
+<div class="hidden" id="24">
 	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#has_website" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:has_website</a>
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/currentProject" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:currentProject</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Has_website</p>
+	<p><b class="section-title">Label: </b>Current project</p>
     
+    
+        <p><b class="section-title">Description: </b>A current project this person works on.</p>
     
 
 
@@ -2106,22 +1721,29 @@
 	
 	
 	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
 	
 	
 	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('15');" class="class">cohere.owl:website</a>  </p>
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('88');" class="class">owl:Thing</a>  </p>
 	
 	
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:has_website a owl:ObjectProperty ;
-    rdfs:domain :abstract_idea ;
-    rdfs:range :website .
+foaf:currentProject a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;current project&quot; ;
+    rdfs:comment &quot;A current project this person works on.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range owl:Thing ;
+    vs:term_status &quot;testing&quot; .
 
 </pre>
 
@@ -2130,16 +1752,81 @@
 
 
 
-<div class="hidden" id="37">
+<div class="hidden" id="25">
 	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#includes_idea" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:includes_idea</a>
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/depiction" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:depiction</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Includes_idea</p>
+	<p><b class="section-title">Label: </b>Depiction</p>
     
+    
+        <p><b class="section-title">Description: </b>A depiction of some thing.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+		<p><b class="section-title">Has Sub Property (direct):</b> <a href="javascript:showpanel('39');" class="prop">foaf:img</a>  </p>
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('89');" class="class">owl:Thing</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('7');" class="class">foaf:Image</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:depiction a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;depiction&quot; ;
+    rdfs:comment &quot;A depiction of some thing.&quot; ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Image ;
+    owl:inverseOf foaf:depicts ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="26">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/depicts" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:depicts</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Depicts</p>
+    
+    
+        <p><b class="section-title">Description: </b>A thing depicted in this representation.</p>
     
 
 
@@ -2157,22 +1844,30 @@
 	
 	
 	
-		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">cohere.owl:set</a>  </p>
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('7');" class="class">foaf:Image</a>  </p>
 	
 	
 	
-		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('2');" class="class">cohere.owl:abstract_idea</a>  </p>
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('90');" class="class">owl:Thing</a>  </p>
 	
 	
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:includes_idea a owl:ObjectProperty ;
-    rdfs:domain :set ;
-    rdfs:range :abstract_idea .
+foaf:depicts a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;depicts&quot; ;
+    rdfs:comment &quot;A thing depicted in this representation.&quot; ;
+    rdfs:domain foaf:Image ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range owl:Thing ;
+    owl:inverseOf foaf:depiction ;
+    vs:term_status &quot;testing&quot; .
 
 </pre>
 
@@ -2183,16 +1878,495 @@
 
 <div class="hidden" id="27">
 	
-	<h2 class="entity-section">Property: <a  href="http://cohere.open.ac.uk/ontology/cohere.owl#uses_aif_scheme_type" class="prop"  target="_blank"
-                                          title="Try to open original URI">cohere.owl:uses_aif_scheme_type</a>
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/dnaChecksum" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:dnaChecksum</a>
 	</h2>
 	<hr>
 
     
-	<p><b class="section-title">Label: </b>Uses_aif_scheme_type</p>
+	<p><b class="section-title">Label: </b>DNA checksum</p>
     
     
-        <p><b class="section-title">Description: </b>This property is specified at this level only for documentation purposes: in a more precise implementation, there would be specific properties for each subclass of AIF-scheme_node, linking them respectively and exclusively to one AIF-scheme_type</p>
+        <p><b class="section-title">Description: </b>A checksum for the DNA of some thing. Joke.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('91');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:dnaChecksum a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;DNA checksum&quot; ;
+    rdfs:comment &quot;A checksum for the DNA of some thing. Joke.&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;archaic&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="28">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/familyName" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:familyName</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>FamilyName</p>
+    
+    
+        <p><b class="section-title">Description: </b>The family name of some person.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('92');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:familyName a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;familyName&quot; ;
+    rdfs:comment &quot;The family name of some person.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="29">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/family_name" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:family_name</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Family_name</p>
+    
+    
+        <p><b class="section-title">Description: </b>The family name of some person.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('93');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:family_name a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;family_name&quot; ;
+    rdfs:comment &quot;The family name of some person.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;archaic&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="30">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/firstName" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:firstName</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>FirstName</p>
+    
+    
+        <p><b class="section-title">Description: </b>The first name of a person.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('94');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:firstName a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;firstName&quot; ;
+    rdfs:comment &quot;The first name of a person.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="31">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/focus" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:focus</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Focus</p>
+    
+    
+        <p><b class="section-title">Description: </b>The underlying or &#x27;focal&#x27; entity associated with some SKOS-described concept.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('3');" class="class">skos:Concept</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('95');" class="class">owl:Thing</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix skos: &lt;http://www.w3.org/2004/02/skos/core#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:focus a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;focus&quot; ;
+    rdfs:comment &quot;The underlying or &#x27;focal&#x27; entity associated with some SKOS-described concept.&quot; ;
+    rdfs:domain skos:Concept ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range owl:Thing ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="32">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/fundedBy" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:fundedBy</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Funded by</p>
+    
+    
+        <p><b class="section-title">Description: </b>An organization funding a project or person.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('96');" class="class">owl:Thing</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('97');" class="class">owl:Thing</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:fundedBy a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;funded by&quot; ;
+    rdfs:comment &quot;An organization funding a project or person.&quot; ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range owl:Thing ;
+    vs:term_status &quot;archaic&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="33">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/geekcode" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:geekcode</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Geekcode</p>
+    
+    
+        <p><b class="section-title">Description: </b>A textual geekcode for this person, see http://www.geekcode.com/geek.html</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('98');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:geekcode a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;geekcode&quot; ;
+    rdfs:comment &quot;A textual geekcode for this person, see http://www.geekcode.com/geek.html&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;archaic&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="34">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/gender" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:gender</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Gender</p>
+    
+    
+        <p><b class="section-title">Description: </b>The gender of this Agent (typically but not necessarily &#x27;male&#x27; or &#x27;female&#x27;).</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('99');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:gender a rdf:Property,
+        owl:DatatypeProperty,
+        owl:FunctionalProperty ;
+    rdfs:label &quot;gender&quot; ;
+    rdfs:comment &quot;The gender of this Agent (typically but not necessarily &#x27;male&#x27; or &#x27;female&#x27;).&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="35">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/givenName" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:givenName</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Given name</p>
+    
+    
+        <p><b class="section-title">Description: </b>The given name of some person.</p>
     
 
 
@@ -2213,14 +2387,2691 @@
 	
 	<hr>
 	<b class="section-title">Implementation:</b>
-	<pre class="turtlesource">@prefix : &lt;http://cohere.open.ac.uk/ontology/cohere.owl#&gt; .
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
 @prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
 @prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
-@prefix xsd: &lt;http://www.w3.org/2001/XMLSchema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
 
-:uses_aif_scheme_type a owl:FunctionalProperty,
+foaf:givenName a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;Given name&quot; ;
+    rdfs:comment &quot;The given name of some person.&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="36">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/holdsAccount" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:holdsAccount</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Account</p>
+    
+    
+        <p><b class="section-title">Description: </b>Indicates an account held by this agent.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('9');" class="class">foaf:OnlineAccount</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:holdsAccount a rdf:Property,
         owl:ObjectProperty ;
-    rdfs:comment &quot;This property is specified at this level only for documentation purposes: in a more precise implementation, there would be specific properties for each subclass of AIF-scheme_node, linking them respectively and exclusively to one AIF-scheme_type&quot;^^xsd:string .
+    rdfs:label &quot;account&quot; ;
+    rdfs:comment &quot;Indicates an account held by this agent.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:OnlineAccount ;
+    vs:term_status &quot;archaic&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="37">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/homepage" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:homepage</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Homepage</p>
+    
+    
+        <p><b class="section-title">Description: </b>A homepage for some thing.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+		<p><b  class="section-title">Has Super Property (direct):</b> <a href="javascript:showpanel('41');" class="prop">foaf:isPrimaryTopicOf</a> | <a href="javascript:showpanel('57');" class="prop">foaf:page</a>  </p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('100');" class="class">owl:Thing</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:homepage a rdf:Property,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label &quot;homepage&quot; ;
+    rdfs:comment &quot;A homepage for some thing.&quot; ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Document ;
+    rdfs:subPropertyOf foaf:isPrimaryTopicOf,
+        foaf:page ;
+    vs:term_status &quot;stable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="38">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/icqChatID" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:icqChatID</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>ICQ chat ID</p>
+    
+    
+        <p><b class="section-title">Description: </b>An ICQ chat ID</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+		<p><b  class="section-title">Has Super Property (direct):</b> <a href="javascript:showpanel('55');" class="prop">foaf:nick</a>  </p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('101');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:icqChatID a rdf:Property,
+        owl:DatatypeProperty,
+        owl:InverseFunctionalProperty ;
+    rdfs:label &quot;ICQ chat ID&quot; ;
+    rdfs:comment &quot;An ICQ chat ID&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf foaf:nick ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="39">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/img" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:img</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Image</p>
+    
+    
+        <p><b class="section-title">Description: </b>An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one&#x27;s photo on a homepage).</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+		<p><b  class="section-title">Has Super Property (direct):</b> <a href="javascript:showpanel('25');" class="prop">foaf:depiction</a>  </p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('7');" class="class">foaf:Image</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:img a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;image&quot; ;
+    rdfs:comment &quot;An image that can be used to represent some thing (ie. those depictions which are particularly representative of something, eg. one&#x27;s photo on a homepage).&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Image ;
+    rdfs:subPropertyOf foaf:depiction ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="40">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/interest" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:interest</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Interest</p>
+    
+    
+        <p><b class="section-title">Description: </b>A page about a topic of interest to this person.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:interest a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;interest&quot; ;
+    rdfs:comment &quot;A page about a topic of interest to this person.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Document ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="41">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/isPrimaryTopicOf" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:isPrimaryTopicOf</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Is primary topic of</p>
+    
+    
+        <p><b class="section-title">Description: </b>A document that this thing is the primary topic of.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+		<p><b  class="section-title">Has Super Property (direct):</b> <a href="javascript:showpanel('57');" class="prop">foaf:page</a>  </p>
+	
+	
+	
+	
+	
+		<p><b class="section-title">Has Sub Property (direct):</b> <a href="javascript:showpanel('37');" class="prop">foaf:homepage</a> | <a href="javascript:showpanel('56');" class="prop">foaf:openid</a>  </p>
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('102');" class="class">owl:Thing</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:isPrimaryTopicOf a rdf:Property,
+        owl:InverseFunctionalProperty ;
+    rdfs:label &quot;is primary topic of&quot; ;
+    rdfs:comment &quot;A document that this thing is the primary topic of.&quot; ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Document ;
+    rdfs:subPropertyOf foaf:page ;
+    owl:inverseOf foaf:primaryTopic ;
+    vs:term_status &quot;stable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="42">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/jabberID" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:jabberID</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Jabber ID</p>
+    
+    
+        <p><b class="section-title">Description: </b>A jabber ID for something.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('103');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:jabberID a rdf:Property,
+        owl:DatatypeProperty,
+        owl:InverseFunctionalProperty ;
+    rdfs:label &quot;jabber ID&quot; ;
+    rdfs:comment &quot;A jabber ID for something.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="43">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/knows" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:knows</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Knows</p>
+    
+    
+        <p><b class="section-title">Description: </b>A person known by this person (indicating some level of reciprocated interaction between the parties).</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:knows a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;knows&quot; ;
+    rdfs:comment &quot;A person known by this person (indicating some level of reciprocated interaction between the parties).&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Person ;
+    vs:term_status &quot;stable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="44">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/lastName" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:lastName</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>LastName</p>
+    
+    
+        <p><b class="section-title">Description: </b>The last name of a person.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('104');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:lastName a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;lastName&quot; ;
+    rdfs:comment &quot;The last name of a person.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="45">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/logo" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:logo</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Logo</p>
+    
+    
+        <p><b class="section-title">Description: </b>A logo representing some thing.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('105');" class="class">owl:Thing</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('106');" class="class">owl:Thing</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:logo a rdf:Property,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label &quot;logo&quot; ;
+    rdfs:comment &quot;A logo representing some thing.&quot; ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range owl:Thing ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="46">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/made" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:made</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Made</p>
+    
+    
+        <p><b class="section-title">Description: </b>Something that was made by this agent.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('107');" class="class">owl:Thing</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:made a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;made&quot; ;
+    rdfs:comment &quot;Something that was made by this agent.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range owl:Thing ;
+    owl:inverseOf foaf:maker ;
+    vs:term_status &quot;stable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="47">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/maker" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:maker</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Maker</p>
+    
+    
+        <p><b class="section-title">Description: </b>An agent that  made this thing.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('108');" class="class">owl:Thing</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:maker a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;maker&quot; ;
+    rdfs:comment &quot;An agent that  made this thing.&quot; ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Agent ;
+    owl:equivalentProperty &lt;http://purl.org/dc/terms/creator&gt; ;
+    owl:inverseOf foaf:made ;
+    vs:term_status &quot;stable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="48">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/mbox" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:mbox</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Personal mailbox</p>
+    
+    
+        <p><b class="section-title">Description: </b>A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a &#x27;static inverse functional property&#x27;, in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('109');" class="class">owl:Thing</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:mbox a rdf:Property,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label &quot;personal mailbox&quot; ;
+    rdfs:comment &quot;A  personal mailbox, ie. an Internet mailbox associated with exactly one owner, the first owner of this mailbox. This is a &#x27;static inverse functional property&#x27;, in that  there is (across time and change) at most one individual that ever has any particular value for foaf:mbox.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range owl:Thing ;
+    vs:term_status &quot;stable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="49">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/mbox_sha1sum" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:mbox_sha1sum</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Sha1sum of a personal mailbox URI name</p>
+    
+    
+        <p><b class="section-title">Description: </b>The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('110');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:mbox_sha1sum a rdf:Property,
+        owl:DatatypeProperty,
+        owl:InverseFunctionalProperty ;
+    rdfs:label &quot;sha1sum of a personal mailbox URI name&quot; ;
+    rdfs:comment &quot;The sha1sum of the URI of an Internet mailbox associated with exactly one owner, the  first owner of the mailbox.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="50">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/member" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:member</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Member</p>
+    
+    
+        <p><b class="section-title">Description: </b>Indicates a member of a Group</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('6');" class="class">foaf:Group</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:member a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;member&quot; ;
+    rdfs:comment &quot;Indicates a member of a Group&quot; ;
+    rdfs:domain foaf:Group ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Agent ;
+    vs:term_status &quot;stable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="51">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/membershipClass" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:membershipClass</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>MembershipClass</p>
+    
+    
+        <p><b class="section-title">Description: </b>Indicates the class of individuals that are a member of a Group</p>
+    
+
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:membershipClass a rdf:Property,
+        owl:AnnotationProperty ;
+    rdfs:label &quot;membershipClass&quot; ;
+    rdfs:comment &quot;Indicates the class of individuals that are a member of a Group&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    vs:term_status &quot;unstable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="52">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/msnChatID" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:msnChatID</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>MSN chat ID</p>
+    
+    
+        <p><b class="section-title">Description: </b>An MSN chat ID</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+		<p><b  class="section-title">Has Super Property (direct):</b> <a href="javascript:showpanel('55');" class="prop">foaf:nick</a>  </p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('111');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:msnChatID a rdf:Property,
+        owl:DatatypeProperty,
+        owl:InverseFunctionalProperty ;
+    rdfs:label &quot;MSN chat ID&quot; ;
+    rdfs:comment &quot;An MSN chat ID&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf foaf:nick ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="53">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/myersBriggs" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:myersBriggs</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>MyersBriggs</p>
+    
+    
+        <p><b class="section-title">Description: </b>A Myers Briggs (MBTI) personality classification.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('112');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:myersBriggs a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;myersBriggs&quot; ;
+    rdfs:comment &quot;A Myers Briggs (MBTI) personality classification.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="54">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/name" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:name</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Name</p>
+    
+    
+        <p><b class="section-title">Description: </b>A name for some thing.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('113');" class="class">owl:Thing</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('114');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:name a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;name&quot; ;
+    rdfs:comment &quot;A name for some thing.&quot; ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf rdfs:label ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="55">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/nick" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:nick</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Nickname</p>
+    
+    
+        <p><b class="section-title">Description: </b>A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+		<p><b class="section-title">Has Sub Property (direct):</b> <a href="javascript:showpanel('21');" class="prop">foaf:aimChatID</a> | <a href="javascript:showpanel('38');" class="prop">foaf:icqChatID</a> | <a href="javascript:showpanel('52');" class="prop">foaf:msnChatID</a> | <a href="javascript:showpanel('65');" class="prop">foaf:skypeID</a> | <a href="javascript:showpanel('77');" class="prop">foaf:yahooChatID</a>  </p>
+	
+	
+	
+	
+	
+	
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:nick a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;nickname&quot; ;
+    rdfs:comment &quot;A short informal nickname characterising an agent (includes login identifiers, IRC and other chat nicknames).&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="56">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/openid" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:openid</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Openid</p>
+    
+    
+        <p><b class="section-title">Description: </b>An OpenID for an Agent.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+		<p><b  class="section-title">Has Super Property (direct):</b> <a href="javascript:showpanel('41');" class="prop">foaf:isPrimaryTopicOf</a>  </p>
+	
+	
+	
+		<p><b  class="section-title">Has Super Property (all):</b> <a href="javascript:showpanel('41');" class="prop">foaf:isPrimaryTopicOf</a> | <a href="javascript:showpanel('57');" class="prop">foaf:page</a>  </p>
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:openid a rdf:Property,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label &quot;openid&quot; ;
+    rdfs:comment &quot;An OpenID for an Agent.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Document ;
+    rdfs:subPropertyOf foaf:isPrimaryTopicOf ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="57">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/page" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:page</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Page</p>
+    
+    
+        <p><b class="section-title">Description: </b>A page or document about this thing.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+		<p><b class="section-title">Has Sub Property (direct):</b> <a href="javascript:showpanel('37');" class="prop">foaf:homepage</a> | <a href="javascript:showpanel('41');" class="prop">foaf:isPrimaryTopicOf</a> | <a href="javascript:showpanel('70');" class="prop">foaf:tipjar</a> | <a href="javascript:showpanel('74');" class="prop">foaf:weblog</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Has Sub Property (all):</b> <a href="javascript:showpanel('37');" class="prop">foaf:homepage</a> | <a href="javascript:showpanel('41');" class="prop">foaf:isPrimaryTopicOf</a> | <a href="javascript:showpanel('56');" class="prop">foaf:openid</a> | <a href="javascript:showpanel('70');" class="prop">foaf:tipjar</a> | <a href="javascript:showpanel('74');" class="prop">foaf:weblog</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('115');" class="class">owl:Thing</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:page a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;page&quot; ;
+    rdfs:comment &quot;A page or document about this thing.&quot; ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Document ;
+    owl:inverseOf foaf:topic ;
+    vs:term_status &quot;stable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="58">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/pastProject" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:pastProject</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Past project</p>
+    
+    
+        <p><b class="section-title">Description: </b>A project this person has previously worked on.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('116');" class="class">owl:Thing</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:pastProject a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;past project&quot; ;
+    rdfs:comment &quot;A project this person has previously worked on.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range owl:Thing ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="59">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/phone" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:phone</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Phone</p>
+    
+    
+        <p><b class="section-title">Description: </b>A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel).</p>
+    
+
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:phone a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;phone&quot; ;
+    rdfs:comment &quot;A phone,  specified using fully qualified tel: URI scheme (refs: http://www.w3.org/Addressing/schemes.html#tel).&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="60">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/plan" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:plan</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Plan</p>
+    
+    
+        <p><b class="section-title">Description: </b>A .plan comment, in the tradition of finger and &#x27;.plan&#x27; files.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('117');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:plan a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;plan&quot; ;
+    rdfs:comment &quot;A .plan comment, in the tradition of finger and &#x27;.plan&#x27; files.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="61">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/primaryTopic" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:primaryTopic</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Primary topic</p>
+    
+    
+        <p><b class="section-title">Description: </b>The primary topic of some page or document.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('118');" class="class">owl:Thing</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:primaryTopic a rdf:Property,
+        owl:FunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label &quot;primary topic&quot; ;
+    rdfs:comment &quot;The primary topic of some page or document.&quot; ;
+    rdfs:domain foaf:Document ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range owl:Thing ;
+    owl:inverseOf foaf:isPrimaryTopicOf ;
+    vs:term_status &quot;stable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="62">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/publications" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:publications</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Publications</p>
+    
+    
+        <p><b class="section-title">Description: </b>A link to the publications of this person.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:publications a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;publications&quot; ;
+    rdfs:comment &quot;A link to the publications of this person.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Document ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="63">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/schoolHomepage" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:schoolHomepage</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>SchoolHomepage</p>
+    
+    
+        <p><b class="section-title">Description: </b>A homepage of a school attended by the person.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:schoolHomepage a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;schoolHomepage&quot; ;
+    rdfs:comment &quot;A homepage of a school attended by the person.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Document ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="64">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/sha1" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:sha1</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Sha1sum (hex)</p>
+    
+    
+        <p><b class="section-title">Description: </b>A sha1sum hash, in hex.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:sha1 a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;sha1sum (hex)&quot; ;
+    rdfs:comment &quot;A sha1sum hash, in hex.&quot; ;
+    rdfs:domain foaf:Document ;
+    rdfs:isDefinedBy foaf: ;
+    vs:term_status &quot;unstable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="65">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/skypeID" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:skypeID</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Skype ID</p>
+    
+    
+        <p><b class="section-title">Description: </b>A Skype ID</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+		<p><b  class="section-title">Has Super Property (direct):</b> <a href="javascript:showpanel('55');" class="prop">foaf:nick</a>  </p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('119');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:skypeID a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;Skype ID&quot; ;
+    rdfs:comment &quot;A Skype ID&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf foaf:nick ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="66">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/status" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:status</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Status</p>
+    
+    
+        <p><b class="section-title">Description: </b>A string expressing what the user is happy for the general public (normally) to know about their current activity.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('120');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:status a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;status&quot; ;
+    rdfs:comment &quot;A string expressing what the user is happy for the general public (normally) to know about their current activity.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;unstable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="67">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/surname" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:surname</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Surname</p>
+    
+    
+        <p><b class="section-title">Description: </b>The surname of some person.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('121');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:surname a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;Surname&quot; ;
+    rdfs:comment &quot;The surname of some person.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    vs:term_status &quot;archaic&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="68">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/theme" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:theme</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Theme</p>
+    
+    
+        <p><b class="section-title">Description: </b>A theme.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('122');" class="class">owl:Thing</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('123');" class="class">owl:Thing</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:theme a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;theme&quot; ;
+    rdfs:comment &quot;A theme.&quot; ;
+    rdfs:domain owl:Thing ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range owl:Thing ;
+    vs:term_status &quot;archaic&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="69">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/thumbnail" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:thumbnail</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Thumbnail</p>
+    
+    
+        <p><b class="section-title">Description: </b>A derived thumbnail image.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('7');" class="class">foaf:Image</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('7');" class="class">foaf:Image</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:thumbnail a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;thumbnail&quot; ;
+    rdfs:comment &quot;A derived thumbnail image.&quot; ;
+    rdfs:domain foaf:Image ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Image ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="70">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/tipjar" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:tipjar</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Tipjar</p>
+    
+    
+        <p><b class="section-title">Description: </b>A tipjar document for this agent, describing means for payment and reward.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+		<p><b  class="section-title">Has Super Property (direct):</b> <a href="javascript:showpanel('57');" class="prop">foaf:page</a>  </p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:tipjar a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;tipjar&quot; ;
+    rdfs:comment &quot;A tipjar document for this agent, describing means for payment and reward.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Document ;
+    rdfs:subPropertyOf foaf:page ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="71">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/title" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:title</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Title</p>
+    
+    
+        <p><b class="section-title">Description: </b>Title (Mr, Mrs, Ms, Dr. etc)</p>
+    
+
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:title a rdf:Property,
+        owl:DatatypeProperty ;
+    rdfs:label &quot;title&quot; ;
+    rdfs:comment &quot;Title (Mr, Mrs, Ms, Dr. etc)&quot; ;
+    rdfs:isDefinedBy foaf: ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="72">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/topic" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:topic</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Topic</p>
+    
+    
+        <p><b class="section-title">Description: </b>A topic of some page or document.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('124');" class="class">owl:Thing</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:topic a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;topic&quot; ;
+    rdfs:comment &quot;A topic of some page or document.&quot; ;
+    rdfs:domain foaf:Document ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range owl:Thing ;
+    owl:inverseOf foaf:page ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="73">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/topic_interest" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:topic_interest</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Topic_interest</p>
+    
+    
+        <p><b class="section-title">Description: </b>A thing of interest to this person.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('125');" class="class">owl:Thing</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:topic_interest a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;topic_interest&quot; ;
+    rdfs:comment &quot;A thing of interest to this person.&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range owl:Thing ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="74">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/weblog" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:weblog</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Weblog</p>
+    
+    
+        <p><b class="section-title">Description: </b>A weblog of some thing (whether person, group, company etc.).</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+		<p><b  class="section-title">Has Super Property (direct):</b> <a href="javascript:showpanel('57');" class="prop">foaf:page</a>  </p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:weblog a rdf:Property,
+        owl:InverseFunctionalProperty,
+        owl:ObjectProperty ;
+    rdfs:label &quot;weblog&quot; ;
+    rdfs:comment &quot;A weblog of some thing (whether person, group, company etc.).&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Document ;
+    rdfs:subPropertyOf foaf:page ;
+    vs:term_status &quot;stable&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="75">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/workInfoHomepage" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:workInfoHomepage</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Work info homepage</p>
+    
+    
+        <p><b class="section-title">Description: </b>A work info homepage of some person; a page about their work for some organization.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:workInfoHomepage a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;work info homepage&quot; ;
+    rdfs:comment &quot;A work info homepage of some person; a page about their work for some organization.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Document ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="76">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/workplaceHomepage" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:workplaceHomepage</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Workplace homepage</p>
+    
+    
+        <p><b class="section-title">Description: </b>A workplace homepage of some person; the homepage of an organization they work for.</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('14');" class="class">foaf:Person</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('5');" class="class">foaf:Document</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:workplaceHomepage a rdf:Property,
+        owl:ObjectProperty ;
+    rdfs:label &quot;workplace homepage&quot; ;
+    rdfs:comment &quot;A workplace homepage of some person; the homepage of an organization they work for.&quot; ;
+    rdfs:domain foaf:Person ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range foaf:Document ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="77">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/foaf/0.1/yahooChatID" class="prop"  target="_blank"
+                                          title="Try to open original URI">foaf:yahooChatID</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Yahoo chat ID</p>
+    
+    
+        <p><b class="section-title">Description: </b>A Yahoo chat ID</p>
+    
+
+
+	
+		<hr>
+	
+
+
+	
+		<p><b  class="section-title">Has Super Property (direct):</b> <a href="javascript:showpanel('55');" class="prop">foaf:nick</a>  </p>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+		<p><b class="section-title">Domain:</b> <a href="javascript:showpanel('4');" class="class">foaf:Agent</a>  </p>
+	
+	
+	
+		<p><b class="section-title">Range:</b> <a href="javascript:showpanel('126');" class="class">rdfs:Literal</a>  </p>
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix foaf: &lt;http://xmlns.com/foaf/0.1/&gt; .
+@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix rdf: &lt;http://www.w3.org/1999/02/22-rdf-syntax-ns#&gt; .
+@prefix rdfs: &lt;http://www.w3.org/2000/01/rdf-schema#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+foaf:yahooChatID a rdf:Property,
+        owl:DatatypeProperty,
+        owl:InverseFunctionalProperty ;
+    rdfs:label &quot;Yahoo chat ID&quot; ;
+    rdfs:comment &quot;A Yahoo chat ID&quot; ;
+    rdfs:domain foaf:Agent ;
+    rdfs:isDefinedBy foaf: ;
+    rdfs:range rdfs:Literal ;
+    rdfs:subPropertyOf foaf:nick ;
+    vs:term_status &quot;testing&quot; .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="81">
+	
+	<h2 class="entity-section">Property: <a  href="http://www.w3.org/2003/06/sw-vocab-status/ns#term_status" class="prop"  target="_blank"
+                                          title="Try to open original URI">vs:term_status</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Term_status</p>
+    
+    
+
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix vs: &lt;http://www.w3.org/2003/06/sw-vocab-status/ns#&gt; .
+
+vs:term_status a owl:AnnotationProperty .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="82">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/wot/0.1/assurance" class="prop"  target="_blank"
+                                          title="Try to open original URI">wot:assurance</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Assurance</p>
+    
+    
+
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix wot: &lt;http://xmlns.com/wot/0.1/&gt; .
+
+wot:assurance a owl:AnnotationProperty .
+
+</pre>
+
+
+</div>
+
+
+
+<div class="hidden" id="83">
+	
+	<h2 class="entity-section">Property: <a  href="http://xmlns.com/wot/0.1/src_assurance" class="prop"  target="_blank"
+                                          title="Try to open original URI">wot:src_assurance</a>
+	</h2>
+	<hr>
+
+    
+	<p><b class="section-title">Label: </b>Src_assurance</p>
+    
+    
+
+
+	
+
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<hr>
+	<b class="section-title">Implementation:</b>
+	<pre class="turtlesource">@prefix owl: &lt;http://www.w3.org/2002/07/owl#&gt; .
+@prefix wot: &lt;http://xmlns.com/wot/0.1/&gt; .
+
+wot:src_assurance a owl:AnnotationProperty .
 
 </pre>
 
@@ -2317,7 +5168,7 @@
 
 
 
-	var json1 = {"children": [{"qname": "cohere.owl:cohere_thing", "name": "cohere thing", "objid": 4, "size": 8, "realsize": 3, "children": [{"qname": "cohere.owl:abstract_object", "name": "abstract object", "objid": 3, "size": 8, "realsize": 3, "children": [{"qname": "cohere.owl:abstract_idea", "name": "abstract idea", "objid": 2, "size": 8, "realsize": 3, "children": [{"qname": "cohere.owl:connection", "name": "connection", "objid": 6, "size": 1, "realsize": 0}, {"qname": "cohere.owl:node", "name": "node", "objid": 12, "size": 1, "realsize": 0}, {"qname": "cohere.owl:set", "name": "set", "objid": 14, "size": 1, "realsize": 0}]}, {"qname": "cohere.owl:connection_label", "name": "connection label", "objid": 7, "size": 1, "realsize": 0}, {"qname": "cohere.owl:role", "name": "role", "objid": 13, "size": 7, "realsize": 2, "children": [{"qname": "cohere.owl:connection_label_role", "name": "connection label role", "objid": 8, "size": 1, "realsize": 0}, {"qname": "cohere.owl:connection_node_role", "name": "connection node role", "objid": 9, "size": 1, "realsize": 0}]}]}, {"qname": "cohere.owl:cohere_user", "name": "cohere user", "objid": 5, "size": 1, "realsize": 0}, {"qname": "cohere.owl:document", "name": "document", "objid": 10, "size": 7, "realsize": 2, "children": [{"qname": "cohere.owl:image", "name": "image", "objid": 11, "size": 1, "realsize": 0}, {"qname": "cohere.owl:website", "name": "website", "objid": 15, "size": 1, "realsize": 0}]}]}], "name": "owl:Thing", "id": "None"};
+	var json1 = {"children": [{"qname": "foaf:Agent", "name": "Agent", "objid": 4, "size": 8, "realsize": 3, "children": [{"qname": "foaf:Group", "name": "Group", "objid": 6, "size": 1, "realsize": 0}, {"qname": "foaf:Organization", "name": "Organization", "objid": 13, "size": 1, "realsize": 0}, {"qname": "foaf:Person", "name": "Person", "objid": 14, "size": 1, "realsize": 0}]}, {"qname": "foaf:Document", "name": "Document", "objid": 5, "size": 7, "realsize": 2, "children": [{"qname": "foaf:Image", "name": "Image", "objid": 7, "size": 1, "realsize": 0}, {"qname": "foaf:PersonalProfileDocument", "name": "PersonalProfileDocument", "objid": 15, "size": 1, "realsize": 0}]}, {"qname": "foaf:LabelProperty", "name": "Label Property", "objid": 8, "size": 1, "realsize": 0}, {"qname": "foaf:OnlineAccount", "name": "Online Account", "objid": 9, "size": 8, "realsize": 3, "children": [{"qname": "foaf:OnlineChatAccount", "name": "Online Chat Account", "objid": 10, "size": 1, "realsize": 0}, {"qname": "foaf:OnlineEcommerceAccount", "name": "Online E-commerce Account", "objid": 11, "size": 1, "realsize": 0}, {"qname": "foaf:OnlineGamingAccount", "name": "Online Gaming Account", "objid": 12, "size": 1, "realsize": 0}]}, {"qname": "foaf:Project", "name": "Project", "objid": 16, "size": 1, "realsize": 0}, {"qname": "http://www.w3.org/2003/01/geo/wgs84_pos#SpatialThing", "name": "Spatial Thing", "objid": 2, "size": 6, "realsize": 1, "children": [{"qname": "foaf:Person", "name": "Person", "objid": 14, "size": 1, "realsize": 0}]}, {"qname": "skos:Concept", "name": "Concept", "objid": 3, "size": 1, "realsize": 0}], "name": "owl:Thing", "id": "None"};
 
 	
 	var variable_height1 = 800;
@@ -2365,7 +5216,7 @@
 
 
 
-	var json2 = {"children": [{"qname": "cohere.owl:has_creation_date", "name": "has creation date", "objid": 16, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_creator", "name": "has creator", "objid": 22, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_depiction", "name": "has depiction", "objid": 28, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_description", "name": "has description", "objid": 17, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_email_address", "name": "has email address", "objid": 18, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_from_node", "name": "has from node", "objid": 23, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_from_node_role", "name": "has from node role", "objid": 29, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_homepage", "name": "has homepage", "objid": 30, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_image", "name": "has image", "objid": 31, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_label", "name": "has label", "objid": 24, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_label_role", "name": "has label role", "objid": 25, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_modification_date", "name": "has modification date", "objid": 19, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_name", "name": "has name", "objid": 20, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_screenshot", "name": "has screenshot", "objid": 32, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_thumbnail", "name": "has thumbnail", "objid": 33, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_thumbnail_image", "name": "has thumbnail image", "objid": 34, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_to_node", "name": "has to node", "objid": 26, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_to_node_role", "name": "has to node role", "objid": 35, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_url", "name": "has url", "objid": 21, "size": 1, "realsize": 0}, {"qname": "cohere.owl:has_website", "name": "has website", "objid": 36, "size": 1, "realsize": 0}, {"qname": "cohere.owl:includes_idea", "name": "includes idea", "objid": 37, "size": 1, "realsize": 0}, {"qname": "cohere.owl:uses_aif_scheme_type", "name": "uses aif scheme type", "objid": 27, "size": 1, "realsize": 0}], "name": "Properties", "id": "None"};
+	var json2 = {"children": [{"qname": "dc:date", "name": "date", "objid": 78, "size": 1, "realsize": 0}, {"qname": "dc:description", "name": "description", "objid": 79, "size": 1, "realsize": 0}, {"qname": "dc:title", "name": "title", "objid": 80, "size": 1, "realsize": 0}, {"qname": "foaf:account", "name": "account", "objid": 17, "size": 1, "realsize": 0}, {"qname": "foaf:accountName", "name": "account name", "objid": 18, "size": 1, "realsize": 0}, {"qname": "foaf:accountServiceHomepage", "name": "account service homepage", "objid": 19, "size": 1, "realsize": 0}, {"qname": "foaf:age", "name": "age", "objid": 20, "size": 1, "realsize": 0}, {"qname": "foaf:based_near", "name": "based near", "objid": 22, "size": 1, "realsize": 0}, {"qname": "foaf:birthday", "name": "birthday", "objid": 23, "size": 1, "realsize": 0}, {"qname": "foaf:currentProject", "name": "current project", "objid": 24, "size": 1, "realsize": 0}, {"qname": "foaf:depiction", "name": "depiction", "objid": 25, "size": 6, "realsize": 1, "children": [{"qname": "foaf:img", "name": "image", "objid": 39, "size": 1, "realsize": 0}]}, {"qname": "foaf:depicts", "name": "depicts", "objid": 26, "size": 1, "realsize": 0}, {"qname": "foaf:dnaChecksum", "name": "DNA checksum", "objid": 27, "size": 1, "realsize": 0}, {"qname": "foaf:familyName", "name": "familyName", "objid": 28, "size": 1, "realsize": 0}, {"qname": "foaf:family_name", "name": "family name", "objid": 29, "size": 1, "realsize": 0}, {"qname": "foaf:firstName", "name": "firstName", "objid": 30, "size": 1, "realsize": 0}, {"qname": "foaf:focus", "name": "focus", "objid": 31, "size": 1, "realsize": 0}, {"qname": "foaf:fundedBy", "name": "funded by", "objid": 32, "size": 1, "realsize": 0}, {"qname": "foaf:geekcode", "name": "geekcode", "objid": 33, "size": 1, "realsize": 0}, {"qname": "foaf:gender", "name": "gender", "objid": 34, "size": 1, "realsize": 0}, {"qname": "foaf:givenName", "name": "Given name", "objid": 35, "size": 1, "realsize": 0}, {"qname": "foaf:holdsAccount", "name": "account", "objid": 36, "size": 1, "realsize": 0}, {"qname": "foaf:interest", "name": "interest", "objid": 40, "size": 1, "realsize": 0}, {"qname": "foaf:jabberID", "name": "jabber ID", "objid": 42, "size": 1, "realsize": 0}, {"qname": "foaf:knows", "name": "knows", "objid": 43, "size": 1, "realsize": 0}, {"qname": "foaf:lastName", "name": "lastName", "objid": 44, "size": 1, "realsize": 0}, {"qname": "foaf:logo", "name": "logo", "objid": 45, "size": 1, "realsize": 0}, {"qname": "foaf:made", "name": "made", "objid": 46, "size": 1, "realsize": 0}, {"qname": "foaf:maker", "name": "maker", "objid": 47, "size": 1, "realsize": 0}, {"qname": "foaf:mbox", "name": "personal mailbox", "objid": 48, "size": 1, "realsize": 0}, {"qname": "foaf:mbox_sha1sum", "name": "sha1sum of a personal mailbox URI name", "objid": 49, "size": 1, "realsize": 0}, {"qname": "foaf:member", "name": "member", "objid": 50, "size": 1, "realsize": 0}, {"qname": "foaf:membershipClass", "name": "membershipClass", "objid": 51, "size": 1, "realsize": 0}, {"qname": "foaf:myersBriggs", "name": "myersBriggs", "objid": 53, "size": 1, "realsize": 0}, {"qname": "foaf:name", "name": "name", "objid": 54, "size": 1, "realsize": 0}, {"qname": "foaf:nick", "name": "nickname", "objid": 55, "size": 10, "realsize": 5, "children": [{"qname": "foaf:aimChatID", "name": "AIM chat ID", "objid": 21, "size": 1, "realsize": 0}, {"qname": "foaf:icqChatID", "name": "ICQ chat ID", "objid": 38, "size": 1, "realsize": 0}, {"qname": "foaf:msnChatID", "name": "MSN chat ID", "objid": 52, "size": 1, "realsize": 0}, {"qname": "foaf:skypeID", "name": "Skype ID", "objid": 65, "size": 1, "realsize": 0}, {"qname": "foaf:yahooChatID", "name": "Yahoo chat ID", "objid": 77, "size": 1, "realsize": 0}]}, {"qname": "foaf:page", "name": "page", "objid": 57, "size": 9, "realsize": 4, "children": [{"qname": "foaf:homepage", "name": "homepage", "objid": 37, "size": 1, "realsize": 0}, {"qname": "foaf:isPrimaryTopicOf", "name": "is primary topic of", "objid": 41, "size": 7, "realsize": 2, "children": [{"qname": "foaf:homepage", "name": "homepage", "objid": 37, "size": 1, "realsize": 0}, {"qname": "foaf:openid", "name": "openid", "objid": 56, "size": 1, "realsize": 0}]}, {"qname": "foaf:tipjar", "name": "tipjar", "objid": 70, "size": 1, "realsize": 0}, {"qname": "foaf:weblog", "name": "weblog", "objid": 74, "size": 1, "realsize": 0}]}, {"qname": "foaf:pastProject", "name": "past project", "objid": 58, "size": 1, "realsize": 0}, {"qname": "foaf:phone", "name": "phone", "objid": 59, "size": 1, "realsize": 0}, {"qname": "foaf:plan", "name": "plan", "objid": 60, "size": 1, "realsize": 0}, {"qname": "foaf:primaryTopic", "name": "primary topic", "objid": 61, "size": 1, "realsize": 0}, {"qname": "foaf:publications", "name": "publications", "objid": 62, "size": 1, "realsize": 0}, {"qname": "foaf:schoolHomepage", "name": "schoolHomepage", "objid": 63, "size": 1, "realsize": 0}, {"qname": "foaf:sha1", "name": "sha1sum (hex)", "objid": 64, "size": 1, "realsize": 0}, {"qname": "foaf:status", "name": "status", "objid": 66, "size": 1, "realsize": 0}, {"qname": "foaf:surname", "name": "Surname", "objid": 67, "size": 1, "realsize": 0}, {"qname": "foaf:theme", "name": "theme", "objid": 68, "size": 1, "realsize": 0}, {"qname": "foaf:thumbnail", "name": "thumbnail", "objid": 69, "size": 1, "realsize": 0}, {"qname": "foaf:title", "name": "title", "objid": 71, "size": 1, "realsize": 0}, {"qname": "foaf:topic", "name": "topic", "objid": 72, "size": 1, "realsize": 0}, {"qname": "foaf:topic_interest", "name": "topic interest", "objid": 73, "size": 1, "realsize": 0}, {"qname": "foaf:workInfoHomepage", "name": "work info homepage", "objid": 75, "size": 1, "realsize": 0}, {"qname": "foaf:workplaceHomepage", "name": "workplace homepage", "objid": 76, "size": 1, "realsize": 0}, {"qname": "vs:term_status", "name": "term status", "objid": 81, "size": 1, "realsize": 0}, {"qname": "wot:assurance", "name": "assurance", "objid": 82, "size": 1, "realsize": 0}, {"qname": "wot:src_assurance", "name": "src assurance", "objid": 83, "size": 1, "realsize": 0}], "name": "Properties", "id": "None"};
 
 
 	
