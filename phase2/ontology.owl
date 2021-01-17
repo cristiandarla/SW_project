@@ -1,0 +1,324 @@
+Prefix: : <http://www.semanticweb.org/ion_cristian.darla/ontologies/2021/0/WS_project#>
+Prefix: dc: <http://purl.org/dc/elements/1.1/>
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <http://www.semanticweb.org/ion_cristian.darla/ontologies/2021/0/WS_project>
+
+
+AnnotationProperty: rdfs:comment
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Datatype: xsd:double
+
+    
+Datatype: xsd:integer
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: hasSubject
+
+    InverseOf: 
+        isSubject
+    
+    
+ObjectProperty: hasTopic
+
+    InverseOf: 
+        isTopicOf
+    
+    
+ObjectProperty: isSubject
+
+    InverseOf: 
+        hasSubject
+    
+    
+ObjectProperty: isTopicOf
+
+    InverseOf: 
+        hasTopic
+    
+    
+DataProperty: Name
+
+    Annotations: 
+        rdfs:comment "name of the tool"
+    
+    Range: 
+        xsd:string
+    
+    
+DataProperty: Price
+
+    Range: 
+        xsd:double
+    
+    
+DataProperty: Ranking
+
+    Annotations: 
+        rdfs:comment "place in standing"
+    
+    Range: 
+        xsd:integer
+    
+    
+DataProperty: Website
+
+    Annotations: 
+        rdfs:comment "the address where to find it"
+    
+    Range: 
+        xsd:string
+    
+    
+Class: Any
+
+    SubClassOf: 
+        ToolTopic
+    
+    
+Class: Arhitecture
+
+    SubClassOf: 
+        ToolTopic
+    
+    
+Class: Calculus
+
+    SubClassOf: 
+        ToolSubject
+    
+    
+Class: Chemistry
+
+    SubClassOf: 
+        ToolTopic
+    
+    
+Class: CollaborationPlatform
+
+    SubClassOf: 
+        ToolCategory
+    
+    
+Class: ComputerScience
+
+    SubClassOf: 
+        ToolTopic
+    
+    
+Class: DesktopApplication
+
+    SubClassOf: 
+        ToolApplicationType
+    
+    
+Class: Electronics
+
+    SubClassOf: 
+        ToolTopic
+    
+    
+Class: Engineering
+
+    SubClassOf: 
+        ToolTopic
+    
+    
+Class: HybridApplication
+
+    SubClassOf: 
+        ToolApplicationType
+    
+    
+Class: Law
+
+    SubClassOf: 
+        ToolTopic
+    
+    
+Class: Learning
+
+    SubClassOf: 
+        Tools
+    
+    
+Class: Mathematics
+
+    SubClassOf: 
+        ToolTopic
+    
+    
+Class: Medicine
+
+    SubClassOf: 
+        ToolTopic
+    
+    
+Class: MobileApplication
+
+    SubClassOf: 
+        ToolApplicationType
+    
+    
+Class: MolecularChemistry
+
+    SubClassOf: 
+        ToolSubject
+    
+    
+Class: NuclearPhysics
+
+    SubClassOf: 
+        ToolSubject
+    
+    
+Class: ObjectOrientedProgramming
+
+    SubClassOf: 
+        ToolSubject
+    
+    
+Class: OnlineCoursePlatform
+
+    SubClassOf: 
+        ToolCategory
+    
+    
+Class: Physics
+
+    SubClassOf: 
+        ToolTopic
+    
+    
+Class: SignalProcessing
+
+    SubClassOf: 
+        ToolSubject
+    
+    
+Class: SpecialMathematics
+
+    SubClassOf: 
+        ToolSubject
+    
+    
+Class: Teaching
+
+    SubClassOf: 
+        Tools
+    
+    
+Class: ToolApplicationType
+
+    Annotations: 
+        rdfs:comment "the type of the application"
+    
+    
+Class: ToolCategory
+
+    Annotations: 
+        rdfs:comment "classification of the platform"
+    
+    
+Class: ToolSubject
+
+    Annotations: 
+        rdfs:comment "the subject you use the tool for"
+    
+    
+Class: ToolTopic
+
+    Annotations: 
+        rdfs:comment "tool topic"
+    
+    
+Class: Tools
+
+    Annotations: 
+        rdfs:comment "basic classification"
+    
+    
+Class: WebApplication
+
+    SubClassOf: 
+        ToolApplicationType
+    
+    
+Class: WebBrowser
+
+    SubClassOf: 
+        ToolCategory
+    
+    
+Class: WebProgramming
+
+    SubClassOf: 
+        ToolSubject
+    
+    
+Class: WebResource
+
+    SubClassOf: 
+        ToolCategory
+    
+    
+Individual: AutoCAD
+
+    Types: 
+        Arhitecture,
+        DesktopApplication,
+        Engineering,
+        Learning
+    
+    Facts:  
+     Name  "AutoCAD",
+     Ranking  12,
+     Website  "https://www.autodesk.com/"
+    
+    
+Individual: Wikipedia
+
+    Types: 
+        Any,
+        HybridApplication,
+        Learning,
+        Teaching,
+        WebResource
+    
+    Facts:  
+     Name  "Wikipedia",
+     Ranking  11,
+     Website  "www.wikipedia.com"
+    
+    
+Individual: Youtube
+
+    Types: 
+        Any,
+        HybridApplication,
+        Learning,
+        Teaching,
+        WebResource
+    
+    Facts:  
+     Name  "Youtube",
+     Ranking  1,
+     Website  "www.youtube.com"
+    
+    
+DisjointClasses: 
+    Calculus,MolecularChemistry,NuclearPhysics,ObjectOrientedProgramming,SignalProcessing,SpecialMathematics,WebProgramming
+

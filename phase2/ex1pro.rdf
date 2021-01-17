@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF xml:lang="en"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+    xmlns:tool="https://www.toptools4learning.com/tool#">
+    
+    <rdf:Description rdf:about="https://www.toptools4learning.com/tool/YouTube">
+        <tool:name>Youtube</tool:name>
+        <tool:position>1</tool:position>
+        <tool:domain>Engineering</tool:domain>
+        <tool:type>Teaching</tool:type>      
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://www.toptools4learning.com/tool/Wikipedia">
+        <tool:name>Wikipedia</tool:name>
+        <tool:position>11</tool:position>
+        <tool:type>Learning</tool:type>      
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://www.toptools4learning.com/tool/Linkedin">
+        <tool:name>Linkedin</tool:name>
+        <tool:position>8</tool:position>
+        <tool:type>Learning</tool:type>  
+        <tool:subtype>Collaborative</tool:subtype>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://www.toptools4learning.com/tool/Twitter">
+        <tool:name>Twitter</tool:name>
+        <tool:position>9</tool:position>
+        <tool:type>Learning</tool:type> 
+        <tool:subtype>Collaborative</tool:subtype>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://www.toptools4learning.com/tool/Facebook">
+        <tool:name>Facebook</tool:name>
+        <tool:position>12</tool:position>
+        <tool:type>Learning</tool:type>  
+        <tool:subtype>Collaborative</tool:subtype>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://www.toptools4learning.com/tool/AutoCAD">
+        <tool:name>AutoCAD</tool:name>
+        <tool:position>/</tool:position>
+        <tool:domain>Engineering</tool:domain>  
+        <tool:domain>Architecture</tool:domain>
+    </rdf:Description>
+    
+    <rdf:Description rdf:about="https://www.toptools4learning.com/tool/LearnToDanceinVR">
+        <tool:name>LearnToDanceinVR</tool:name>
+        <tool:position>/</tool:position>
+        <tool:type>Learning</tool:type>
+        <tool:subtype>Mobile</tool:subtype>
+        <tool:domain>Dancing</tool:domain>  
+    </rdf:Description>
+    
+</rdf:RDF>
